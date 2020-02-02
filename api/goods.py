@@ -18,7 +18,13 @@ def g_directory():
     if size == None:
         size = 10
     try :
+        # 取出本页数据
         res = db.query("select q_name,is_success,q_date from goods_query_log limit {0},{1};".format((page-1)*size,size))
+        # 算出一共分几页
+        totaldata = db.query("select count(*) from goods_query_log")
+        totalPage = (totaldata[0][0]+size-1)/size
+        totalPage = int(totalPage)
+        # 数据合并
     except Exception as e:
         print("sql错误！原因{}".format(e))
         data = {
@@ -28,6 +34,7 @@ def g_directory():
         return jsonify(data)
     data = {
         "data": res,
+        "totalPage" : totalPage,
         "msg" : "查询成功",
         "status" : "200"
     }

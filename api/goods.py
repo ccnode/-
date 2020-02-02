@@ -1,0 +1,47 @@
+from flask import Flask,render_template,jsonify,Blueprint,request
+from tools.dbtools import DB
+goods = Blueprint('goods',__name__)
+db = DB("127.0.0.1","root","","mitucat")
+
+#商品分析页面跳转
+@goods.route("/goods")
+def g_analyze():
+    return render_template("goods/directory.html")
+
+# 历史记录列表
+@goods.route("/g_directory",methods=["GET"])
+def g_directory():
+    page = int(request.args.get('page'))
+    size = int(request.args.get('size'))
+    if page == None:
+        page = 1
+    if size == None:
+        size = 10
+    try :
+        res = db.query("select q_name,is_success,q_date from goods_query_log limit {0},{1};".format((page-1)*size,size))
+    except Exception as e:
+        print("sql错误！原因{}".format(e))
+        data = {
+            "msg" : "查询失败",
+            "status" : "500"
+        }
+        return jsonify(data)
+    data = {
+        "data": res,
+        "msg" : "查询成功",
+        "status" : "200"
+    }
+    return jsonify(data)
+
+
+#测试
+# @goods.route("/hai")
+# def hai():
+#     res = db.query("select * from user_info")
+#     data = {
+#         "data": res,
+#         "msg" : "查询成功！",
+#         "status" : "200"
+#     }
+#     return jsonify(data)
+

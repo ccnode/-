@@ -19,7 +19,7 @@ def g_directory():
         size = 10
     try :
         # 取出本页数据
-        res = db.query("select q_name,is_success,q_date from goods_query_log limit {0},{1};".format((page-1)*size,size))
+        res = db.query("select id,q_name,is_success,q_date from goods_query_log limit {0},{1};".format((page-1)*size,size))
         # 算出一共分几页
         totaldata = db.query("select count(*) from goods_query_log")
         totalPage = (totaldata[0][0]+size-1)/size
@@ -40,7 +40,11 @@ def g_directory():
     }
     return jsonify(data)
 
-
+# 具体历史记录页面跳转
+@goods.route("/g_history/<int:nid>",methods=["GET"])
+def g_history(nid):
+    
+    return "nid"
 #测试
 # @goods.route("/hai")
 # def hai():

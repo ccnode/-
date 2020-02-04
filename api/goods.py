@@ -44,7 +44,7 @@ def g_directory():
 @goods.route("/g_history/<int:nid>",methods=["GET"])
 def g_history(nid):
     
-    return "nid"
+    return str(nid)
 #测试
 # @goods.route("/hai")
 # def hai():

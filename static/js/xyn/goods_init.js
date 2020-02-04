@@ -12,9 +12,7 @@ function g_directory(page){
                     return;
                 }     
                 var con = "";
-                var is_success = "";
-                var totalPage = data.totalPage;
-                var pageNum = "";
+                var is_success = "";   
                 //生成列表(首先清除列表与页码原有数据)  
                 $("#directory").empty()
                 $("#pageNum").empty()
@@ -25,61 +23,81 @@ function g_directory(page){
                     else{
                         is_success="失败"
                     };
-                    con += "<li><a href='"+item[0]+"'>"+item[1]+"["+is_success+"]"+"["+item[3]+"]"+"</a></li><br>";
+                    con += "<li><a href='/g_history/"+item[0]+"'>"+item[1]+"["+is_success+"]"+"["+item[3]+"]"+"</a></li><br>";
                      });
                      $("#directory").append(con); 
-                //生成页码
-                //上一页
-                if(page!=1){
-                    pageNum +="<li class=''><a onclick='g_directory("+(page-1)+")'><<</a></li>";
-                }
-                //中间页
-                //只显示7页，本页显示在中间
-                if(page>3&&page<totalPage-2){
-                    for(var i=page-3;i<=page+3;i++){
-                        if(i == page){
-                            pageNum +="<li class='current'><span>"+i+"</span></li>";
-                        }
-                        else{
-                            pageNum +="<li class=''><a onclick='g_directory("+i+")'>"+i+"</a></li>";
-                        };   
-                    }; 
-                }
-                else{
-                    //不符合则是最开始7页或最后7页
-                    if(page<7){
-                        for(var i=1;i<=7;i++){
-                            if(i == page){
-                                pageNum +="<li class='current'><span>"+i+"</span></li>";
-                            }
-                            else{
-                                pageNum +="<li class=''><a onclick='g_directory("+i+")'>"+i+"</a></li>";
-                            };   
-                        };
-                    }
-                    else{
-                        for(var i=totalPage-7;i<=totalPage;i++){
-                            if(i == page){
-                                pageNum +="<li class='current'><span>"+i+"</span></li>";
-                            }
-                            else{
-                                pageNum +="<li class=''><a onclick='g_directory("+i+")'>"+i+"</a></li>";
-                            };   
-                        };
-                    }
-                     
-                }
-                //下一页
-                if(page!=totalPage){
-                    pageNum +="<li class=''><a onclick='g_directory("+(page+1)+")'>>></a></li>";
-                }
-                $("#pageNum").append(pageNum)
+                //调用页码方法
+                g_pageNum(data,page);
             },
             error:function(){
                 alert("error")
             }
         }
     )
+};
+//页码
+function g_pageNum(data,page){
+    //生成页码
+    var totalPage = data.totalPage;
+    var pageNum = "";
+    //上一页
+    if(page!=1){
+        pageNum +="<li class=''><a onclick='g_directory("+(page-1)+")'><<</a></li>";
+    }
+    //中间页
+    //只显示7页，本页显示在中间
+    if(totalPage>7){
+        if(page>3&&page<totalPage-2){
+            for(var i=page-3;i<=page+3;i++){
+                if(i == page){
+                    pageNum +="<li class='current'><span>"+i+"</span></li>";
+                }
+                else{
+                    pageNum +="<li class=''><a onclick='g_directory("+i+")'>"+i+"</a></li>";
+                };   
+            }; 
+        }
+        else{
+            //不符合则是最开始7页或最后7页
+            if(page<7){
+                for(var i=1;i<=7;i++){
+                    if(i == page){
+                        pageNum +="<li class='current'><span>"+i+"</span></li>";
+                    }
+                    else{
+                        pageNum +="<li class=''><a onclick='g_directory("+i+")'>"+i+"</a></li>";
+                    };   
+                };
+            }
+            else{
+                for(var i=totalPage-7;i<=totalPage;i++){
+                    if(i == page){
+                        pageNum +="<li class='current'><span>"+i+"</span></li>";
+                    }
+                    else{
+                        pageNum +="<li class=''><a onclick='g_directory("+i+")'>"+i+"</a></li>";
+                    };   
+                };
+            }  
+        }
+    }
+    else{
+        for(var i=1;i<=totalPage;i++){
+            if(i == page){
+                pageNum +="<li class='current'><span>"+i+"</span></li>";
+            }
+            else{
+                pageNum +="<li class=''><a onclick='g_directory("+i+")'>"+i+"</a></li>";
+            };   
+        };
+    }    
+    //下一页
+    if(page!=totalPage){
+        pageNum +="<li class=''><a onclick='g_directory("+(page+1)+")'>>></a></li>";
+    }
+    //生成总页数
+    pageNum +="<li class='' ><strong style='color:red; text-align:center;line-height:32.8px'>&nbsp;共"+totalPage+"页</strong></li>";
+    $("#pageNum").append(pageNum)
 };
 //页面加载就调用一次
 g_directory(1);

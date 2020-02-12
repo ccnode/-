@@ -1,7 +1,7 @@
 from flask import Flask,render_template,jsonify,Blueprint,request
-from tools.dbtools import DB
+from api.tools.dbtools import DB
 goods = Blueprint('goods',__name__)
-db = DB("127.0.0.1","root","","mitucat")
+db = DB("mitucat")
 
 #商品分析页面跳转
 @goods.route("/goods")

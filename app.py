@@ -1,6 +1,6 @@
 from flask import Flask,render_template,jsonify,Blueprint
 
-from api.goods import goods
+from api.routes.goods import goods
 
 app = Flask(__name__)
 
@@ -34,6 +34,6 @@ if __name__ == "__main__":
     # debug=True
      app.run(
       host='127.0.0.1',
-      port= 5002,
+      port= 5001,
       debug=True
     )

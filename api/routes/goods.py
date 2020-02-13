@@ -1,4 +1,4 @@
-from flask import Flask,render_template,jsonify,Blueprint,request
+from flask import render_template,jsonify,Blueprint,request
 from api.tools.dbtools import DB
 goods = Blueprint('goods',__name__)
 db = DB("mitucat")

@@ -3,7 +3,7 @@ import time
 import asyncio
 
 # from spiders.jd_spider import goods_item
-# 解析网页
+# 解析商品页面
 async def parser(browser,page,url,db):
     await asyncio.sleep(1)
     print("下载页面。。。")
@@ -26,9 +26,7 @@ async def parser(browser,page,url,db):
     print(data)
     # 创建数据库实例
     # sql = "insert into goods_info(q_id,goods_name,shop_name,goods_price,comments_num,link_url,q_type) values("+data+")"
-    sql = "insert into goods_info(q_id,goods_name,shop_name,goods_price,comments_num,link_url,q_type) values"
-    sql =sql+"("+data+"),"
-    sql = sql + "(" + data + ")"
+    sql = "insert into goods_info(q_id,goods_name,shop_name,goods_price,comments_num,link_url,q_type) values("+data+")"
 
     # sql = "select * from user_info"
     print(sql)

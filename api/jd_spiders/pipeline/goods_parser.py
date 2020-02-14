@@ -4,22 +4,22 @@ import asyncio
 
 # from spiders.jd_spider import goods_item
 # 解析商品页面
-async def parser(browser,page,url,db):
-    await asyncio.sleep(1)
-    print("下载页面。。。")
+async def parser(page,url,db):
+    await page.waitFor(1000)
+    print("获取商品信息。。。")
     t1 = time.time()
     text = await page.content()
-    # 关闭页面
-    await browser.close()
-
     html = etree.HTML(text)
     t2 = time.time()
     print("下载耗时：{}".format(t2-t1))
+
     # 获取数据
     goods_name = html.xpath("//title/text()")
     goods_price = html.xpath("//span[@class='p-price']/span[2]/text()")
     comments_num = html.xpath("//div[@id='comment-count']/a/text()")
     shop_name = html.xpath("//div[@class='mt']/h3/a/text()")
+    if shop_name == []:
+        shop_name = html.xpath("//div[@class='name']/a/text()")
 
     # 数据整合
     data = "{},'{}','{}',{},'{}','{}',{}".format(1,goods_name[0],shop_name[0],goods_price[0],comments_num[0],url,0)

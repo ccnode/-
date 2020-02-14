@@ -41,7 +41,9 @@ async def main(url,loop):
     # 创建数据库实例
     db = DB(dbname="mitucat",loop=loop)
     # 调用处理页面方法
-    await p.parser(browser,page,url,db)
+    await p.parser(page,url,db)
+    # 关闭页面
+    await browser.close()
     return
 
 # url = "https://item.jd.com/1026553130.html"

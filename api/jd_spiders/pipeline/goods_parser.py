@@ -1,17 +1,13 @@
 from lxml import etree
 import time
 import asyncio
-
-# from spiders.jd_spider import goods_item
+from api.jd_spiders.pipeline import comments_parser as c
 # 解析商品页面
-async def parser(page,url,db):
+async def parser(page,url,num):
     await page.waitFor(1000)
-    print("获取商品信息。。。")
-    t1 = time.time()
+    print("获取商品信息中。。。")
     text = await page.content()
     html = etree.HTML(text)
-    t2 = time.time()
-    print("下载耗时：{}".format(t2-t1))
 
     # 获取数据
     goods_name = html.xpath("//title/text()")
@@ -20,22 +16,18 @@ async def parser(page,url,db):
     shop_name = html.xpath("//div[@class='mt']/h3/a/text()")
     if shop_name == []:
         shop_name = html.xpath("//div[@class='name']/a/text()")
-
-    # 数据整合
+    # 数据整合，编写sql
     data = "{},'{}','{}',{},'{}','{}',{}".format(1,goods_name[0],shop_name[0],goods_price[0],comments_num[0],url,0)
-    print(data)
-    # 创建数据库实例
-    # sql = "insert into goods_info(q_id,goods_name,shop_name,goods_price,comments_num,link_url,q_type) values("+data+")"
-    sql = "insert into goods_info(q_id,goods_name,shop_name,goods_price,comments_num,link_url,q_type) values("+data+")"
+    sql = "insert into goods_info(q_id,goods_name,shop_name,goods_price,comments_num,link_url,q_type) values("+data+");"
+    print("获取成功！")
 
-    # sql = "select * from user_info"
-    print(sql)
-    res = await db.commit(sql)
-    print(res)
-    
-    # 关闭浏览器
-    # await page.close()
-    
+    # 生产商品id
+    goods_id = 1
+    # 调用爬取评论方法
+    comSql = await c.parser(page,num,goods_id)
+    sql += comSql
+    # 返回sql给主程序
+    return sql
 
 
 # 合并列表

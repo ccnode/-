@@ -1,9 +1,20 @@
 from pyppeteer import launch
 import asyncio
-from api.jd_spiders.pipeline import  goods_parser as p
+from api.jd_spiders.pipeline import goods_parser as g
+from api.jd_spiders.pipeline import comments_parser as c
 import time
 from api.tools.dbtools import DB
-async def main(url,loop):
+
+def screen_size():
+    """使用tkinter获取屏幕大小"""
+    import tkinter
+    tk = tkinter.Tk()
+    width = tk.winfo_screenwidth()
+    height = tk.winfo_screenheight()
+    tk.quit()
+    return width, height
+
+async def main(loop,url,num):
     launch_kwargs = {
         # 控制是否为无头模式
         "headless": True,
@@ -33,20 +44,31 @@ async def main(url,loop):
     t1 = time.time()
     # 启动浏览器
     browser = await launch(launch_kwargs)
-    # 打开标签页
     page = await browser.newPage()
+    # 网页大小
+    width, height = screen_size()
+    # 设置网页可视区域大小
+    await page.setViewport({
+        "width": width,
+        "height": height
+    })
     # 输入网址并打开
     await page.goto(url)
-    print("跳转{}".format(time.time()-t1))
+    print("加载页面~{}".format(time.time()-t1))
+
+    # 调用爬取商品信息方法
+    sql = await g.parser(page,url,num)
+    print(sql)
+
     # 创建数据库实例
-    db = DB(dbname="mitucat",loop=loop)
-    # 调用处理页面方法
-    await p.parser(page,url,db)
+    db = DB(dbname="mitucat", loop=loop)
+    print(await db.commit(sql))
     # 关闭页面
+    await page.close()
     await browser.close()
     return
 
 # url = "https://item.jd.com/1026553130.html"
 url = "https://item.jd.com/100002432068.html"
 loop = asyncio.get_event_loop()
-loop.run_until_complete(main(url,loop))
+loop.run_until_complete(main(loop,url,70))

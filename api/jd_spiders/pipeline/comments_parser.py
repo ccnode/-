@@ -5,9 +5,11 @@ import asyncio
 # 解析商品页面
 async def parser(page,num,goods_id):
     # 点击评价数跳转
-    await page.click("div[id='comment-count']")
+    await page.hover("li[data-anchor='#comment']")
+    await asyncio.sleep(0.3)
+    await page.click("li[data-anchor='#comment']")
     await page.waitFor(1000)
-    await asyncio.sleep(2)
+    await asyncio.sleep(1.5)
     # 点击时间排序
     await page.hover("span[class='J-current-sortType']")
     # await page.waitFor(300)

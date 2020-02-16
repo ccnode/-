@@ -1,11 +1,10 @@
 from pyppeteer import launch
 import asyncio
-from api.jd_spiders.pipeline import goods_parser as g
-from api.jd_spiders.pipeline import comments_parser as c
+
 import time
 from api.tools.dbtools import DB
 
-class goods_info():
+class keyword_info():
     async def screen_size(self):
         """使用tkinter获取屏幕大小"""
         import tkinter
@@ -21,7 +20,7 @@ class goods_info():
         self.num = num
         self.launch_kwargs = {
             # 控制是否为无头模式
-            "headless": True,
+            "headless": False,
             # chrome启动命令行参数
             "dumpio": True,
             "autoClose": False,
@@ -95,8 +94,10 @@ class goods_info():
 
 if __name__ == '__main__':
     try:
-        spider = goods_info(url="https://item.jd.com/1026553130.html", num=30)
+        spider = keyword_info(url="https://item.jd.com/1026553130.html", num=30)
         print(spider.start())
         print("success")
     except Exception as e:
         print(e)
+
+# https://search.jd.com/Search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&psort=3

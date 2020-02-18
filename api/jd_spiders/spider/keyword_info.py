@@ -1,6 +1,6 @@
 from pyppeteer import launch
 import asyncio
-
+from api.jd_spiders.pipeline import keyword_parser as key
 import time
 from api.tools.dbtools import DB
 
@@ -15,12 +15,13 @@ class keyword_info():
         return width, height
 
     # 初始化参数
-    def __init__(self,url,num):
-        self.url = url
+    def __init__(self,keyword,num,q_id):
+        self.url = "https://search.jd.com/Search?keyword="+keyword+"&enc=utf-8&psort=3"
         self.num = num
+        self.q_id = q_id
         self.launch_kwargs = {
             # 控制是否为无头模式
-            "headless": False,
+            "headless": True,
             # chrome启动命令行参数
             "dumpio": True,
             "autoClose": False,
@@ -65,39 +66,35 @@ class keyword_info():
         # 输入网址并打开
         await self.page.goto(self.url)
         print("加载页面~{}".format(time.time() - t1))
-        # 调用主体方法
-        for i in range(2):
-            try:
-                await self.main()
-            except Exception as e:
-                print("发生错误：{}----正在重试{}".format(e, i + 1))
+        # # 调用主体方法
+        # for i in range(2):
+        #     try:
+        #         await self.main()
+        #     except Exception as e:
+        #         print("发生错误：{}----正在重试{}".format(e, i + 1))
+        await self.main()
     # 主体方法
     async def main(self):
         # 创建数据库实例
         db = DB(dbname="mitucat", loop=self.loop)
 
-        # 调用爬取商品信息方法
-        sql = await g.parser(self.page,self.url,self.num)
-        print(sql)
-
-        # 插入商品信息获取id
-        goods_id = (await db.commits(sql))[0][0]
-
-        # 调用爬取评论方法
-        comSql = await c.parser(self.page, self.num, goods_id)
-        await db.commit(comSql)
+        # 调用爬取关键词商品信息方法
+        keySql = await key.parser(self.page, self.num, self.q_id)
+        print(keySql)
+        await db.commit(keySql)
 
         # 关闭页面
-        # await self.page.close()
+        await self.page.close()
         await self.browser.close()
         return
 
 if __name__ == '__main__':
-    try:
-        spider = keyword_info(url="https://item.jd.com/1026553130.html", num=30)
-        print(spider.start())
-        print("success")
-    except Exception as e:
-        print(e)
-
+    # try:
+    #     spider = keyword_info(keyword="手机", num=30,q_id=2)
+    #     print(spider.start())
+    #     print("success")
+    # except Exception as e:
+    #     print(e)
+    spider = keyword_info(keyword="手机", num=62, q_id=2)
+    print(spider.start())
 # https://search.jd.com/Search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&psort=3

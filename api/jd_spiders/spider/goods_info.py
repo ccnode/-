@@ -16,9 +16,10 @@ class goods_info():
         return width, height
 
     # 初始化参数
-    def __init__(self,url,num):
+    def __init__(self,url,num,q_id):
         self.url = url
         self.num = num
+        self.q_id = q_id
         self.launch_kwargs = {
             # 控制是否为无头模式
             "headless": True,
@@ -78,7 +79,7 @@ class goods_info():
         db = DB(dbname="mitucat", loop=self.loop)
 
         # 调用爬取商品信息方法
-        sql = await g.parser(self.page,self.url,self.num)
+        sql = await g.parser(self.page,self.url,self.q_id)
         print(sql)
 
         # 插入商品信息获取id
@@ -95,7 +96,7 @@ class goods_info():
 
 if __name__ == '__main__':
     try:
-        spider = goods_info(url="https://item.jd.com/1026553130.html", num=30)
+        spider = goods_info(url="https://item.jd.com/1026553130.html", num=30,q_id=2)
         print(spider.start())
         print("success")
     except Exception as e:

@@ -1,10 +1,8 @@
 from lxml import etree
-from api.tools import md5
-import time
 import asyncio
-from api.jd_spiders.pipeline import comments_parser as c
+
 # 解析商品页面
-async def parser(page,url,num):
+async def parser(page,url,q_id):
     await page.waitFor(1000)
     print("获取商品信息中。。。")
     text = await page.content()
@@ -21,9 +19,9 @@ async def parser(page,url,num):
     # 测试
     # print("data:{},'{}','{}',{},".format(goods_name,shop_name,goods_price,comments_num))
     # 数据整合，编写sql
-    data = "{},'{}','{}',{},'{}','{}',{}".format(1,goods_name[0],shop_name[0],goods_price[0],(comments_num[0]).strip('()'),url,0)
+    data = "({},'{}','{}',{},'{}','{}',{});".format(q_id,goods_name[0],shop_name[0],goods_price[0],(comments_num[0]).strip('()'),url,0)
     print(data)
-    sql = "insert into goods_info(q_id,goods_name,shop_name,goods_price,comments_num,link_url,q_type) values("+data+");SELECT LAST_INSERT_ID();"
+    sql = "insert into goods_info(q_id,goods_name,shop_name,goods_price,comments_num,link_url,q_type) values"+data
     print("获取成功！")
 
     # 返回sql给主程序

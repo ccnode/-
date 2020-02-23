@@ -22,7 +22,7 @@ class goods_info():
         self.q_id = q_id
         self.launch_kwargs = {
             # 控制是否为无头模式
-            "headless": True,
+            "headless": False,
             # chrome启动命令行参数
             "dumpio": True,
             "autoClose": False,

@@ -49,7 +49,7 @@ class keyword_info():
     def start(self):
         self.loop = asyncio.get_event_loop()
         self.loop.run_until_complete(self.geturl())
-
+        self.loop.close()
     # 启动浏览器
     async def geturl(self):
         print("正在启动~")

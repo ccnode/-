@@ -1,6 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import os
+from wordcloud import WordCloud, ImageColorGenerator,STOPWORDS
+import jieba
+from PIL import Image
+import re
 # 饼状图
 async def pie_chart(res,user_id,q_id):
 
@@ -23,5 +27,37 @@ async def pie_chart(res,user_id,q_id):
         os.makedirs(path)
     plt.savefig(path + '/sentiment.png')
     # plt.show()
+
+# 词云
+async def word_cloud(text,user_id,q_id):
+    # 图片模板和字体
+    image = np.array(Image.open(r'img/background.jpg'))
+    font = r'font/simfang.ttf'
+
+    # 分词
+    wordlist_after_jieba = jieba.cut(text)
+    wl_space_split = " ".join(wordlist_after_jieba)
+
+    # 设置停用词
+    sw = set(STOPWORDS)
+    sw.add("京东")
+
+    # 关键一步
+    my_wordcloud = WordCloud(scale=2, font_path=font, mask=image, stopwords=sw, background_color='white',
+                             max_words=200, max_font_size=60, random_state=20).generate(wl_space_split)
+
+    # 显示生成的词云
+    plt.imshow(my_wordcloud)
+    plt.axis("off")
+    # 保存生成的图片
+    path = '../../source/user/{}/{}'.format(user_id, q_id)
+    if (os.path.exists(path) == False):
+        os.makedirs(path)
+    my_wordcloud.to_file(path + '/wordcloud.png')
+    plt.show()
+
+
+
+
 if __name__ == '__main__':
     pie_chart()

@@ -22,7 +22,7 @@ class goods_info():
         self.q_id = q_id
         self.launch_kwargs = {
             # 控制是否为无头模式
-            "headless": False,
+            "headless": True,
             # chrome启动命令行参数
             "dumpio": True,
             "autoClose": False,
@@ -96,7 +96,7 @@ class goods_info():
 
 if __name__ == '__main__':
     try:
-        spider = goods_info(url="https://item.jd.com/1026553130.html", num=30,q_id=2)
+        spider = goods_info(url="https://item.jd.com/1026553130.html", num=20,q_id=78)
         print(spider.start())
         print("success")
     except Exception as e:

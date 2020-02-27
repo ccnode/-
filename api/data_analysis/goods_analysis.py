@@ -2,8 +2,11 @@ from snownlp import SnowNLP
 from api.tools.dbtools import DB
 import asyncio
 from api.tools import draw
+import datetime
 class goods_analysis():
     def __init__(self):
+        self.user_id = 1
+        self.q_id = 1
         loop = asyncio.get_event_loop()
         self.loop = loop
         self.db = DB(dbname="mitucat", loop=self.loop)
@@ -12,12 +15,54 @@ class goods_analysis():
 
     # 启动主体
     async def start(self):
-        self.q_data = await self.db.query("select * from comments_info where goods_id=1")
+        self.q_data = await self.db.query("select * from comments_info where "
+                                          "goods_id=101 order by com_date asc ")
+
+        # 生成评论统计
+        await self.c_statistical()
+
         #生成情感分析图
-        #await self.Sentiment()
+        await self.Sentiment()
 
         #生成词云
         await self.word_frequency()
+
+    # 评论统计
+    async def c_statistical(self):
+        count = 0
+        t = 0
+        count_list = []
+        data = self.q_data
+        date_list = await self.getDatesByTimes(data[0][5],data[-1][5])
+        # 计算每天有多少数量
+        for date in date_list:
+            for j in range(t,len(data)):
+                if date == data[j][5].strftime('%Y-%m-%d'):
+                    count += 1
+                else:
+                    count_list.append(count)
+                    count = 0
+                    t = j
+                    break
+        # 添加最后一个统计
+        count_list.append(count)
+
+        res = {"x": date_list, "y": count_list, "title": "每日评论数统计"}
+        await draw.line_chart(res,self.user_id,self.q_id)
+
+    # 根据开始日期、结束日期返回这段时间里所有天的集合
+    async def getDatesByTimes(self,sDateStr, eDateStr):
+        list = []
+        # datestart = sDateStr.date()
+        # dateend = eDateStr.date()
+        datestart = sDateStr
+        dateend = eDateStr
+        list.append(datestart.strftime('%Y-%m-%d'))
+        while datestart < dateend:
+            datestart += datetime.timedelta(days=1)
+            list.append(datestart.strftime('%Y-%m-%d'))
+        return list
+
 
     # 情感分析
     async def Sentiment(self):
@@ -28,7 +73,7 @@ class goods_analysis():
             list.append(round(s.sentiments,3))
         res = await self.get_calculate(list)
         print("绘制情感分析图..")
-        await draw.pie_chart(res,1,1)
+        await draw.pie_chart(res,self.user_id,self.q_id)
 
     # 计算情感平均分数，正向中等负向占比
     async def get_calculate(self,list):
@@ -60,7 +105,7 @@ class goods_analysis():
         for i in self.q_data:
             text +=i[3]+";"
 
-        await draw.word_cloud(text,1,1)
+        await draw.word_cloud(text,self.user_id,self.q_id)
 
 if __name__ == '__main__':
     analysis = goods_analysis()

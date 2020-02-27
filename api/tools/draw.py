@@ -1,9 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
 import os
 from wordcloud import WordCloud, ImageColorGenerator,STOPWORDS
 import jieba
 from PIL import Image
+import asyncio
 import re
 # 饼状图
 async def pie_chart(res,user_id,q_id):
@@ -27,6 +29,40 @@ async def pie_chart(res,user_id,q_id):
         os.makedirs(path)
     plt.savefig(path + '/sentiment.png')
     # plt.show()
+    print("情感分析图绘制完毕！")
+
+# 折线图
+async def line_chart(data,user_id,q_id):
+    fig, ax = plt.subplots(figsize=(11, 7))
+    plt.rcParams['font.sans-serif'] = 'SimHei'  # 设置中文显示
+    x = data["x"]
+    y = data["y"]
+    ax.plot(x, y)
+
+    # 通过修改tick_spacing的值可以修改x轴的密度
+    length = len(data["x"])
+    tick_spacing = 1
+    for i in range(1, length + 1):
+        if length / i <= 8:
+            tick_spacing = int(i)
+            break
+    ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
+    # 网格
+    ax.grid(linestyle='--',color='red')
+    ax.set_xlabel('日期(年-月-日)')
+    ax.set_ylabel('评论数')
+    ax.set_title('评论数统计')
+    # 旋转45
+    for tick in ax.get_xticklabels():
+        tick.set_rotation(30)
+
+    # 保存生成的图片
+    path = '../../source/user/{}/{}'.format(user_id, q_id)
+    if (os.path.exists(path) == False):
+        os.makedirs(path)
+    plt.savefig(path + '/line_chart.png')
+    # plt.show()
+    print("评论统计图绘制完毕！")
 
 # 词云
 async def word_cloud(text,user_id,q_id):
@@ -54,10 +90,13 @@ async def word_cloud(text,user_id,q_id):
     if (os.path.exists(path) == False):
         os.makedirs(path)
     my_wordcloud.to_file(path + '/wordcloud.png')
-    plt.show()
-
+    # plt.show()
+    print("词云绘制完毕！")
 
 
 
 if __name__ == '__main__':
-    pie_chart()
+
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(line_chart())
+    loop.close()

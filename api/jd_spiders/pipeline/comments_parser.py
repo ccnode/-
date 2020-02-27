@@ -51,7 +51,7 @@ async def getData(page,num,goods_id):
         if count == num:
             break
         # 翻页
-        await asyncio.sleep(0.4)
+        await asyncio.sleep(1)
         await page.hover("a[class='ui-pager-next']")
         await page.waitFor(300)
         await page.click("a[class='ui-pager-next']")

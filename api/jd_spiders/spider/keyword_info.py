@@ -2,7 +2,7 @@ from pyppeteer import launch
 import asyncio
 from api.jd_spiders.pipeline import keyword_parser as key
 import time
-from api.tools.dbtools import DB
+from api.tools.back_dbtools import DB
 
 class keyword_info():
     async def screen_size(self):

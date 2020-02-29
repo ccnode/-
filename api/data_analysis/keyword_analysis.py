@@ -1,4 +1,4 @@
-from api.tools.dbtools import DB
+from api.tools.back_dbtools import DB
 import asyncio
 from api.data_analysis import k_draw as draw
 from collections import Counter

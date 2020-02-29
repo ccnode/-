@@ -1,4 +1,4 @@
-import asyncio
+
 import aiomysql
 
 class DB():
@@ -9,7 +9,7 @@ class DB():
         self.dbname = dbname
         self.port = port
         self.loop = loop
-        # self.loop = asyncio.get_event_loop()
+
     # 查询   
     async def query(self,sql):
         res = await self.execute(sql, 0)
@@ -26,6 +26,7 @@ class DB():
         return res
 
     async def execute(self,sql,n):
+
         conn = await aiomysql.connect(host=self.host, port=self.port,
                                         user=self.username, password=self.password, db=self.dbname,
                                         loop=self.loop)

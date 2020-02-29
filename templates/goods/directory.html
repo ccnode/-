@@ -156,14 +156,17 @@
         <i class="fa fa-home"></i>
         <a href="/">MituCat</a>
         &gt;
-        <span>分析列表</span>
+        <span id="second-level">分析列表</span>
     </div>
     <!-- 大型设备详细文章 -->
     <div class="hidden-xs">
         <div class="title-article">
             <h1>
-                <a href="/goods">商品分析列表</a>
+                <a id="title" href="/goods">商品分析列表</a>
             </h1>
+
+            <input id="getnew" class='btn btn-danger btn-gal' type="button" value="新建+" onclick="getnew()" />
+
         </div>
     </div>
     <!-- 小型设备详细文章 -->
@@ -177,7 +180,7 @@
         </center>
     </div>
     <div class="content-article" style="margin-top: 30px;">
-        <div class="alert alert-info" style="font-size: 14px; line-height: 2; font-weight: bold;">
+        <div id="main" class="alert alert-info" style="font-size: 14px; line-height: 2; font-weight: bold;height: 100px">
         <ul id="directory">
             <!-- 列表插入地方 -->
         </ul>

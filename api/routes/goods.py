@@ -1,12 +1,21 @@
 from flask import render_template,jsonify,Blueprint,request
-from api.tools.dbtools import DB
+from api.tools.front_dbtools import DB
+
 goods = Blueprint('goods',__name__)
 db = DB("mitucat")
+
+
+
 
 #商品分析页面跳转
 @goods.route("/goods")
 def g_analyze():
     return render_template("goods/directory.html")
+
+# 新建商品分析
+# @goods.route("/getNewGoods")
+# def getNewGoods():
+#     return
 
 # 历史记录列表
 @goods.route("/g_directory",methods=["GET"])

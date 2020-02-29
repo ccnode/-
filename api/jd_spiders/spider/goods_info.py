@@ -3,7 +3,7 @@ import asyncio
 from api.jd_spiders.pipeline import goods_parser as g
 from api.jd_spiders.pipeline import comments_parser as c
 import time
-from api.tools.dbtools import DB
+from api.tools.back_dbtools import DB
 
 class goods_info():
     async def screen_size(self):

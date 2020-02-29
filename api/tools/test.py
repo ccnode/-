@@ -1,17 +1,12 @@
-import datetime
-from api.tools.dbtools import DB
-import asyncio
-async def start(loop):
-    db = DB(dbname="mitucat", loop=loop)
-    q_data = await db.query("select * from comments_info where "
-                            "goods_id=101 order by com_date asc ")
-    for i in q_data:
-        date2 = i[5].date()
-        print(date2+datetime.timedelta(days=1))
-    # date2 = datetime.date()
-    # print(date2)
+from collections import Counter
+
+a = ["1","2","2","1"]
+
+#统计列表中重复次数最多的前N个元素
+N = 3
+
+print(Counter(a).most_common(N))
 
 
-loop = asyncio.get_event_loop()
-loop.run_until_complete(start(loop))
-loop.close()
+
+#输出是[(4, 4), (1, 3), (3, 2)]

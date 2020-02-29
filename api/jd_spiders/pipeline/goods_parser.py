@@ -19,9 +19,9 @@ async def parser(page,url,q_id):
     # 测试
     # print("data:{},'{}','{}',{},".format(goods_name,shop_name,goods_price,comments_num))
     # 数据整合，编写sql
-    data = "({},'{}','{}',{},'{}','{}',{});".format(q_id,goods_name[0],shop_name[0],goods_price[0],(comments_num[0]).strip('()'),url,0)
+    data = "({},'{}','{}',{},'{}','{}');".format(q_id,goods_name[0],shop_name[0],goods_price[0],(comments_num[0]).strip('()'),url)
     print(data)
-    sql = "insert into goods_info(q_id,goods_name,shop_name,goods_price,comments_num,link_url,q_type) values"+data
+    sql = "insert into goods_info(q_id,goods_name,shop_name,goods_price,comments_num,link_url) values"+data
     print("获取成功！")
 
     # 返回sql给主程序

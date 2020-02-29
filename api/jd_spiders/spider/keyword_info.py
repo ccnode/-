@@ -67,12 +67,12 @@ class keyword_info():
         await self.page.goto(self.url)
         print("加载页面~{}".format(time.time() - t1))
         # # 调用主体方法
-        # for i in range(2):
-        #     try:
-        #         await self.main()
-        #     except Exception as e:
-        #         print("发生错误：{}----正在重试{}".format(e, i + 1))
-        await self.main()
+        for i in range(2):
+            try:
+                await self.main()
+            except Exception as e:
+                print("发生错误：{}----正在重试{}".format(e, i + 1))
+        # await self.main()
     # 主体方法
     async def main(self):
         # 创建数据库实例

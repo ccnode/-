@@ -96,7 +96,7 @@ class goods_info():
 
 if __name__ == '__main__':
     try:
-        spider = goods_info(url="https://item.jd.com/1026553130.html", num=20,q_id=78)
+        spider = goods_info(url="https://item.jd.com/1026553130.html", num=32,q_id=11)
         print(spider.start())
         print("success")
     except Exception as e:

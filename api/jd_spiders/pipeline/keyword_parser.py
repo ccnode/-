@@ -35,11 +35,11 @@ async def parser(page,num,q_id):
             goods_price = item["goods_price"][i]
             comments_num = item["comments_num"][i]
             if count == num - 1:
-                data += "({},'{}','{}',{},'{}',{});".format(q_id,goods_name,shop_name,goods_price,comments_num,1)
+                data += "({},'{}','{}',{},'{}');".format(q_id,goods_name,shop_name,goods_price,comments_num)
                 count += 1
                 break
             else:
-                data += "({},'{}','{}',{},'{}',{}),".format(q_id,goods_name,shop_name,goods_price,comments_num,1)
+                data += "({},'{}','{}',{},'{}'),".format(q_id,goods_name,shop_name,goods_price,comments_num)
             # 计数器+1
             count += 1
         print("已爬取：{}个商品".format(count))
@@ -50,5 +50,5 @@ async def parser(page,num,q_id):
         await page.waitFor(300)
         await asyncio.sleep(0.3)
         await page.click("a[class='pn-next']")
-    sql = "insert into goods_info(q_id,goods_name,shop_name,goods_price,comments_num,q_type) values" + data
+    sql = "insert into k_goods_info(q_id,goods_name,shop_name,goods_price,comments_num) values" + data
     return sql

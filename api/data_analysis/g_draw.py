@@ -2,20 +2,20 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import os
-from wordcloud import WordCloud, ImageColorGenerator,STOPWORDS
+from wordcloud import WordCloud,STOPWORDS
 import jieba
 from PIL import Image
 import asyncio
 import re
 # 饼状图
-async def pie_chart(res,user_id,q_id):
+async def pie_chart(data):
 
     plt.rcParams['font.sans-serif'] = 'SimHei'  # 设置中文显示
     labels = '正面评论', '中等', '负面评论'  # 定义标签
 
     plt.figure(figsize=(6, 6))  # 将画布设定为正方形，则绘制的饼图是正圆
-    plt.title('情感综合分数：{}(满分100)'.format(res["score"]))  # 绘制标题
-    sizes = [res["positive"], res["medium"], res["negative"]]  # 每一块的比例
+    plt.title('情感综合分数：{}(满分100)'.format(data["score"]))  # 绘制标题
+    sizes = [data["positive"], data["medium"], data["negative"]]  # 每一块的比例
     colors = ['yellowgreen', 'gold', 'lightcoral']  # 每一块的颜色
     explode = (0.01, 0.01, 0.01)  # 突出显示，这里仅仅突出红色
 
@@ -24,7 +24,7 @@ async def pie_chart(res,user_id,q_id):
 
     plt.axis('equal')  # 显示为圆（避免比例压缩为椭圆）
     # 图片存储路径
-    path = '../../source/user/{}/{}'.format(user_id, q_id)
+    path = '../../source/user/{}/goods/{}'.format(data["user_id"], data["q_id"])
     if (os.path.exists(path) == False):
         os.makedirs(path)
     plt.savefig(path + '/sentiment.png')
@@ -32,7 +32,7 @@ async def pie_chart(res,user_id,q_id):
     print("情感分析图绘制完毕！")
 
 # 折线图
-async def line_chart(data,user_id,q_id):
+async def line_chart(data):
     fig, ax = plt.subplots(figsize=(11, 7))
     plt.rcParams['font.sans-serif'] = 'SimHei'  # 设置中文显示
     x = data["x"]
@@ -49,29 +49,29 @@ async def line_chart(data,user_id,q_id):
     ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
     # 网格
     ax.grid(linestyle='--',color='red')
-    ax.set_xlabel('日期(年-月-日)')
+    ax.set_xlabel('日期')
     ax.set_ylabel('评论数')
-    ax.set_title('评论数统计')
+    ax.set_title('评论数统计(截止'+data["x"][-1]+')')
     # 旋转45
     for tick in ax.get_xticklabels():
         tick.set_rotation(30)
 
     # 保存生成的图片
-    path = '../../source/user/{}/{}'.format(user_id, q_id)
+    path = '../../source/user/{}/goods/{}'.format(data["user_id"], data["q_id"])
     if (os.path.exists(path) == False):
         os.makedirs(path)
-    plt.savefig(path + '/line_chart.png')
+    plt.savefig(path + '/daily_comment.png')
     # plt.show()
     print("评论统计图绘制完毕！")
 
 # 词云
-async def word_cloud(text,user_id,q_id):
+async def word_cloud(data):
     # 图片模板和字体
     image = np.array(Image.open(r'img/background.jpg'))
     font = r'font/simfang.ttf'
 
     # 分词
-    wordlist_after_jieba = jieba.cut(text)
+    wordlist_after_jieba = jieba.cut(data["text"])
     wl_space_split = " ".join(wordlist_after_jieba)
 
     # 设置停用词
@@ -86,7 +86,7 @@ async def word_cloud(text,user_id,q_id):
     plt.imshow(my_wordcloud)
     plt.axis("off")
     # 保存生成的图片
-    path = '../../source/user/{}/{}'.format(user_id, q_id)
+    path = '../../source/user/{}/goods/{}'.format(data["user_id"], data["q_id"])
     if (os.path.exists(path) == False):
         os.makedirs(path)
     my_wordcloud.to_file(path + '/wordcloud.png')

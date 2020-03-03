@@ -48,22 +48,29 @@ class goods_info():
         }
     # 启动协程
     def start(self):
-        self.loop = asyncio.get_event_loop()
-        self.loop.run_until_complete(self.geturl())
-        self.loop.close()
+        # await self.geturl()
+        pass
     # 启动浏览器
     async def geturl(self):
         print("正在启动~")
         width, height = await self.screen_size()
         t1 = time.time()
         # 启动浏览器
+        print("开始启动浏览器")
+        self.browser = await launch(
+            handleSIGINT=False,
+            handleSIGTERM=False,
+            handleSIGHUP=False
+        )
         self.browser = await launch(self.launch_kwargs)
+        print("打开网页")
         self.page = await self.browser.newPage()
         # 设置网页可视区域大小
         await self.page.setViewport({
             "width": width,
             "height": height
         })
+        print("打开网页2")
         # 输入网址并打开
         await self.page.goto(self.url)
         print("加载页面~{}".format(time.time() - t1))
@@ -101,3 +108,4 @@ if __name__ == '__main__':
         print("success")
     except Exception as e:
         print(e)
+

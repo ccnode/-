@@ -102,20 +102,19 @@ function g_pageNum(data,page){
 //页面加载就调用一次
 g_directory(1);
 
-//按钮点击新建分析
-// $("getnew").click(function(){
-//     $("title-article").text("<h1>新建分析</h1>")
-//     alert("110")
-//
-// });
 
+//按钮点击新建分析
 function getnew(){
 
     $("#second-level").html("新建商品分析")
     $("#title").html("新建分析")
     $("#getnew").remove()
     $("#pageNum").remove()
-    var con = "<div><input type='text' name='s' class='form-control' id='goods_query_text' placeholder='请输入京东商品链接~' autocomplete='off'></div>" +
-        " <div style='text-align:center;float:right;margin-right:30%;margin-top:10px'><input button id='goods_query' class='btn btn-danger btn-gal' value='分析' type='button' ></div>"
+    // var con = "<div style='float:left'><input type='text' name='s' class='form-control' id='goods_query_text' placeholder='请输入京东商品链接~' autocomplete='off'></div>" +
+    //     " <div style='text-align:center;float:left;padding: 10px;'><input button id='goods_query' class='btn btn-danger btn-gal' value='分析' type='button' ></div>"
+    var con = "<form style='text-align:center' method='post'><input  type='text' name='url' class='form-control' id='goods_query_text' placeholder='请输入京东商品链接~' autocomplete='off'>" +
+        "<input style='margin-top:5px;'  id='goods_query' class='btn btn-danger btn-gal' value='分析' type='submit' ></form>"
     $("#main").html(con)
 };
+
+//点击分析

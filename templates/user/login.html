@@ -1,0 +1,403 @@
+<html lang="zh-cn" class=" no-touchevents"><head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" name="viewport">
+    <meta name="theme-color" content="#4285f4">
+    <title>xcat</title>
+    <!-- css -->
+    <link href="/static/css/base_auth.min.css" rel="stylesheet">
+    <link href="/static/css/project.min.css" rel="stylesheet">
+    <link href="/static/css/auth.css" rel="stylesheet">
+    
+    <style>
+        .divcss5 {
+            position: fixed;
+            bottom: 0;
+        }
+
+		body{background: url(/static/imgs/bg.jpg) no-repeat center 0;
+		background-size:100% 100%;
+background-attachment: fixed;} 
+    </style>
+    <!-- favicon -->
+    <!--|Favicon|-->
+    
+    
+    
+<body class="page-brand">
+
+
+<div id="wrapper">
+
+    <div class="authpage auth-reg">
+        <div class="container">
+            <section class="content-inner">
+                <div class="auth-main auth-row">
+                    <div class="auth-top auth-row">
+                        <a class="boardtop-left" href="/">
+                            <div>首 页</div>
+                        </a>
+                        <div class="auth-logo">
+                            <img src="/static/imgs/authlogo.png">
+                        </div>
+                        <a href="/register_page" id="switch" class="boardtop-right" >
+                            <div>注 册</div>
+                        </a>
+                    </div>
+
+
+
+
+
+                    <div class=" auth-row">
+                            <h3 class="back" id="toptitle">欢迎回家</h3>
+                        </div>
+                        <form method="post" style="width: 70%"><!--表单-->
+                        <div class="rowtocol">
+                            <div class="auth-row">
+                                <div class="form-group-label auth-row">
+                                    <label class="floating-label" for="name" id="name_label" >用户名</label>
+                                    <input class="form-control maxwidth-auth" name="username" id="username" type="text" maxlength="8" style="left:15%;">
+                                </div>
+                            </div>
+                        </div>
+              
+                        <div class="rowtocol">
+                            <div class="auth-row">
+                                <div class="form-group-label auth-row">
+                                    <label class="floating-label" for="passwd" id="passwd_label">&nbsp;密码</label>
+                                    <input class="form-control maxwidth-auth"  name="password" id="passwd" type="password" maxlength="8" style="left:15%">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                            <div style="text-align:center">
+                            <!--消息闪现-->
+                            {% for v in get_flashed_messages(category_filter=['err']) %}
+                                    <p style="color:red;">{{ v }}</p>
+                                    {% endfor %}
+                                    {% for v in get_flashed_messages(category_filter=['ok']) %}
+                                        <p style="color:green;">{{ v }}</p>
+                                    {% endfor %}
+                            </div>
+                        <div class="rowtocol">
+                            <div class="btn-auth auth-row">
+                                <input id="login_but" value="确认登录" type="submit" class="btn-reg btn btn-block btn-brand waves-attach waves-light waves-effect">
+                                </input>
+                            </div>
+                        </div>
+                        </form>
+
+                <div class="auth-bottom auth-row auth-reg">
+                        <div class="tgauth">
+
+                            <p id="describe">欢迎来到迷途猫~本站注重对电商网站采集并进行分析。</p>
+
+                            <!-- <span>Telegram</span><button class="btn" id="calltgauth"><i class="icon icon-lg">near_me</i></button><span>快捷登录</span> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="card auth-tg">
+                <div class="card-main">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    <div aria-hidden="true" class="modal modal-va-middle fade" id="tos_modal" role="dialog" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-heading">
+                    <h2 class="modal-title">注册 TOS</h2>
+                </div>
+                <div class="modal-inner">
+                                   </div>
+                <div class="modal-footer">
+                    <p class="text-right">
+                        <button class="btn btn-flat btn-brand-accent waves-attach waves-effect" data-dismiss="modal" type="button" id="cancel">我不想使用
+                        </button>
+                        <button class="btn btn-flat btn-brand-accent waves-attach waves-effect" data-dismiss="modal" id="reg" type="button">同意，带我去登录！
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div aria-hidden="true" class="modal modal-va-middle fade" id="email_nrcy_modal" role="dialog" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-heading">
+                    <h2 class="modal-title">收不到验证码？</h2>
+                </div>
+                <div class="modal-inner">
+                    <ul>
+  
+    <br>
+    </ul>                </div>
+                <div class="modal-footer">
+                    <p class="text-right">
+                        <button class="btn btn-flat btn-brand-accent waves-attach waves-effect" data-dismiss="modal" type="button">我知道了
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tiphidden"></div>
+
+<div id="bg"></div>
+
+<div aria-hidden="true" class="modal modal-va-middle fade" id="result" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-xs">
+        <div class="modal-content">
+            <div class="modal-inner">
+                <p class="h5 margin-top-sm text-black-hint" id="msg"></p>
+            </div>
+            <div class="modal-footer">
+                <p class="text-right">
+                    <button class="btn btn-flat btn-brand-accent waves-attach waves-effect" data-dismiss="modal" type="button" id="result_ok">爷已阅 ✔
+                    </button>
+                </p>
+            </div>
+        </div>
+    </div>
+</div><div aria-hidden="true" class="modal modal-va-middle fade" data-keyboard="false" data-backdrop="static" id="result_go" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-xs">
+        <div class="modal-content">
+            <div class="modal-inner">
+                <p class="h5 margin-top-sm text-black-hint" id="msg_go"></p>
+            </div>
+            <div class="modal-footer">
+                <p class="text-right">
+                    <button class="btn btn-flat btn-brand-accent waves-attach waves-effect" data-dismiss="modal" type="button" id="result_close">不 ✘
+                    </button>
+                    <button class="btn btn-flat btn-brand-accent waves-attach waves-effect" type="button" id="result_next">好 ✔
+                    </button>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="ui-footer">
+    <div class="container">
+        Copyright © 2020 mitucat Powered by Ccnode
+            </div>
+</footer>
+
+
+<!-- js -->
+<!-- js -->
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/xyn/login.js"></script>
+<!-- ... -->
+   
+
+
+
+
+
+
+
+
+
+    
+<div class="crisp-client"><div class="crisp-1o7uamv"><div class="crisp-1qz76wn"><style type="text/css">
+.crisp-client .crisp-1rjpbb7 .crisp-12w1xmh,
+.crisp-client .crisp-1rjpbb7 .crisp-poqhnx:hover {
+  color: #FFFFFF !important;
+  -webkit-text-fill-color: #FFFFFF !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-1wiroug,
+.crisp-client .crisp-1rjpbb7 .crisp-ao27ue:hover {
+  color: #A0073C !important;
+  -webkit-text-fill-color: #A0073C !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-6mlwlm,
+.crisp-client .crisp-1rjpbb7 .crisp-q5z06s:hover {
+  color: #CE1454 !important;
+  -webkit-text-fill-color: #CE1454 !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-wcida4,
+.crisp-client .crisp-1rjpbb7 .crisp-o6w0yc:hover {
+  color: #F01D65 !important;
+  -webkit-text-fill-color: #F01D65 !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-pusm34 {
+  background-color: #FFFFFF !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-bdhv0t {
+  background-color: #A0073C !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-9o0cq7 {
+  background-color: #DB165A !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-ws3gf1,
+.crisp-client .crisp-1rjpbb7 .crisp-13h0akn:before,
+.crisp-client .crisp-1rjpbb7 .crisp-13h0akn:after {
+  background-color: #F01D65 !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-1gr5ak3 {
+  background-color: #F7F2F2 !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-145mbcr,
+.crisp-client .crisp-1rjpbb7 .crisp-1jrqqbm:hover {
+  background-color: #F9F9F9 !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-17f70m7 {
+  background-image: linear-gradient(125deg, #F01D65 -10%, #A0073C 100%) !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-111u58f,
+.crisp-client .crisp-1rjpbb7 .crisp-y1nqlk:hover {
+  border-color: #FFFFFF !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-14u434g {
+  border-color: rgba(160, 7, 60, 0.175) !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-k6ym6q,
+.crisp-client .crisp-1rjpbb7 .crisp-1hadq69:hover,
+.crisp-client .crisp-1rjpbb7 .crisp-1kqjjm4:before,
+.crisp-client .crisp-1rjpbb7 .crisp-1kqjjm4:after {
+  border-color: #F01D65 !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-1n0zdj7 {
+  border-color: rgba(240, 29, 101, 0.15) !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-rdu43e {
+  border-top-color: #F01D65 !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-ogcg7k,
+.crisp-client .crisp-1rjpbb7 .crisp-1mnx9b2:hover {
+  border-color: #F7F2F2 !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-11uxe11:placeholder {
+  color: #F26C9A !important;
+  -webkit-text-fill-color: #F26C9A !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-11uxe11:-moz-placeholder {
+  color: #F26C9A !important;
+  -webkit-text-fill-color: #F26C9A !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-11uxe11::-moz-placeholder {
+  color: #F26C9A !important;
+  -webkit-text-fill-color: #F26C9A !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-11uxe11:-ms-input-placeholder {
+  color: #F26C9A !important;
+  -webkit-text-fill-color: #F26C9A !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-11uxe11::-webkit-input-placeholder {
+  color: #F26C9A !important;
+  -webkit-text-fill-color: #F26C9A !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-14ixsrp:placeholder {
+  color: #F26C9A !important;
+  -webkit-text-fill-color: #F26C9A !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-14ixsrp:-moz-placeholder {
+  color: #F26C9A !important;
+  -webkit-text-fill-color: #F26C9A !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-14ixsrp::-moz-placeholder {
+  color: #F26C9A !important;
+  -webkit-text-fill-color: #F26C9A !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-14ixsrp:-ms-input-placeholder {
+  color: #F26C9A !important;
+  -webkit-text-fill-color: #F26C9A !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-14ixsrp::-webkit-input-placeholder {
+  color: #F26C9A !important;
+  -webkit-text-fill-color: #F26C9A !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-gjhthi,
+.crisp-client .crisp-1rjpbb7 .crisp-1t1dtpc:hover,
+.crisp-client .crisp-1rjpbb7 .crisp-gjhthi:hover,
+.crisp-client .crisp-1rjpbb7 .crisp-1t1dtpc:active,
+.crisp-client .crisp-1rjpbb7 .crisp-gjhthi:active,
+.crisp-client .crisp-1rjpbb7 .crisp-1v3kwn:hover .crisp-oc2kqi,
+.crisp-client .crisp-1rjpbb7 .crisp-1v3kwn .crisp-oc2kqi:active {
+  background: #A0073C !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-1dgibgx,
+.crisp-client .crisp-1rjpbb7 .crisp-1r2x6vr:hover {
+  background: #CE1454 !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-1dgibgx:hover,
+.crisp-client .crisp-1rjpbb7 .crisp-1r2x6vr:active {
+  background: #B3124A !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-1dgibgx:active {
+  background: #A0073C !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-27o9vm:hover .crisp-1ekhg1c {
+  background: #CE1454 !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-27o9vm .crisp-1ekhg1c:active {
+  background: #B3124A !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-ox3dbf,
+.crisp-client .crisp-1rjpbb7 .crisp-1fmeyoi[data-active="true"] {
+  background: #F01D65 !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-ox3dbf:hover {
+  background: #DB165A !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-ox3dbf:active {
+  background: #CE1454 !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-k5ll1j::-moz-selection,
+.crisp-client .crisp-1rjpbb7 .crisp-k5ll1j *::-moz-selection {
+  background-color: #FFE0EB !important;
+}
+
+.crisp-client .crisp-1rjpbb7 .crisp-k5ll1j::selection,
+.crisp-client .crisp-1rjpbb7 .crisp-k5ll1j *::selection {
+  background-color: #FFE0EB !important;
+}</style></div><div class="crisp-1nasccw"><style type="text/css">.crisp-client .crisp-1rjpbb7 {
+  z-index: 1000000;
+}
+</style></div></div><div id="crisp-chatbox" lang="zh" dir="ltr" translate="no" data-blocked="false" data-lock-maximized="false" data-last-operator-face="false" data-availability-tooltip="true" data-hide-vacation="false" data-hide-on-away="false" data-hide-on-mobile="false" data-position-reverse="false" data-full-view="false" data-small-view="false" data-large-view="false" data-availability="online" data-is-activity-ongoing="false" data-was-availability-online="true" data-has-local-messages="false" class="crisp-1rjpbb7"><div class="crisp-1rf4xdh crisp-k5ll1j"></div></div></div></body></html>

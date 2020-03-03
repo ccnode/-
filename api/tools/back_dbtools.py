@@ -1,8 +1,8 @@
 
 import aiomysql
 
-class DB():
-    def __init__(self,dbname,loop,host="127.0.0.1",username="root",password="",port=3306):
+class DB2():
+    def __init__(self,loop,dbname='mitucat',host="127.0.0.1",username="root",password="",port=3306):
         self.host =host
         self.username = username
         self.password = password
@@ -54,3 +54,4 @@ class DB():
             await cur.close()
             conn.close()
             return r
+        # "SELECT LAST_INSERT_ID();"

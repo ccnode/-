@@ -6,7 +6,9 @@ from wordcloud import WordCloud,STOPWORDS
 import jieba
 from PIL import Image
 import asyncio
+import sys
 import re
+
 # 饼状图
 async def pie_chart(data):
 
@@ -24,16 +26,17 @@ async def pie_chart(data):
 
     plt.axis('equal')  # 显示为圆（避免比例压缩为椭圆）
     # 图片存储路径
-    path = '../../source/user/{}/goods/{}'.format(data["user_id"], data["q_id"])
+    path = sys.argv[0]+'/../static/source/user/{}/goods/{}'.format(data["user_id"], data["q_id"])
     if (os.path.exists(path) == False):
         os.makedirs(path)
     plt.savefig(path + '/sentiment.png')
     # plt.show()
+
     print("情感分析图绘制完毕！")
 
 # 折线图
 async def line_chart(data):
-    fig, ax = plt.subplots(figsize=(11, 7))
+    fig, ax = plt.subplots(figsize=(11, 8))
     plt.rcParams['font.sans-serif'] = 'SimHei'  # 设置中文显示
     x = data["x"]
     y = data["y"]
@@ -49,17 +52,18 @@ async def line_chart(data):
     ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
     # 网格
     ax.grid(linestyle='--',color='red')
-    ax.set_xlabel('日期')
-    ax.set_ylabel('评论数')
-    ax.set_title('评论数统计(截止'+data["x"][-1]+')')
+    ax.set_xlabel('日期',fontsize=15)
+    ax.set_ylabel('评论数',fontsize=18)
+    ax.set_title('评论数统计(截止'+data["x"][-1]+')',fontsize=20)
     # 旋转45
     for tick in ax.get_xticklabels():
         tick.set_rotation(30)
 
     # 保存生成的图片
-    path = '../../source/user/{}/goods/{}'.format(data["user_id"], data["q_id"])
+    path = sys.argv[0]+'/../static/source/user/{}/goods/{}'.format(data["user_id"], data["q_id"])
     if (os.path.exists(path) == False):
         os.makedirs(path)
+
     plt.savefig(path + '/daily_comment.png')
     # plt.show()
     print("评论统计图绘制完毕！")
@@ -67,8 +71,8 @@ async def line_chart(data):
 # 词云
 async def word_cloud(data):
     # 图片模板和字体
-    image = np.array(Image.open(r'img/background.jpg'))
-    font = r'font/simfang.ttf'
+    image = np.array(Image.open(sys.argv[0]+'/../static/imgs/background.jpg'))
+    font = sys.argv[0]+'/../static/fonts/simfang.ttf'
 
     # 分词
     wordlist_after_jieba = jieba.cut(data["text"])
@@ -86,7 +90,8 @@ async def word_cloud(data):
     plt.imshow(my_wordcloud)
     plt.axis("off")
     # 保存生成的图片
-    path = '../../source/user/{}/goods/{}'.format(data["user_id"], data["q_id"])
+    path = sys.argv[0]+'/../static/source/user/{}/goods/{}'.format(data["user_id"], data["q_id"])
+
     if (os.path.exists(path) == False):
         os.makedirs(path)
     my_wordcloud.to_file(path + '/wordcloud.png')

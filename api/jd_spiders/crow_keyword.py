@@ -13,13 +13,11 @@ class crow_keyword():
         self.loop = asyncio.get_event_loop()
         self.loop.run_until_complete(self.start())
         self.loop.close()
-    #定义函数抓取每页前30条商品信息
+    #
     async def start(self):
         n = int(self.n)
-        count = 0
-        sql = ""
+        data = ""
         for i in range(1,n+1):
-            count+=1
             #构造每一页的url变化
             url = 'https://search.jd.com/Search?' \
                   'keyword='+str(self.keyword)+'&enc=utf-8&qrst=1&rt=1&psort=3&stop=1&vt=2&stock=1&page=' + str(n) + '&s=' + str(1 + (n - 1) * 30) + '&click=0&scrolling=y'
@@ -33,15 +31,15 @@ class crow_keyword():
                     'Cookie':'qrsc=3; pinId=RAGa4xMoVrs; xtest=1210.cf6b6759; ipLocation=%u5E7F%u4E1C; _jrda=5; TrackID=1aUdbc9HHS2MdEzabuYEyED1iDJaLWwBAfGBfyIHJZCLWKfWaB_KHKIMX9Vj9_2wUakxuSLAO9AFtB2U0SsAD-mXIh5rIfuDiSHSNhZcsJvg; shshshfpa=17943c91-d534-104f-a035-6e1719740bb6-1525571955; shshshfpb=2f200f7c5265e4af999b95b20d90e6618559f7251020a80ea1aee61500; cn=0; 3AB9D23F7A4B3C9B=QFOFIDQSIC7TZDQ7U4RPNYNFQN7S26SFCQQGTC3YU5UZQJZUBNPEXMX7O3R7SIRBTTJ72AXC4S3IJ46ESBLTNHD37U; ipLoc-djd=19-1607-3638-3638.608841570; __jdu=930036140; user-key=31a7628c-a9b2-44b0-8147-f10a9e597d6f; areaId=19; __jdv=122270672|direct|-|none|-|1529893590075; PCSYCityID=25; mt_xid=V2_52007VwsQU1xaVVoaSClUA2YLEAdbWk5YSk9MQAA0BBZOVQ0ADwNLGlUAZwQXVQpaAlkvShhcDHsCFU5eXENaGkIZWg5nAyJQbVhiWR9BGlUNZwoWYl1dVF0%3D; __jdc=122270672; shshshfp=72ec41b59960ea9a26956307465948f6; rkv=V0700; __jda=122270672.930036140.-.1529979524.1529984840.85; __jdb=122270672.1.930036140|85.1529984840; shshshsID=f797fbad20f4e576e9c30d1c381ecbb1_1_1529984840145'
                     }
             r = requests.get(url, headers=head)
-            sql += await self.parser(r,self.q_id)
-
-            if i == n:
-                sql = "insert into k_goods_info(q_id,goods_name,shop_name,goods_price) values" + sql
-                sql = sql[:-1]
-                sql += ";"
-
+            data += await self.parser(r,self.q_id)
             print("等待")
             await asyncio.sleep(1)
+
+        sql = "insert into k_goods_info(q_id,goods_name,shop_name,goods_price) values" + data
+        sql = sql[:-1]
+        sql += ";"
+
+
 
         await self.inputmysql(sql)
 

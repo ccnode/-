@@ -7,10 +7,14 @@ function g_directory(page){
             dataType : "json",
             url : "/g_directory?page="+page+"&size="+size,
             success: function(data){
+
                 if(!(data.status == "200")){
                     alert("ErrorCode : "+data.status)
                     return;
-                }     
+                };
+                if (data.data=="None"){
+                    $("#directory").html("<p>未有记录，请新建分析~</p>");
+                };
                 var con = "";
                 var is_success = "";   
                 //生成列表(首先清除列表与页码原有数据)  
@@ -23,7 +27,7 @@ function g_directory(page){
                     else{
                         is_success="失败"
                     };
-                    con += "<li><a href='/g_history/"+item[0]+"'>"+item[1]+"["+is_success+"]"+"["+item[3]+"]"+"</a></li><br>";
+                    con += "<li><a target='_blank' href='/g_history/"+item[0]+"'>"+"[链接："+item[1]+"]["+is_success+"]"+"["+item[3]+"]"+"</a></li><br>";
                      });
                      $("#directory").append(con); 
                 //调用页码方法
@@ -92,6 +96,9 @@ function g_pageNum(data,page){
         };
     }    
     //下一页
+    if (page == 0){
+        return;
+    }
     if(page!=totalPage){
         pageNum +="<li class=''><a onclick='g_directory("+(page+1)+")'>>></a></li>";
     }
@@ -103,18 +110,21 @@ function g_pageNum(data,page){
 g_directory(1);
 
 
+
 //按钮点击新建分析
 function getnew(){
-
-    $("#second-level").html("新建商品分析")
-    $("#title").html("新建分析")
-    $("#getnew").remove()
-    $("#pageNum").remove()
-    // var con = "<div style='float:left'><input type='text' name='s' class='form-control' id='goods_query_text' placeholder='请输入京东商品链接~' autocomplete='off'></div>" +
-    //     " <div style='text-align:center;float:left;padding: 10px;'><input button id='goods_query' class='btn btn-danger btn-gal' value='分析' type='button' ></div>"
-    var con = "<form style='text-align:center' method='post'><input  type='text' name='url' class='form-control' id='goods_query_text' placeholder='请输入京东商品链接~' autocomplete='off'>" +
-        "<input style='margin-top:5px;'  id='goods_query' class='btn btn-danger btn-gal' value='分析' type='submit' ></form>"
-    $("#main").html(con)
+    $("#second-level").html("新建商品分析");
+    $("#title").html("新建分析") ;
+    $("#getNewGoods").css("display","inline");
+    $("#directory").css("display","none");
+    $("#getnew").remove();
+    $("#pageNum").remove();
 };
 
+
 //点击分析
+function goods_query() {
+    alert("输出")
+
+};
+

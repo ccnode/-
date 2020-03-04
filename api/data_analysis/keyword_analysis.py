@@ -5,6 +5,8 @@ from collections import Counter
 class goods_analysis():
     def __init__(self,q_id):
         self.q_id = q_id
+        new_loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(new_loop)
         loop = asyncio.get_event_loop()
         self.loop = loop
         self.db = DB(dbname="mitucat", loop=self.loop)

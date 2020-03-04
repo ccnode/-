@@ -20,8 +20,8 @@ class DB():
         return res
 
     #修改，删除，增加(多执行)
-    def commits(self,sqllist):
-        res = self.loop.run_until_complete(self.test_example(sqllist,2))
+    def commits(self,sql):
+        res = self.loop.run_until_complete(self.test_example(sql,2))
         return res
 
     async def test_example(self,sql,n):

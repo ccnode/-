@@ -4,7 +4,6 @@ from routes.goods import goods
 from routes.user import user
 import re
 app = Flask(__name__)
-# app.config['SESSION_TYPE'] = 'filesystem'
 app.config['SECRET_KEY'] = os.urandom(24)
 
 #添加其他蓝图到主体
@@ -51,6 +50,5 @@ if __name__ == "__main__":
     # debug=True
      app.run(
       host='127.0.0.1',
-      port=5066,
-      debug=True
-    )
+      port=5013,
+      debug=True)

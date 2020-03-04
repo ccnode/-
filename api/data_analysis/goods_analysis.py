@@ -1,14 +1,16 @@
 from snownlp import SnowNLP
-from api.tools.back_dbtools import DB
+from api.tools.back_dbtools import DB2
 import asyncio
 from api.data_analysis import g_draw as draw
 import datetime
 class goods_analysis():
     def __init__(self,q_id):
         self.q_id = q_id
+        new_loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(new_loop)
         loop = asyncio.get_event_loop()
         self.loop = loop
-        self.db = DB(dbname="mitucat", loop=self.loop)
+        self.db = DB2(dbname="mitucat", loop=self.loop)
         self.loop.run_until_complete(self.start())
         self.loop.close()
 

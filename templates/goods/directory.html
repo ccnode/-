@@ -158,6 +158,17 @@
         &gt;
         <span id="second-level">分析列表</span>
     </div>
+
+    <div style="text-align:center">
+                            <!--消息闪现-->
+                            {% for v in get_flashed_messages(category_filter=['err']) %}
+                                    <p style="color:red;">{{ v }}</p>
+                                    {% endfor %}
+                                    {% for v in get_flashed_messages(category_filter=['ok']) %}
+                                        <p style="color:green;">{{ v }}</p>
+                                    {% endfor %}
+                            </div>
+
     <!-- 大型设备详细文章 -->
     <div class="hidden-xs">
         <div class="title-article">
@@ -180,7 +191,18 @@
         </center>
     </div>
     <div class="content-article" style="margin-top: 30px;">
-        <div id="main" class="alert alert-info" style="font-size: 14px; line-height: 2; font-weight: bold;">
+        <div id="main" class="alert alert-info" style="font-size: 14px; line-height: 2; font-weight: bold;opacity:90%">
+{#            <script type="text/javascript">#}
+{#            //默认提交状态为false#}
+{#            var commitStatus = false;#}
+{#            function dosubmit(){#}
+{#                  alert("提交表单")#}
+{#             }#}
+{#      </script>#}
+            <form style='text-align:center;display:none' id="getNewGoods" method='post' >
+                <input  type='text' name='url' class='form-control' id='goods_query_text' placeholder='请输入京东商品链接~' autocomplete='off'>
+                <input style='margin-top:5px;'  id='goods_query' class='btn btn-danger btn-gal' value='分析' onclick="return goods_query();" type='submit' >
+            </form>
         <ul id="directory">
             <!-- 列表插入地方 -->
         </ul>

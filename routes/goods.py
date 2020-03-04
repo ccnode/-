@@ -1,6 +1,8 @@
-from flask import render_template,jsonify,Blueprint,request,session,redirect,url_for
+from flask import render_template,jsonify,Blueprint,request,session,redirect,url_for,flash
 from api.tools.front_dbtools import DB
-from api.jd_spiders.spider.goods_info import goods_info
+from api.data_analysis.goods_analysis import goods_analysis
+import time
+from api.jd_spiders.crow_goods import crow_goods
 import asyncio
 import threading
 goods = Blueprint('goods',__name__)
@@ -30,13 +32,16 @@ def g_directory():
         size = 10
     try :
         # 取出本页数据
-        res = db.query("select id,q_name,is_success,q_date from goods_query_log "
-                       "where user_id={0} limit {1},{2};".format(user_id,(page-1)*size,size))
+        res = db.query("select id,q_url,is_success,update_time from goods_query_log "
+                       "where user_id={0} and is_success=1 order by update_time desc limit {1},{2};".format(user_id,(page-1)*size,size))
         # 算出一共分几页
-        totaldata = db.query("select count(*) from goods_query_log where user_id={}".format(user_id))
+        totaldata = db.query("select count(*) from goods_query_log where user_id={} and is_success=1".format(user_id))
         totalPage = (totaldata[0][0]+size-1)/size
         totalPage = int(totalPage)
         # 数据合并
+        if res == ():
+
+            res = "None"
     except Exception as e:
         print("sql错误！原因{}".format(e))
         data = {
@@ -49,11 +54,11 @@ def g_directory():
         "totalPage" : totalPage,
         "msg" : "查询成功",
         "status" : "200"
+
     }
     return jsonify(data)
 
-async def test():
-    print("wo")
+
 
 # 新建商品分析
 @goods.route("/goods",methods=["GET","POST"])
@@ -61,34 +66,75 @@ def getNewAnalys():
     if request.method == 'POST':
         url = request.form.get('url')
         user_id = session["user_id"]
-        # 建立爬虫
-        spider = goods_info(url="https://item.jd.com/1026553130.html", num=32, q_id=11)
+
+        # 生成查询记录
         try:
-            pass
-            # loop = asyncio.get_event_loop()
-            # loop.run_until_complete(spider.start(loop))
-            # loop.close()
-        except:
-            print("Error: 无法启动爬虫")
-        new_loop = asyncio.new_event_loop()
-        asyncio.set_event_loop(new_loop)
-        loop = asyncio.get_event_loop()
-        loop.run_until_complete(spider.geturl())
-        loop.close()
-        # threading.Thread(target=spider.start).start()
+            sql = "insert into goods_query_log(user_id,q_url) " \
+                  "values({},'{}') ".format(user_id,url)
+            q_id = db.commits(sql)[0][0]
+        except Exception as e:
+            print(e)
+            flash("生成分析失败！","err")
+
+        # #生成爬虫
+        try:
+            spider = crow_goods(url,2,q_id)
+            spider.coroutines()
+
+            # 分析并将图片路径存入数据库
+            goods_analysis(q_id)
+            path = '/static/source/user/{}/goods/{}'.format(user_id, q_id)
+            sentiment = path + '/sentiment.png'
+            daily_comment = path + '/daily_comment.png'
+            wordcloud = path + '/wordcloud.png'
+            sql = "insert into goods_analysis(q_id,sentiment_img,daily_comment,word_fq_img) " \
+                  "values({},'{}','{}','{}')".format(q_id,sentiment,daily_comment,wordcloud)
+            db.commit(sql)
+
+            # 把记录变成成功
+            sql = "update goods_query_log set is_success=1 where id={}".format(q_id)
+            db.commit(sql)
+
+            username = session["username"]
+            return render_template("goods/article.html",q_id=q_id,username=username)
+        except Exception as e:
+            print(e)
+            flash("分析失败！","err")
 
 
 
     return  redirect(url_for('goods.g_analyze'))
 
 
+
 # 具体历史记录页面跳转
-@goods.route("/g_history/<int:nid>",methods=["GET"])
-def g_history(nid):
+@goods.route("/g_history/<int:q_id>",methods=["GET"])
+def g_history(q_id):
     if check_login()!=True:
         return redirect(url_for("user.login_page"))
+    username = session["username"]
+    return render_template("goods/article.html",q_id=q_id,username=username)
 
-    return str(nid)
+# 获取图片链接
+@goods.route("/getGoodsResult",methods=["GET"])
+def getGoodsResult():
+    try:
+        q_id =request.args.get('q_id')
+        sql = "select sentiment_img,daily_comment,word_fq_img from goods_analysis where q_id={}".format(q_id)
+        res = db.query(sql)
+        if res:
+            data = {
+                "data": res,
+                "msg": "查询成功",
+                "status": "200"}
+
+            return jsonify(data)
+    except Exception as e:
+        data = {
+            "msg": "查询失败",
+            "status": "500"
+        }
+        return jsonify(data)
 
 
 # 检验登录

@@ -39,7 +39,7 @@ def login():
             session['is_admin'] = res[0][4]
             session.permanent = True
             # return render_template("index.html")
-            flash("登录成功!", "ok")
+            flash("")
             return redirect(url_for("index"))
     flash("用户名或者密码错误~", "err")
     return redirect(url_for("user.login_page"))

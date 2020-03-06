@@ -4,13 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="John Doe">
-    
-    
-    
-    
-    
-    
-    <title>Hello World | Hexo</title>
+    <title>MituCat</title>
     <link href="/" rel="prefetch" />
 
     
@@ -18,7 +12,9 @@
 <link rel="stylesheet" href="/static/css/aos.css">
 <link rel="stylesheet" href="/static/css/style.css">
 
-    
+
+
+
 <script src="/static/js/jquery.min.js"></script>
 
     
@@ -27,7 +23,9 @@
     
 <script src="/static/js/aos.js"></script>
 
-    
+<script src="/static/js/xyn/goods_init.js"></script>
+
+
 <script src="/static/js/highslide/highslide-full.min.js"></script>
 
     
@@ -46,7 +44,7 @@
     <!--<script type="text/javascript">
       if (document.images) {
         var avatar = new Image();
-        avatar.src = '/imgs/avatar.jpg'
+        avatar.src = './imgs/avatar.jpg'
         var previews = 'preview1.jpg,preview2.jpg,preview3.jpg,preview4.jpg'.split(',')
         var previewsPreLoad = []
         for(var i = 0; i < length; i++) {
@@ -55,7 +53,7 @@
         }
       }
     </script>-->
-<meta name="generator" content="Hexo 4.2.0"></head>
+<!-- <meta name="generator" content="Hexo 4.2.0"></head> -->
 <body>
     <!-- 背景轮播图功能 -->
     <section class="hidden-xs">
@@ -91,7 +89,7 @@
                     }
                 </style>
                 <!-- 这里使用文字(navbar_text or config.title) -->
-                <div class="navbar-brand">Hexo</div>
+                <div class="navbar-brand">MituCat</div>
                 
             </a>
         </div>
@@ -107,7 +105,7 @@
                 
                 
                 
-                <li class="">
+                <li class="current">
                     <a href="/goods">
                         <i class="fa fa-archive"></i>具体商品分析
                     </a>
@@ -117,7 +115,7 @@
                 
                 
                 <li class="">
-                    <a href="/categories">
+                    <a href="/keyword">
                         <i class="fa fa-list"></i>关键词分析
                     </a>
                 </li>
@@ -136,8 +134,8 @@
                 
                 
                 <li class="">
-                    <a href="/about">
-                        <i class="fa fa-user"></i>关于我
+                    <a href="/exit">
+                        <i class="fa fa-user"></i>退出
                     </a>
                 </li>
                 
@@ -151,26 +149,35 @@
             <div class="row">
                 <div class="col-md-8 gal-right" id="mainstay">
                     
-<article class="article well article-body" id="article">
+<!-- 原本公告地方 -->
+
+<article class="article well article-body" id="article-categories">
     <div class="breadcrumb">
         <i class="fa fa-home"></i>
         <a href="/">MituCat</a>
-        >
-        <span>Hello World</span>
+        &gt;
+        <span id="second-level">分析列表</span>
     </div>
+
+    <div style="text-align:center">
+                            <!--消息闪现-->
+                            {% for v in get_flashed_messages(category_filter=['err']) %}
+                                    <p style="color:red;">{{ v }}</p>
+                                    {% endfor %}
+                                    {% for v in get_flashed_messages(category_filter=['ok']) %}
+                                        <p style="color:green;">{{ v }}</p>
+                                    {% endfor %}
+                            </div>
+
     <!-- 大型设备详细文章 -->
     <div class="hidden-xs">
         <div class="title-article">
             <h1>
-                <a href="/2020/01/21/hello-world/">Hello World</a>
+                <a id="title" href="/goods">商品分析列表</a>
             </h1>
-        </div>
-        <div class="tag-article">
-            
-            <span class="label label-gal">
-                <i class="fa fa-calendar"></i> 2020-01-21
-            </span>
-            
+
+            <input id="getnew" class='btn btn-danger btn-gal' type="button" value="新建+" onclick="getnew()" />
+
         </div>
     </div>
     <!-- 小型设备详细文章 -->
@@ -178,36 +185,49 @@
         <center>
             <div class="title-article">
                 <h4>
-                    <a href="/2020/01/21/hello-world/">Hello World</a>
+                    <a href="/goods">商品分析列表</a>
                 </h4>
             </div>
-            <p>
-                <i class="fa fa-calendar"></i> 2020-01-21
-            </p>
-            <p>
-                
-                
-            </p>
         </center>
     </div>
-    <div class="content-article">
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+    <div class="content-article" style="margin-top: 30px;">
+        <div id="main" class="alert alert-info" style="font-size: 14px; line-height: 2; font-weight: bold;opacity:90%">
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+{#            <script type="text/javascript">#}
+{#            //默认提交状态为false#}
+{#            var commitStatus = false;#}
+{#            function dosubmit(){#}
+{#                  alert("提交表单")#}
+{#             }#}
+{#      </script>#}
+            <form style='text-align:center;display:none' id="getNewGoods" method='post' onsubmit="return checkUser();" >
+                <input  type='text' name='url' class='form-control' id='goods_query_text' placeholder='请输入京东商品链接(如https://search.jd.com/...)~' autocomplete='off'>
+                <input style='margin-top:5px;'  id='goods_query' class='btn btn-danger btn-gal' value='分析'  type='submit' >
+                <span style="margin-left: 5px;color: red" id="hint"></span>
+            </form>
+        <ul id="directory">
+            <p>未有记录，请新建分析~</p>
+            <!-- 列表插入地方 -->
+        </ul>
+        </div>
     </div>
 </article>
 
+
+<!-- 前方最多7个 < 1 2 3 4 5 6 -->
+<!-- 前方超过第7页则分为 < 1 ... (n - 3) (n - 2) (n - 1) n, 此时前面为固定的6个 -->
+
+<!-- 后方最多8个 (n + 1) 到 (n + 7) > -->
+<!-- 如果末页和当前页相差超过7, 此时后面为固定的6个, (n + 1) (n + 2) (n + 3) ... total > -->
+<div id="gal-pagination" class="clearfix">
+    <ul id="pageNum" class="pagination pagination-gal pull-right">
+        
+        <!--此处写入页码  -->
+  
+    </ul>
+</div>
+
+<!-- 加上这段代码原因： gitment在首页加载时, 如果找不到对应的控件会报错，此处加上，同时设置为none，防止报错 -->   
 
                 </div>
                 <aside class="col-md-4 gal-left" id="sidebar">
@@ -215,7 +235,7 @@
 <aside id="sidebar-search">
     <div class="search hidden-xs" data-aos="fade-up" data-aos-duration="2000">
         <form class="form-inline clearfix" id="search-form" method="get"
-              action="search">
+              action="/search/index.html">
             <input type="text" name="s" class="form-control" id="searchInput" placeholder="搜索文章~" autocomplete="off">
             <button class="btn btn-danger btn-gal" type="submit">
                 <i class="fa fa-search"></i>
@@ -227,11 +247,11 @@
     <div class="panel panel-gal" data-aos="flip-right" data-aos-duration="3000">
         <div class="panel-heading" style="text-align: center">
             <i class="fa fa-quote-left"></i>
-            John Doe
+            {{username}}
             <i class="fa fa-quote-right"></i>
         </div>
         <div class="author-panel text-center">
-            <img src="/imgs/avatar.jpg" width="140" height="140"
+            <img src="/static/imgs/avatar.jpg" width="140" height="140"
                  alt="个人头像" class="author-image">
             <p class="author-description"></p>
         </div>
@@ -241,25 +261,25 @@
     <!-- 要配置好leancloud才能开启此小工具 -->
     
     
-    <aside id="sidebar-recent_posts">
-    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">
-        <div class="panel-heading">
-            <i class="fa fa-refresh"></i>
-            近期文章
-            <i class="fa fa-times-circle panel-remove"></i>
-            <i class="fa fa-chevron-circle-up panel-toggle"></i>
-        </div>
-        <ul class="list-group list-group-flush">
-            
-            <li class="list-group-item">
-                <span class="post-title">
-                    <a href="/2020/01/21/hello-world/">Hello World</a>
-                </span>
-            </li>
-            
-        </ul>
-    </div>
-</aside>
+{#    <aside id="sidebar-recent_posts">#}
+{#    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">#}
+{#        <div class="panel-heading">#}
+{#            <i class="fa fa-refresh"></i>#}
+{#            近期文章#}
+{#            <i class="fa fa-times-circle panel-remove"></i>#}
+{#            <i class="fa fa-chevron-circle-up panel-toggle"></i>#}
+{#        </div>#}
+{#        <ul class="list-group list-group-flush">#}
+{#            #}
+{#            <li class="list-group-item">#}
+{#                <span class="post-title">#}
+{#                    <a href="/static/2020/01/21/hello-world/">Hello World</a>#}
+{#                </span>#}
+{#            </li>#}
+{#            #}
+{#        </ul>#}
+{#    </div>#}
+{#</aside>#}
     
     
     
@@ -270,12 +290,12 @@
                 
                 
                 <li>
-                    <a href="/2020/01/21/hello-world/index.html#sidebar-friend-links" data-toggle="tab" id="friend-links-tab">友情链接</a>
+                    <a href="/index.html#sidebar-friend-links" data-toggle="tab" id="friend-links-tab">友情链接</a>
                 </li>
                 
                 
                 <li>
-                    <a href="/2020/01/21/hello-world/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
+                    <a href="/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
                 </li>
                 
             </ul>
@@ -309,7 +329,7 @@
     </div>
     <footer id="gal-footer">
     <div class="container">
-        Copyright © 2018 John Doe Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>.&nbsp;Theme by <a href="https://github.com/ZEROKISEKI" target="_blank">AONOSORA</a>
+        Copyright © 2020 mitucat Powered by Ccnode
     </div>
 </footer>
 

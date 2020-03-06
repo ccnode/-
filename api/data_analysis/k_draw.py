@@ -25,13 +25,14 @@ async def scatter(data):
     if (os.path.exists(path) == False):
         os.makedirs(path)
     plt.savefig(path + '/price_distribution.png')
-    plt.show()
+    # plt.show()
     print("评论统计图绘制完毕！")
 
 # 柱状图
 async def histogram(data):
     plt.rcParams['font.sans-serif'] = 'SimHei'  # 设置中文显示
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(figsize=(11, 8))
+
     x = data["x"]
     y = data["y"]
     ax.barh(x, y, color="blue")

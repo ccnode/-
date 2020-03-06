@@ -23,7 +23,7 @@
     
 <script src="/static/js/aos.js"></script>
 
-<script src="/static/js/xyn/goods_init.js"></script>
+<script src="/static/js/xyn/keyword_init.js"></script>
 
 
 <script src="/static/js/highslide/highslide-full.min.js"></script>
@@ -105,7 +105,7 @@
                 
                 
                 
-                <li class="current">
+                <li class="">
                     <a href="/goods">
                         <i class="fa fa-archive"></i>具体商品分析
                     </a>
@@ -114,7 +114,7 @@
                 
                 
                 
-                <li class="">
+                <li class="current">
                     <a href="/keyword">
                         <i class="fa fa-list"></i>关键词分析
                     </a>
@@ -192,6 +192,7 @@
     </div>
     <div class="content-article" style="margin-top: 30px;">
         <div id="main" class="alert alert-info" style="font-size: 14px; line-height: 2; font-weight: bold;opacity:90%">
+
 {#            <script type="text/javascript">#}
 {#            //默认提交状态为false#}
 {#            var commitStatus = false;#}
@@ -199,11 +200,13 @@
 {#                  alert("提交表单")#}
 {#             }#}
 {#      </script>#}
-            <form style='text-align:center;display:none' id="getNewGoods" method='post' >
-                <input  type='text' name='url' class='form-control' id='goods_query_text' placeholder='请输入京东商品链接~' autocomplete='off'>
-                <input style='margin-top:5px;'  id='goods_query' class='btn btn-danger btn-gal' value='分析' onclick="return goods_query();" type='submit' >
+            <form style='text-align:center;display:none' id="getNewGoods" method='post' onsubmit="return checkUser();" >
+                <input  type='text' name='keyword' class='form-control' id='keyword_query_text' placeholder='请输入需爬取的搜索词(如衣服，电脑。。)~' autocomplete='off'>
+                <input style='margin-top:5px;'  id='goods_query' class='btn btn-danger btn-gal' value='分析'  type='submit' >
+                <span style="margin-left: 5px;color: red" id="hint"></span>
             </form>
         <ul id="directory">
+            <p>未有记录，请新建分析~</p>
             <!-- 列表插入地方 -->
         </ul>
         </div>

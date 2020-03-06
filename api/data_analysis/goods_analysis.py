@@ -82,7 +82,7 @@ class goods_analysis():
         res = await self.get_calculate(list)
         res["user_id"]=self.user_id
         res["q_id"]=self.q_id
-        print("绘制情感分析图..")
+        # print("绘制情感分析图..")
         await draw.pie_chart(res)
 
     # 计算情感平均分数，正向中等负向占比
@@ -105,7 +105,7 @@ class goods_analysis():
         results["positive"] = round(positive/num,3)
         results["medium"] = round(medium/num,3)
         results["negative"] = round(1-results["positive"]-results["medium"],3)
-        print(results["positive"]+results["medium"]+results["negative"])
+        # print(results["positive"]+results["medium"]+results["negative"])
         return results
 
     # 词频分析

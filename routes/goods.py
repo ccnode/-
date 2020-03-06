@@ -15,7 +15,7 @@ def g_analyze():
     if check_login()!=True:
         return redirect(url_for("user.login_page"))
     username = session["username"]
-    return render_template("goods/directory.html",username=username)
+    return render_template("goods/g_directory.html", username=username)
 
 
 # 历史记录列表
@@ -34,14 +34,22 @@ def g_directory():
         # 取出本页数据
         res = db.query("select id,q_url,is_success,update_time from goods_query_log "
                        "where user_id={0} and is_success=1 order by update_time desc limit {1},{2};".format(user_id,(page-1)*size,size))
-        # 算出一共分几页
-        totaldata = db.query("select count(*) from goods_query_log where user_id={} and is_success=1".format(user_id))
-        totalPage = (totaldata[0][0]+size-1)/size
-        totalPage = int(totalPage)
-        # 数据合并
         if res == ():
+            q_data = "None"
+            totalPage = 0
+        else:
+            # 格式化时间
+            q_data = list(res)
+            for i in range(len(q_data)):
+                q_data[i] = list(q_data[i])
+                q_data[i][3] = q_data[i][3].strftime('%Y{y}%m{m}%d{d} %H{h}%M %p')\
+                    .format(y='年',m='月',d='日',h=':')
 
-            res = "None"
+            # 算出一共分几页
+            totaldata = db.query("select count(*) from goods_query_log where user_id={} and is_success=1".format(user_id))
+            totalPage = (totaldata[0][0]+size-1)/size
+            totalPage = int(totalPage)
+
     except Exception as e:
         print("sql错误！原因{}".format(e))
         data = {
@@ -50,7 +58,7 @@ def g_directory():
         }
         return jsonify(data)
     data = {
-        "data": res,
+        "data": q_data,
         "totalPage" : totalPage,
         "msg" : "查询成功",
         "status" : "200"
@@ -72,12 +80,8 @@ def getNewAnalys():
             sql = "insert into goods_query_log(user_id,q_url) " \
                   "values({},'{}') ".format(user_id,url)
             q_id = db.commits(sql)[0][0]
-        except Exception as e:
-            print(e)
-            flash("生成分析失败！","err")
 
         # #生成爬虫
-        try:
             spider = crow_goods(url,2,q_id)
             spider.coroutines()
 
@@ -96,13 +100,13 @@ def getNewAnalys():
             db.commit(sql)
 
             username = session["username"]
-            return render_template("goods/article.html",q_id=q_id,username=username)
+
+            return render_template("goods/g_article.html", q_id=q_id, username=username)
         except Exception as e:
             print(e)
-            flash("分析失败！","err")
+            flash("分析失败！{}".format(e),"err")
 
-
-
+            return redirect(url_for('goods.g_analyze'))
     return  redirect(url_for('goods.g_analyze'))
 
 
@@ -113,7 +117,7 @@ def g_history(q_id):
     if check_login()!=True:
         return redirect(url_for("user.login_page"))
     username = session["username"]
-    return render_template("goods/article.html",q_id=q_id,username=username)
+    return render_template("goods/g_article.html", q_id=q_id, username=username)
 
 # 获取图片链接
 @goods.route("/getGoodsResult",methods=["GET"])

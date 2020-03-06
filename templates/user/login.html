@@ -52,12 +52,13 @@ background-attachment: fixed;}
                     <div class=" auth-row">
                             <h3 class="back" id="toptitle">欢迎回家</h3>
                         </div>
-                        <form method="post" style="width: 70%"><!--表单-->
+                        <form method="post"  style="width: 70%"><!--表单-->
                         <div class="rowtocol">
                             <div class="auth-row">
                                 <div class="form-group-label auth-row">
                                     <label class="floating-label" for="name" id="name_label" >用户名</label>
                                     <input class="form-control maxwidth-auth" name="username" id="username" type="text" maxlength="8" style="left:15%;">
+{#                                    <div><span id="nameHint" style="color: red"></span></div>#}
                                 </div>
                             </div>
                         </div>
@@ -67,17 +68,17 @@ background-attachment: fixed;}
                                 <div class="form-group-label auth-row">
                                     <label class="floating-label" for="passwd" id="passwd_label">&nbsp;密码</label>
                                     <input class="form-control maxwidth-auth"  name="password" id="passwd" type="password" maxlength="8" style="left:15%">
-                                    
+{#                                    <div><span id="pwdHint" style="color: red"></span></div>#}
                                 </div>
                             </div>
                         </div>
                             <div style="text-align:center">
                             <!--消息闪现-->
                             {% for v in get_flashed_messages(category_filter=['err']) %}
-                                    <p style="color:red;">{{ v }}</p>
+                                    <p style="color:red;font-size: 16px">{{ v }}</p>
                                     {% endfor %}
                                     {% for v in get_flashed_messages(category_filter=['ok']) %}
-                                        <p style="color:green;">{{ v }}</p>
+                                        <p style="color:green;font-size: 16px">{{ v }}</p>
                                     {% endfor %}
                             </div>
                         <div class="rowtocol">

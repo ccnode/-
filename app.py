@@ -2,6 +2,7 @@ from flask import Flask,render_template,session,redirect,url_for,request,flash
 import os
 from routes.goods import goods
 from routes.user import user
+from routes.keyword import keyword
 import re
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.urandom(24)
@@ -9,6 +10,7 @@ app.config['SECRET_KEY'] = os.urandom(24)
 #添加其他蓝图到主体
 app.register_blueprint(goods)
 app.register_blueprint(user)
+app.register_blueprint(keyword)
 
 def check_login():
     try:
@@ -34,7 +36,7 @@ def index():
 def k_analyze():
     if check_login() != True:
         return redirect(url_for("user.login_page"))
-    return render_template("keyword/directory.html")
+    return render_template("keyword/k_directory.html")
 # @app.route("/hai")
 # def hai():
 #     res = db.query("select * from user_info")
@@ -50,5 +52,5 @@ if __name__ == "__main__":
     # debug=True
      app.run(
       host='127.0.0.1',
-      port=5013,
+      port=5072,
       debug=True)

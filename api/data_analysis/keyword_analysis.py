@@ -1,15 +1,15 @@
-from api.tools.back_dbtools import DB
+from api.tools.back_dbtools import DB2
 import asyncio
 from api.data_analysis import k_draw as draw
 from collections import Counter
-class goods_analysis():
+class keyword_analysis():
     def __init__(self,q_id):
         self.q_id = q_id
         new_loop = asyncio.new_event_loop()
         asyncio.set_event_loop(new_loop)
         loop = asyncio.get_event_loop()
         self.loop = loop
-        self.db = DB(dbname="mitucat", loop=self.loop)
+        self.db = DB2(dbname="mitucat", loop=self.loop)
         self.loop.run_until_complete(self.start())
         self.loop.close()
 
@@ -24,7 +24,7 @@ class goods_analysis():
 
 
         # 生成价格区间
-        # await self.price_distribution()
+        await self.price_distribution()
 
         #生成店铺排名
         await self.shop_ranking()

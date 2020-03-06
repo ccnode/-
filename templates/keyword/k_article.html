@@ -23,11 +23,11 @@
     
 <script src="/static/js/aos.js"></script>
 
-<script src="/static/js/test_ajax.js"></script>
+
 
 
 <script src="/static/js/highslide/highslide-full.min.js"></script>
-
+<script src="/static/js/xyn/keyword_article.js"></script>
     
 <link rel="stylesheet" href="/static/js/highslide/highslide.css">
 
@@ -58,7 +58,7 @@
     <!-- 背景轮播图功能 -->
     <section class="hidden-xs">
     <ul class="cb-slideshow">
-        <li><span>天</span></li>
+        <li ><span>天</span></li>
         <li><span>有</span></li>
         <li><span>天</span></li>
         <li><span>我</span></li>
@@ -66,7 +66,7 @@
         <li><span>续</span></li>
     </ul>
 </section>
-    <!-- 欧尼酱功能, 谁用谁知道 -->
+
     
     <header class="navbar navbar-inverse" id="gal-header">
     <div class="container">
@@ -105,7 +105,7 @@
                 
                 
                 
-                <li class="">
+                <li class="current">
                     <a href="/goods">
                         <i class="fa fa-archive"></i>具体商品分析
                     </a>
@@ -114,8 +114,8 @@
                 
                 
                 
-                <li class="current">
-                    <a href="/categories">
+                <li class="">
+                    <a href="/keyword">
                         <i class="fa fa-list"></i>关键词分析
                     </a>
                 </li>
@@ -134,8 +134,8 @@
                 
                 
                 <li class="">
-                    <a href="/about">
-                        <i class="fa fa-user"></i>关于我
+                    <a href="/exit">
+                        <i class="fa fa-user"></i>退出
                     </a>
                 </li>
                 
@@ -155,15 +155,23 @@
     <div class="breadcrumb">
         <i class="fa fa-home"></i>
         <a href="/">MituCat</a>
-        &gt;
-        <span>分析列表</span>
+        >
+        <a id="second-level" href="/g_directory">分析列表</a>
+        >
+        <span id="second-level">具体结果</span>
     </div>
+
+
+
     <!-- 大型设备详细文章 -->
     <div class="hidden-xs">
         <div class="title-article">
             <h1>
-                <a href="/goods">商品分析列表</a>
+                <a id="title" href="#">分析结果</a>
             </h1>
+
+
+
         </div>
     </div>
     <!-- 小型设备详细文章 -->
@@ -171,17 +179,24 @@
         <center>
             <div class="title-article">
                 <h4>
-                    <a href="/goods">商品分析列表</a>
+                    <a href="#">分析结果</a>
                 </h4>
             </div>
         </center>
     </div>
-    <div class="content-article" style="margin-top: 30px;">
-        <div class="alert alert-info" style="font-size: 14px; line-height: 2; font-weight: bold;">
-            
-            
-            暂无记录
-            
+    <div class="content-article" style="margin-top: 30px;text-align: center">
+        <div id="main" q_id="{{ q_id }}" class="alert alert-info" style="color:red;font-size: 20px; line-height: 2; font-weight: bold;opacity:100%">
+            <div id="sentiment" >
+                <p >1.情感分析——根据用户评论数据进行情感划分 等级：(0~0.3差评,0.3~0.7中评,0.7~1.0好评)</p>
+            </div>
+            <br><br>
+            <div id="daily_comment">
+                <p>2.日评论统计——对商品评论数据数进行每日统计</p>
+            </div>
+            <br><br>
+            <div id="wordcloud">
+                <p>3.词频分析——对评论内容出现最多的词进行分析排序</p>
+            </div>
         </div>
     </div>
 </article>
@@ -193,19 +208,7 @@
 <!-- 后方最多8个 (n + 1) 到 (n + 7) > -->
 <!-- 如果末页和当前页相差超过7, 此时后面为固定的6个, (n + 1) (n + 2) (n + 3) ... total > -->
 <div id="gal-pagination" class="clearfix">
-    <ul class="pagination pagination-gal pull-right">
-        
-        
-        
-        
-        <li class="current">
-            <span>1</span>
-        </li>
-        
-        
-        
-        
-    </ul>
+
 </div>
 
 <!-- 加上这段代码原因： gitment在首页加载时, 如果找不到对应的控件会报错，此处加上，同时设置为none，防止报错 -->   
@@ -228,7 +231,7 @@
     <div class="panel panel-gal" data-aos="flip-right" data-aos-duration="3000">
         <div class="panel-heading" style="text-align: center">
             <i class="fa fa-quote-left"></i>
-            John Doe
+            {{username}}
             <i class="fa fa-quote-right"></i>
         </div>
         <div class="author-panel text-center">
@@ -242,25 +245,25 @@
     <!-- 要配置好leancloud才能开启此小工具 -->
     
     
-    <aside id="sidebar-recent_posts">
-    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">
-        <div class="panel-heading">
-            <i class="fa fa-refresh"></i>
-            近期文章
-            <i class="fa fa-times-circle panel-remove"></i>
-            <i class="fa fa-chevron-circle-up panel-toggle"></i>
-        </div>
-        <ul class="list-group list-group-flush">
-            
-            <li class="list-group-item">
-                <span class="post-title">
-                    <a href="/static/2020/01/21/hello-world/">Hello World</a>
-                </span>
-            </li>
-            
-        </ul>
-    </div>
-</aside>
+{#    <aside id="sidebar-recent_posts">#}
+{#    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">#}
+{#        <div class="panel-heading">#}
+{#            <i class="fa fa-refresh"></i>#}
+{#            近期文章#}
+{#            <i class="fa fa-times-circle panel-remove"></i>#}
+{#            <i class="fa fa-chevron-circle-up panel-toggle"></i>#}
+{#        </div>#}
+{#        <ul class="list-group list-group-flush">#}
+{#            #}
+{#            <li class="list-group-item">#}
+{#                <span class="post-title">#}
+{#                    <a href="/static/2020/01/21/hello-world/">Hello World</a>#}
+{#                </span>#}
+{#            </li>#}
+{#            #}
+{#        </ul>#}
+{#    </div>#}
+{#</aside>#}
     
     
     
@@ -268,38 +271,38 @@
         <div class="panel panel-gal hidden-xs" data-aos="fade-up" data-aos-duration="2000">
             <ul class="nav nav-pills pills-gal">
 
-                
-                
+
+
                 <li>
                     <a href="/index.html#sidebar-friend-links" data-toggle="tab" id="friend-links-tab">友情链接</a>
                 </li>
-                
-                
+
+
                 <li>
                     <a href="/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
                 </li>
-                
+
             </ul>
             <div class="tab-content">
-                
-                
+
+
                 <div class="friend-links tab-pane nav bs-sidenav fade" id="sidebar-friend-links">
-    
+
     <li>
         <a href="http://baidu.com" target="_blank">百度</a>
     </li>
-    
+
 </div>
-                
-                
+
+
                 <div class="links tab-pane nav bs-sidenav fade" id="sidebar-links">
-    
+
     <li>
         <a href="https://github.com/ccnode" target="_blank">Github</a>
     </li>
-    
+
 </div>
-                
+
             </div>
         </div>
     </aside>
@@ -310,7 +313,7 @@
     </div>
     <footer id="gal-footer">
     <div class="container">
-        Copyright © 2018 John Doe Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>.&nbsp;Theme by <a href="https://github.com/ZEROKISEKI" target="_blank">AONOSORA</a>
+        Copyright © 2020 mitucat Powered by Ccnode
     </div>
 </footer>
 

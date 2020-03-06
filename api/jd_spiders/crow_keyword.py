@@ -1,6 +1,7 @@
 import requests
 from lxml import etree
 from api.tools.back_dbtools import DB2
+import urllib
 import asyncio
 class crow_keyword():
     def __init__(self,n,keyword,q_id):
@@ -17,22 +18,24 @@ class crow_keyword():
     async def start(self):
         n = int(self.n)
         data = ""
+        q_keyword = urllib.parse.quote(self.keyword)
         for i in range(1,n+1):
             #构造每一页的url变化
             url = 'https://search.jd.com/Search?' \
-                  'keyword='+str(self.keyword)+'&enc=utf-8&qrst=1&rt=1&psort=3&stop=1&vt=2&stock=1&page=' + str(n) + '&s=' + str(1 + (n - 1) * 30) + '&click=0&scrolling=y'
-            head = {'authority': 'search.jd.com',
+                  'keyword='+q_keyword+'&enc=utf-8&qrst=1&rt=1&psort=3&stop=1&vt=2&stock=1&page=' + str(n) + '&s=' + str(1 + (n - 1) * 30) + '&click=0&scrolling=y'
+            head = {'Host': 'search.jd.com',
                     'method': 'GET',
-                    'path': '/s_new.php?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&wq=%E6%89%8B%E6%9C%BA&cid2=653&cid3=655&page=4&s=84&scrolling=y&log_id=1529828108.22071&tpl=3_M&show_items=7651927,7367120,7056868,7419252,6001239,5934182,4554969,3893501,7421462,6577495,26480543553,7345757,4483120,6176077,6932795,7336429,5963066,5283387,25722468892,7425622,4768461',
                     'scheme': 'https',
-                    'referer': 'https://search.jd.com/Search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&wq=%E6%89%8B%E6%9C%BA&cid2=653&cid3=655&page=3&s=58&click=0',
+                    'referer': 'https://search.jd.com/Search?keyword='+q_keyword+'&enc=utf-8&psort=3',
                     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
                     'x-requested-with': 'XMLHttpRequest',
-                    'Cookie':'qrsc=3; pinId=RAGa4xMoVrs; xtest=1210.cf6b6759; ipLocation=%u5E7F%u4E1C; _jrda=5; TrackID=1aUdbc9HHS2MdEzabuYEyED1iDJaLWwBAfGBfyIHJZCLWKfWaB_KHKIMX9Vj9_2wUakxuSLAO9AFtB2U0SsAD-mXIh5rIfuDiSHSNhZcsJvg; shshshfpa=17943c91-d534-104f-a035-6e1719740bb6-1525571955; shshshfpb=2f200f7c5265e4af999b95b20d90e6618559f7251020a80ea1aee61500; cn=0; 3AB9D23F7A4B3C9B=QFOFIDQSIC7TZDQ7U4RPNYNFQN7S26SFCQQGTC3YU5UZQJZUBNPEXMX7O3R7SIRBTTJ72AXC4S3IJ46ESBLTNHD37U; ipLoc-djd=19-1607-3638-3638.608841570; __jdu=930036140; user-key=31a7628c-a9b2-44b0-8147-f10a9e597d6f; areaId=19; __jdv=122270672|direct|-|none|-|1529893590075; PCSYCityID=25; mt_xid=V2_52007VwsQU1xaVVoaSClUA2YLEAdbWk5YSk9MQAA0BBZOVQ0ADwNLGlUAZwQXVQpaAlkvShhcDHsCFU5eXENaGkIZWg5nAyJQbVhiWR9BGlUNZwoWYl1dVF0%3D; __jdc=122270672; shshshfp=72ec41b59960ea9a26956307465948f6; rkv=V0700; __jda=122270672.930036140.-.1529979524.1529984840.85; __jdb=122270672.1.930036140|85.1529984840; shshshsID=f797fbad20f4e576e9c30d1c381ecbb1_1_1529984840145'
+                    'Cookie':'shshshfpa=6d8df1de-1922-9076-db6e-736243584849-1581240019; shshshfpb=tcbssMbcmt4VTUDjenaNlQw%3D%3D; xtest=1562.cf6b6759; qrsc=3; user-key=e841c5a4-8414-4f6f-ac61-41e8235cae0c; cn=0; areaId=19; ipLoc-djd=19-1709-20094-0; PCSYCityID=CN_440000_445200_445203; __jdu=1494461959; unpl=V2_ZzNtbUYARRV9ARNSeh5bA2JXGwpKA0ZAIQxCBC5MXQNkCxUNclRCFnQUR1ZnGFsUZAMZXkJcQRxFCEdkeBBVAWMDE1VGZxBFLV0CFSNGF1wjU00zQwBBQHcJFF0uSgwDYgcaDhFTQEJ2XBVQL0oMDDdRFAhyZ0AVRQhHZHscVABiBBJVRl9zJXI4dmR9H1wEYwAiXHJWc1chVEBceRBZBCoDF1VHUkQVfQxOZHopXw%3d%3d; __jdv=76161171|baidu-pinzhuan|t_288551095_baidupinzhuan|cpc|0f3d30c8dba7459bb52f2eb5eba8ac7d_0_5f7198d706674e8f9e4de55add07296a|1583500897689; __jdc=122270672; rkv=V0300; 3AB9D23F7A4B3C9B=24Q63VJA6NXWUQBGUQ3TD2PTVB2R5JJSXJ5UZRIX7HLI55HJBNFKXV26DJGHLAZZ5XOJXKIXFP34CO5DXDFAG5M3IU; shshshfp=19368189813c13f760e38886407c5a42; __jda=122270672.1494461959.1577366318.1583500898.1583502931.35; shshshsID=76264d35271119c804db0be2d5d9e372_2_1583503089765; __jdb=122270672.2.1494461959|35.1583502931'
                     }
             r = requests.get(url, headers=head)
+            r.encoding='utf-8'
+            print("循环")
             data += await self.parser(r,self.q_id)
-            print("等待")
+
             await asyncio.sleep(1)
 
         sql = "insert into k_goods_info(q_id,goods_name,shop_name,goods_price) values" + data

@@ -22,9 +22,10 @@ function g_directory(page){
                 $("#pageNum").empty()
                 con +="<li><p style='font-size: 20px'>（点击记录可查看分析结果，商品链接可跳转至商品页面）</p></li>"
                 $.each(data.data, function(index, item){
-                    console.log(toString.call(item[3]));
 
-                    con += "<li><a style='font-size:14px;' href='/g_history/"+item[0]+"'><strong>"+"商品分析记录id:"+item[0]+"&nbsp;["+item[3]+"]"+"</strong></a><a href='"+item[1]+"'style='float: right'>>商品链接</a></li><br>";
+                    var goods_name=(item[4]).substring(0,8)+'...';
+
+                    con += "<li sku-id='item[0]'><a >x</a><a style='font-size:14px;' href='/g_history/"+item[0]+"'><strong>"+"商品:"+goods_name+"&nbsp;["+item[3]+"]"+"</strong></a><a href='"+item[1]+"'style='float: right'>>商品链接</a></li><br>";
                      });
                      $("#directory").append(con); 
                 //调用页码方法

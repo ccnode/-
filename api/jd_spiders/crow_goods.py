@@ -14,9 +14,9 @@ class crow_goods():
         new_loop = asyncio.new_event_loop()
         asyncio.set_event_loop(new_loop)
         self.loop = asyncio.get_event_loop()
-        self.loop.run_until_complete(self.start())
+        goods_name = self.loop.run_until_complete(self.start())
         self.loop.close()
-
+        return goods_name
     #爬取商品信息
     async def start(self):
         head = {'authority': 'search.jd.com',
@@ -59,7 +59,8 @@ class crow_goods():
 
         # 评论数据插入
         await db.commit(comsql)
-        print("数据保存成功！")
+        # 返回商品名称
+        return goods_name
 if __name__=='__main__':
     spider = crow_goods(url="https://item.jd.com/42808267238.html", n=2,q_id=11)
     spider.coroutines()

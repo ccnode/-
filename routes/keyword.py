@@ -72,17 +72,18 @@ def k_directory():
 @keyword.route("/keyword",methods=["GET","POST"])
 def getNewAnalys():
     if request.method == 'POST':
-        keyword = request.form.get('keyword')
-        user_id = session["user_id"]
+        try:
+            keyword = request.form.get('keyword')
+            user_id = session["user_id"]
 
         # 生成查询记录
-        try:
+
             sql = "insert into keyword_query_log(user_id,q_keyword) " \
                   "values({},'{}') ".format(user_id,keyword)
             q_id = db.commits(sql)[0][0]
 
         # #生成爬虫
-            print(keyword,q_id)
+            print("分析关键词{}".format(keyword))
             spider = crow_keyword(2,str(keyword),q_id)
             spider.coroutines()
 
@@ -106,8 +107,8 @@ def getNewAnalys():
 
         except Exception as e:
             print(e)
-        flash("分析失败！{}".format(e),"err")
-        return redirect(url_for('keyword.k_analyze'))
+            flash("分析失败，链接格式不正确！","err")
+            return redirect(url_for('keyword.k_analyze'))
     return  redirect(url_for('keyword.k_analyze'))
 
 
@@ -118,11 +119,12 @@ def k_history(q_id):
     if check_login()!=True:
         return redirect(url_for("user.login_page"))
     username = session["username"]
-    return render_template("goods/g_article.html", q_id=q_id, username=username)
+    print(q_id)
+    return render_template("keyword/k_article.html", q_id=q_id, username=username)
 
 # 获取图片链接
-@keyword.route("/getkeywordResult",methods=["GET"])
-def getkeywordResult():
+@keyword.route("/getKeywordResult",methods=["GET"])
+def getKeywordResult():
     try:
         q_id =request.args.get('q_id')
         sql = "select price_distribution,shop_ranking from keyword_analysis where q_id={}".format(q_id)

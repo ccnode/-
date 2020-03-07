@@ -16,12 +16,15 @@
 
 
 <script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/jquery.min.js"></script>
 
-    
+
 <script src="/static/js/bootstrap.min.js"></script>
 
-    
+
 <script src="/static/js/aos.js"></script>
+    
+
 
 
 
@@ -105,7 +108,7 @@
                 
                 
                 
-                <li class="current">
+                <li class="">
                     <a href="/goods">
                         <i class="fa fa-archive"></i>具体商品分析
                     </a>
@@ -114,7 +117,7 @@
                 
                 
                 
-                <li class="">
+                <li class="current">
                     <a href="/keyword">
                         <i class="fa fa-list"></i>关键词分析
                     </a>
@@ -156,7 +159,7 @@
         <i class="fa fa-home"></i>
         <a href="/">MituCat</a>
         >
-        <a id="second-level" href="/g_directory">分析列表</a>
+        <a id="second-level" href="/goods">分析列表</a>
         >
         <span id="second-level">具体结果</span>
     </div>
@@ -186,17 +189,14 @@
     </div>
     <div class="content-article" style="margin-top: 30px;text-align: center">
         <div id="main" q_id="{{ q_id }}" class="alert alert-info" style="color:red;font-size: 20px; line-height: 2; font-weight: bold;opacity:100%">
-            <div id="sentiment" >
-                <p >1.情感分析——根据用户评论数据进行情感划分 等级：(0~0.3差评,0.3~0.7中评,0.7~1.0好评)</p>
+            <div id="price_distribution" >
+                <p >1.价格区间——所爬取商品的价格分布图。</p>
             </div>
             <br><br>
-            <div id="daily_comment">
+            <div id="shop_ranking">
                 <p>2.日评论统计——对商品评论数据数进行每日统计</p>
             </div>
-            <br><br>
-            <div id="wordcloud">
-                <p>3.词频分析——对评论内容出现最多的词进行分析排序</p>
-            </div>
+
         </div>
     </div>
 </article>

@@ -1,0 +1,2113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Cache-Control" content="max-age=300" />
+<link rel="dns-prefetch" href="//search.jd.com" /><link rel="dns-prefetch" href="//item.jd.com" /><link rel="dns-prefetch" href="//list.jd.com" /><link rel="dns-prefetch" href="//p.3.cn" /><link rel="dns-prefetch" href="//misc.360buyimg.com" /><link rel="dns-prefetch" href="//nfa.jd.com" /><link rel="dns-prefetch" href="//d.jd.com" /><link rel="dns-prefetch" href="//img12.360buyimg.com" /><link rel="dns-prefetch" href="//img13.360buyimg.com" /><link rel="dns-prefetch" href="//static.360buyimg.com" /><link rel="dns-prefetch" href="//csc.jd.com" /><link rel="dns-prefetch" href="//mercury.jd.com" /><link rel="dns-prefetch" href="//x.jd.com" /><link rel="dns-prefetch" href="//wl.jd.com" /><title>手机 - 商品搜索 - 京东</title><meta name="Keywords" content="手机,京东手机" /><meta name="description" content="在京东找到了1945件手机的类似商品，其中包含了“手机”，“二手手机通讯”等类型的手机的商品。" /><script>
+window.loadFa_toJson_data={query:'%E6%89%8B%E6%9C%BA'};
+window.jdpts={};jdpts._st=new Date().getTime();window.pageConfig={
+	closeJpg : 1,
+	compatible: false,
+	searchType: 0,
+	jdfVersion: '2.0.0',
+	floatnav: 1,
+	price_pdos_off: 0,
+	actName: '',
+	pSource: 'search_pc',
+	queryParam: {
+		c1: 0,
+		c2: 0,
+		c3: 0,
+		brand: '',
+		price: '',
+		keyword: '手机',
+		page: '3'
+	}
+};
+window.searchUnit={
+	resizeOnebox: function(g,f,j){var g=parseInt(g),i=typeof f,h=typeof j;if(!isNaN(g)){if("string"==i&&f!=""&&g>0){$("#J_oneBoxFrame_"+f).css("height",g+10);h=="function"&&j()}else{if(i=="undefined"||i=="function"){$("#virtualWareIFrame").css("height",g>0?g+10:0);i=="function"&&f()}}}},
+	resizeShopbox: function(e,d){var f=0;switch(e){case 1:case 2:f=145;break;case 3:f=75;break;case 4:f=80;break;default:break}f&&$("#shopboxIFrame").css("height",f).show();typeof(d)=="string"&&(new Image().src=d)},
+	coupon: {}};
+window.QUERY_KEYWORD='手机';
+window.REAL_KEYWORD='手机';
+</script>
+<link type="text/css" rel="stylesheet" href="//misc.360buyimg.com/??jdf/1.0.0/unit/ui-base/5.0.0/ui-base.css,jdf/1.0.0/unit/shortcut/5.0.0/shortcut.css,jdf/1.0.0/unit/global-header/5.0.0/global-header.css,jdf/1.0.0/unit/myjd/5.0.0/myjd.css,jdf/1.0.0/unit/nav/5.0.0/nav.css,jdf/1.0.0/unit/shoppingcart/5.0.0/shoppingcart.css,jdf/1.0.0/unit/global-footer/5.0.0/global-footer.css,jdf/1.0.0/unit/service/5.0.0/service.css,jdf/1.0.0/unit/global-header-photo/5.0.0/global-header-photo.css,jdf/1.0.0/ui/area/1.0.0/area.css" />
+<link type="text/css" rel="stylesheet" href="//misc.360buyimg.com/product/search/1.0.7/css/search.css" />
+<script type="text/javascript" src="//misc.360buyimg.com/??jdf/1.0.0/unit/base/5.0.0/base.js,jdf/lib/jquery-1.6.4.js,product/module/es5-shim.js"></script>
+<script>
+window.SEARCH = {
+	cid: 655,
+	ui_ver: '1.0.7',
+	c_category: 0,
+	p_category: 0,
+	enable_adv: 1,
+	enable_prom_adwords: 1,
+	enable_prom_flag: 1,
+	enable_price: 1,
+	enable_stock: 2,
+	enable_yyk: 0,
+	lottery_code: '',
+	is_correct_hash: function(e){var a=["keyword","brand_id","activity_id","coupon_batch","ecard_id"];for(var c=0,b=a.length;c<b;c++){var d=new RegExp("(^|\\?|&)"+a[c]+"=([^&]*)(\\s|&|$)");if(d.test(e)){return true}}return false},
+	get_real_hash: function(){var a=window.location.hash.substr(1);if(a&&$.browser.mozilla){return location.href.substr(location.href.indexOf("#")+1)}else{return a}}
+};
+(function(a,b){var c=b.get_real_hash();if(b.is_correct_hash(c)){a.location.href=a.location.pathname+"?"+c;return false}else{if(a.self!=a.top||$.browser.msie&&$.browser.version<=9){var f=null,e=function(){var d=$(a).width();return 1210>d?$("html").removeClass():$("html").removeClass().addClass(d>=1210&&1390>d?"resp01":"resp02"),true};e();$(a).resize(function(){clearTimeout(f),f=setTimeout(e,20)})}}})(window,SEARCH);
+</script>
+</head>
+<body>
+<!--shortcut start-->
+<div id="shortcut-2014">
+	<div class="w">
+    	<ul class="fl">
+    		<li id="ttbar-home"><i class="iconfont">&#xe608;</i><a href="//www.jd.com/" target="_blank">京东首页</a></li>
+    		<li class="dorpdown" id="ttbar-mycity"></li>
+    	</ul>
+    	<ul class="fr">
+			<li class="fore1" id="ttbar-login">
+				<a href="javascript:login();" class="link-login">你好，请登录</a>&nbsp;&nbsp;<a href="javascript:regist();" class="link-regist style-red">免费注册</a>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore2">
+				<div class="dt">
+					<a target="_blank" href="//order.jd.com/center/list.action">我的订单</a>
+				</div>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore3 dorpdown" id="ttbar-myjd">
+				<div class="dt cw-icon">
+					<!-- <i class="ci-right"><s>◇</s></i> -->
+					<a target="_blank" href="//home.jd.com/">我的京东</a><i class="iconfont">&#xe605;</i>
+				</div>
+				<div class="dd dorpdown-layer"></div>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore4" id="ttbar-member">
+				<div class="dt">
+					<a target="_blank" href="//vip.jd.com/">京东会员</a>
+				</div>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore5"   id="ttbar-ent">
+				<div class="dt">
+					<a target="_blank" href="//b.jd.com/">企业采购</a>
+				</div>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore6 dorpdown" id="ttbar-serv">
+				<div class="dt cw-icon">
+					<!-- <i class="ci-right"><s>◇</s></i> -->
+					客户服务<i class="iconfont">&#xe605;</i>
+				</div>
+				<div class="dd dorpdown-layer"></div>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore7 dorpdown" id="ttbar-navs">
+				<div class="dt cw-icon">
+					<!-- <i class="ci-right"><s>◇</s></i> -->
+					网站导航<i class="iconfont">&#xe605;</i>
+				</div>
+				<div class="dd dorpdown-layer"></div>
+			</li>
+			<li class="spacer"></li>
+			<li class="fore8 dorpdown" id="ttbar-apps">
+				<div class="dt cw-icon">
+					<!-- <i class="ci-left"></i> -->
+					<!-- <i class="ci-right"><s>◇</s></i> -->
+					<a target="_blank" href="//app.jd.com/">手机京东</a>
+				</div>
+			</li>
+    	</ul>
+		<span class="clr"></span>
+    </div>
+</div>
+<div id="o-header-2013"><div id="header-2013" style="display:none;"></div></div>
+<!--shortcut end--><div class="w">
+    <div id="logo-2014">
+        <a href="//www.jd.com/" class="logo">京东</a>
+    </div>
+    <div id="search-2014" >
+        <ul id="shelper" class="hide"></ul>
+        <div class="form">
+            <input type="text" onkeydown="javascript:if(event.keyCode==13) search('key');" autocomplete="off" id="key" accesskey="s" class="text" />
+            <button onclick="search('key');return false;" class="button cw-icon"><i></i>搜索</button>
+        </div>
+    </div>
+    <div id="settleup-2014" class="dorpdown">
+        <div class="cw-icon">
+            <i class="iconfont">&#xe607;</i>
+            <i class="iconfont arrow">&#xe601;</i>
+            <a target="_blank" href="//cart.jd.com/cart.action">我的购物车</a>
+        </div>
+        <div class="dorpdown-layer">
+            <div class="spacer"></div>
+            <div id="settleup-content">
+                <span class="loading"></span>
+            </div>
+        </div>
+    </div>
+    <div id="hotwords"></div>
+    <span class="clr"></span>
+</div><!--nav start-->
+<div id="nav-2014">
+	<div class="w">
+		<div class="w-spacer"></div>
+		<div id="categorys-2014" class="dorpdown" data-type="default">
+			<div class="dt">
+				<a target="_blank" href="//www.jd.com/allSort.aspx">全部商品分类</a>
+			</div>
+		</div>
+		<div id="navitems-2014">
+			<ul id="navitems-group1">
+				<li clstag="" id="nav-fashion" class="fore1">
+					<a class="b" target="_blank" href="//channel.jd.com/fashion.html">京东时尚</a>
+				</li>
+				<li clstag="" id="nav-beauty" class="fore2">
+					<a class="b" target="_blank" href="//channel.jd.com/beautysale.html">美妆馆</a>
+				</li>
+				<li clstag="" id="nav-chaoshi" class="fore3">
+					<a class="b" target="_blank" href="//channel.jd.com/chaoshi.html">超市</a>
+				</li>
+				<li clstag="" id="nav-fresh" class="fore4">
+					<a class="b" target="_blank" href="//fresh.jd.com">生鲜</a>
+				</li>
+			</ul>
+			<div class="spacer"></div>
+			<ul id="navitems-group2">
+				<li clstag="" id="nav-jdww" class="fore1">
+					<a class="b" target="_blank" href="//www.jd.hk/">京东国际</a>
+				</li>
+				<li clstag="" id="nav-red" class="fore2">
+					<a class="b" target="_blank" href="//red.jd.com/">闪购</a>
+				</li>
+				<li clstag="" id="nav-auction" class="fore3">
+					<a class="b" target="_blank" href="//paimai.jd.com/">拍卖</a>
+				</li>
+			</ul>
+			<div class="spacer"></div>
+			<ul id="navitems-group3">
+				<li clstag="" id="nav-jdjr" class="fore1">
+					<a class="b" target="_blank" href="//jr.jd.com/">金融</a>
+				</li>
+			</ul>
+		</div>
+		<div id="treasure"></div>
+		<span class="clr"></span>
+	</div>
+</div>
+<!--nav end--><div style="display:none"><a href="//club.jd.com/rank/655/e69c8de58aa1e68081e5baa6e5a5bd_2.html">服务态度好</a><a href="//club.jd.com/rank/655/e59381e8b4a8e580bce5be97e4bfa1e8b596_2.html">品质值得信赖</a><a href="//club.jd.com/rank/655/e789a9e6b581e9809fe5baa6e5bfab_2.html">物流速度快</a><a href="//club.jd.com/rank/655/e6ada3e59381e4bf9de99a9c_2.html">正品保障</a><a href="//club.jd.com/rank/655/e789a9e7be8ee4bbb7e5bb89_2.html">物美价廉</a><a href="//club.jd.com/rank/655/e680a7e4bbb7e6af94e8be83e9ab98_2.html">性价比较高</a><a href="//club.jd.com/rank/655.html">好评度</a><a href="//club.jd.com/koubei/e88da3e88080e6898be69cba.html">荣耀手机</a><a href="//club.jd.com/koubei/7669766fe585abe6a0b8e6898be69cba.html">vivo八核手机</a><a href="//club.jd.com/koubei/e5869be5b7a5e4b889e998b2e6898be69cba.html">军工三防手机</a><a href="//club.jd.com/koubei/e58d8ee4b8bae5a5b3e680a7e6898be69cba.html">华为女性手机</a><a href="//club.jd.com/koubei/e8b0b7e6ad8ce6898be69cba.html">谷歌手机</a><a href="//club.jd.com/koubei/e7bfbbe79b96e696b0e6acbee6898be69cba.html">翻盖新款手机</a><a href="//club.jd.com/koubei/e88081e4babae6898be69cba.html">老人手机</a><a href="//club.jd.com/koubei/e998b2e78886e6898be69cba.html">防爆手机</a><a href="//club.jd.com/koubei/6c67e6898be69cba.html">lg手机</a><a href="//club.jd.com/koubei/74636ce6898be69cba.html">tcl手机</a><a href="https://yp.jd.com/9987397377693e025722.html">2pro</a><a href="https://yp.jd.com/99876cf1e87b7ffc61a6.html">超薄全面屏手机</a><a href="https://www.jd.com/phb/998744089a79c2fa1ef6.html">16g手机双卡双待</a><a href="https://www.jd.com/phb/9987f0d6dcf17939733a.html">电信超长待机</a><a href="https://www.jd.com/phb/key_99870b300b123c5d4120.html">小米畅销机型</a><a href="https://www.jd.com/phb/key_9987e5a915c3eb9cd072.html">迪信通优惠券</a><a href="https://www.jd.com/phb/key_99877900c8508462f34b.html">iphone4港版未拆封</a><a href="https://www.jd.com/phb/zhishi/4fc872f35dccd130.html">棉碎花布上衣排行榜，棉碎花布上衣十大排名推荐</a><a href="https://www.jd.com/phb/zhishi/f27963b602b41562.html">英国古代牧羊狗所需营养</a><a href="https://www.jd.com/phb/zhishi/4425a18160eafd10.html">理疗仪是不是和坑人的保健品一个概念，纯忽悠？</a><a href="https://www.jd.com/brand/9987da20f2f247d198a5.html">努比亚（nubia）12000以上手机</a><a href="https://www.jd.com/brand/99877913847c14eafdee.html">中兴BladeV8外观</a><a href="https://www.jd.com/xinghao/9987dfd0d6804e3ee648.html">保时捷翻盖钥匙手机</a><a href="https://www.jd.com/xinghao/99872774a25198bfd0f2.html">三星9o25</a><a href="https://www.jd.com/cppf/99874594aceb37b2a35f.html">苹果手机机身弯曲</a><a href="https://www.jd.com/cppf/998756ce1adf6d14c452.html">苹果8plus168g</a><a href="https://www.jd.com/cppf/9987b3b225e6e9ad8c85.html">摩托罗拉开机画面</a><a href="https://www.jd.com/nrjs/0a3383f7d8535c18.html">安卓手机htc排行榜，安卓手机htc十大排名推荐</a><a href="https://www.jd.com/nrjs/1aa75d80bc4c6ffd.html">手机摄影大师排行榜，手机摄影大师十大排名推荐</a><a href="https://www.jd.com/nrjs/f7c05b1442242b3f.html">华为（HUAWEI） - 手机 蓝色，深蓝色系</a><a href="https://www.jd.com/book/99873022ecfb0c3d18af.html">联通怎么开通4g</a><a href="https://www.jd.com/book/9987d7cf8f2f3216b443.html">中科惠泽手机</a><a href="https://www.jd.com/zuozhe/9987a439919a66d40043.html">美图m8s售价贵吗</a><a href="https://www.jd.com/zuozhe/99875ce4eb9f74b7c5c4.html">老年手机超大音量</a><a href="https://www.jd.com/hprm/99871931a840b9ffd7a1.html">荣耀畅玩4a全网通</a><a href="https://www.jd.com/hprm/9987736b0b6ef8925c47.html">回收金立沈阳</a><a href="https://www.jd.com/hprm/99871da496cad08348ad.html">联想智能手机s890</a><a href="https://www.jd.com/zxnews/b13126bb9c9a9f75.html">智能手机闪光灯排行榜，智能手机闪光灯十大排名推荐</a><a href="https://www.jd.com/zxnews/2a358a5458ec4e64.html">卡手机哪款好？卡手机怎么样好用吗？</a><a href="https://www.jd.com/zxnews/b067bb6c58996e8f.html">安卓单卡智能手机排行榜，安卓单卡智能手机十大排名推荐</a></div><div id="J_searchWrap" class="w">
+<div id="J_crumbsBar" class="crumbs-bar">
+	<div class="crumbs-nav">
+		<div class="crumbs-nav-main clearfix">
+			<div class="crumbs-nav-item">
+				<div class="crumbs-first"><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2">全部结果</a></div>
+			</div>
+			<i class="crumbs-arrow">&gt;</i>
+			<div class="crumbs-nav-item">
+				<strong class="search-key">"手机"</strong>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="J_container" class="container">
+<div id="J_selector" class="selector">
+<div class="J_selectorLine s-brand">
+	<div class="sl-wrap">
+		<div class="sl-key"><strong>品牌：</strong></div>
+		<div class="sl-value">
+			<ul class="sl-b-letter J_brandLetter" onclick="searchlog(1,0,0,48)"><li data-initial="0" class="curr">所有品牌</li><li data-initial="A">A</li><li data-initial="B">B</li><li data-initial="C">C</li><li data-initial="D">D</li><li data-initial="F">F</li><li data-initial="H">H</li><li data-initial="I">I</li><li data-initial="J">J</li><li data-initial="K">K</li><li data-initial="L">L</li><li data-initial="M">M</li><li data-initial="N">N</li><li data-initial="O">O</li><li data-initial="P">P</li><li data-initial="R">R</li><li data-initial="S">S</li><li data-initial="V">V</li><li data-initial="X">X</li><li data-initial="Y">Y</li><li data-initial="Z">Z</li></ul>
+			<div class="clr"></div>
+			<div class="sl-v-logos">
+				<ul class="J_valueList v-fixed">
+					<li id="brand-8557" data-initial="H" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E5%8D%8E%E4%B8%BA%EF%BC%88HUAWEI%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,0,71,'品牌::华为（HUAWEI）')" title="华为（HUAWEI）">
+							<i></i><img src="//img30.360buyimg.com/popshop/jfs/t1/21713/1/5027/5175/5c38740eE4ccfc381/0bedaba1e05119ac.jpg" width="102" height="36">华为（HUAWEI）						</a>
+					</li>
+					<li id="brand-14026" data-initial="A" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_Apple%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,1,71,'品牌::Apple')" title="Apple">
+							<i></i><img src="//img20.360buyimg.com/popshop/jfs/t2989/240/151377693/3895/30ad9044/574d36dbN262ef26d.jpg" width="102" height="36">Apple						</a>
+					</li>
+					<li id="brand-18374" data-initial="X" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E5%B0%8F%E7%B1%B3%EF%BC%88MI%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,2,71,'品牌::小米（MI）')" title="小米（MI）">
+							<i></i><img src="//img30.360buyimg.com/popshop/jfs/t1/906/28/10166/2645/5bc93b63Eb0813c2e/600c61f344607414.jpg" width="102" height="36">小米（MI）						</a>
+					</li>
+					<li id="brand-2032" data-initial="O" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_OPPO%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,3,71,'品牌::OPPO')" title="OPPO">
+							<i></i><img src="//img20.360buyimg.com/popshop/jfs/t1/22465/2/10288/3283/5c860ac9E1bbb5da9/33ffbca794e7b965.jpg" width="102" height="36">OPPO						</a>
+					</li>
+					<li id="brand-63032" data-initial="Y" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E4%B8%80%E5%8A%A0%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,4,71,'品牌::一加')" title="一加">
+							<i></i><img src="//img30.360buyimg.com/popshop/jfs/t2398/233/975959106/6263/a786f5b8/563b33ffN9c288c6c.jpg" width="102" height="36">一加						</a>
+					</li>
+					<li id="brand-25591" data-initial="V" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_vivo%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,5,71,'品牌::vivo')" title="vivo">
+							<i></i><img src="//img30.360buyimg.com/popshop/jfs/t1/29511/37/10225/4458/5c860fb4E13b3c8bb/38a9e351637f92f9.jpg" width="102" height="36">vivo						</a>
+					</li>
+					<li id="brand-15127" data-initial="S" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E4%B8%89%E6%98%9F%EF%BC%88SAMSUNG%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,6,71,'品牌::三星（SAMSUNG）')" title="三星（SAMSUNG）">
+							<i></i><img src="//img30.360buyimg.com/popshop/jfs/t1/1534/38/9873/3556/5bc93df2E73c40121/74dc92d16e483509.jpg" width="102" height="36">三星（SAMSUNG）						</a>
+					</li>
+					<li id="brand-12669" data-initial="M" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E9%AD%85%E6%97%8F%EF%BC%88MEIZU%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,7,71,'品牌::魅族（MEIZU）')" title="魅族（MEIZU）">
+							<i></i><img src="//img20.360buyimg.com/popshop/jfs/t23308/338/2405488313/4879/86ef646d/5b7e7f1fNddb8e4ff.jpg" width="102" height="36">魅族（MEIZU）						</a>
+					</li>
+					<li id="brand-438621" data-initial="R" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_realme%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,8,71,'品牌::realme')" title="realme">
+							<i></i><img src="//img20.360buyimg.com/popshop/jfs/t1/48763/28/366/4349/5cd4d321E3de63480/bb6bd8cb1169483f.jpg" width="102" height="36">realme						</a>
+					</li>
+					<li id="brand-13539" data-initial="N" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E8%AF%BA%E5%9F%BA%E4%BA%9A%EF%BC%88NOKIA%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,9,71,'品牌::诺基亚（NOKIA）')" title="诺基亚（NOKIA）">
+							<i></i><img src="//img30.360buyimg.com/popshop/jfs/t1/1035/26/11181/2858/5bce7321E51f2c59e/0c685f39d86436dd.jpg" width="102" height="36">诺基亚（NOKIA）						</a>
+					</li>
+					<li id="brand-6742" data-initial="F" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E9%A3%9E%E5%88%A9%E6%B5%A6%EF%BC%88PHILIPS%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,10,71,'品牌::飞利浦（PHILIPS）')" title="飞利浦（PHILIPS）">
+							<i></i><img src="//img30.360buyimg.com/popshop/jfs/t1/5932/28/11176/6002/5bce822bE4be57b0c/162d6a5b24eb2ab7.jpg" width="102" height="36">飞利浦（PHILIPS）						</a>
+					</li>
+					<li id="brand-298340" data-initial="H" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E9%BB%91%E9%B2%A8%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,11,71,'品牌::黑鲨')" title="黑鲨">
+							<i></i><img src="//img30.360buyimg.com/popshop/jfs/t1/9366/31/13399/5823/5c41d14fEfc04192d/283a213db9eb9735.jpg" width="102" height="36">黑鲨						</a>
+					</li>
+					<li id="brand-91515" data-initial="C" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E9%94%A4%E5%AD%90%EF%BC%88smartisan%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,12,71,'品牌::锤子（smartisan）')" title="锤子（smartisan）">
+							<i></i><img src="//img20.360buyimg.com/popshop/jfs/t1954/102/907711365/5487/9f26868f/5631ccdeNe8df5efb.jpg" width="102" height="36">锤子（smartisan）						</a>
+					</li>
+					<li id="brand-38126" data-initial="M" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E7%BE%8E%E5%9B%BE%EF%BC%88meitu%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,13,71,'品牌::美图（meitu）')" title="美图（meitu）">
+							<i></i><img src="//img20.360buyimg.com/popshop/jfs/t1/16499/6/14897/3459/5cac7aaaEa660b929/87a13d76760b2ebf.jpg" width="102" height="36">美图（meitu）						</a>
+					</li>
+					<li id="brand-191133" data-initial="K" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E5%A4%A9%E8%AF%AD%EF%BC%88K-Touch%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,14,71,'品牌::天语（K-Touch）')" title="天语（K-Touch）">
+							<i></i><img src="//img20.360buyimg.com/popshop/jfs/t1/14033/34/5735/3344/5c41d0f9Eb0710525/2e7c09aba0e52cc5.jpg" width="102" height="36">天语（K-Touch）						</a>
+					</li>
+					<li id="brand-27094" data-initial="N" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E5%8A%AA%E6%AF%94%E4%BA%9A%EF%BC%88nubia%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,15,71,'品牌::努比亚（nubia）')" title="努比亚（nubia）">
+							<i></i><img src="//img20.360buyimg.com/popshop/jfs/t2101/155/882410684/3730/b24b14db/5631cd12N7548352d.jpg" width="102" height="36">努比亚（nubia）						</a>
+					</li>
+					<li id="brand-18362" data-initial="X" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E5%B0%8F%E8%BE%A3%E6%A4%92%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,16,71,'品牌::小辣椒')" title="小辣椒">
+							<i></i><img src="//img20.360buyimg.com/popshop/jfs/t1/8465/31/13429/3339/5c41d139E0f569651/8109d53385693f46.jpg" width="102" height="36">小辣椒						</a>
+					</li>
+					<li id="brand-2266" data-initial="R" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_ROG%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,17,71,'品牌::ROG')" title="ROG">
+							<i></i><img src="//img30.360buyimg.com/popshop/jfs/t25714/151/2114096477/2971/2c57ec07/5bc467c2Ned5a3c61.jpg" width="102" height="36">ROG						</a>
+					</li>
+					<li id="brand-11516" data-initial="L" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E8%81%94%E6%83%B3%EF%BC%88Lenovo%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,18,71,'品牌::联想（Lenovo）')" title="联想（Lenovo）">
+							<i></i><img src="//img20.360buyimg.com/popshop/jfs/t1/7730/1/1440/6292/5bce7447E8c0dc0cf/15668b30fabe0850.jpg" width="102" height="36">联想（Lenovo）						</a>
+					</li>
+					<li id="brand-21011" data-initial="Z" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E4%B8%AD%E5%85%B4%EF%BC%88ZTE%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,19,71,'品牌::中兴（ZTE）')" title="中兴（ZTE）">
+							<i></i><img src="//img30.360buyimg.com/popshop/jfs/t1/1509/30/11025/1890/5bcda60dEe221df01/b9ea1c771f750731.png" width="102" height="36">中兴（ZTE）						</a>
+					</li>
+					<li id="brand-8214" data-initial="H" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E9%BB%91%E8%8E%93%EF%BC%88BlackBerry%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,20,71,'品牌::黑莓（BlackBerry）')" title="黑莓（BlackBerry）">
+							<i></i><img src="//img30.360buyimg.com/popshop/jfs/t2815/64/1277517721/2672/ece33803/57396d92N3e802994.png" width="102" height="36">黑莓（BlackBerry）						</a>
+					</li>
+					<li id="brand-6522" data-initial="D" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E6%9C%B5%E5%94%AF%EF%BC%88DOOV%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,21,71,'品牌::朵唯（DOOV）')" title="朵唯（DOOV）">
+							<i></i>朵唯（DOOV）						</a>
+					</li>
+					<li id="brand-7888" data-initial="H" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E6%B5%B7%E4%BF%A1%EF%BC%88Hisense%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,22,71,'品牌::海信（Hisense）')" title="海信（Hisense）">
+							<i></i><img src="//img30.360buyimg.com/popshop/jfs/t19360/352/2305554545/5388/7fed869c/5aefeb9bN1c82297b.jpg" width="102" height="36">海信（Hisense）						</a>
+					</li>
+					<li id="brand-180213" data-initial="N" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E7%BA%BD%E6%9B%BC%EF%BC%88Newman%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,23,71,'品牌::纽曼（Newman）')" title="纽曼（Newman）">
+							<i></i><img src="//img30.360buyimg.com/popshop/jfs/t1/81827/29/10592/5122/5d804c3aEf91cff9d/d3faa6267e6717a7.jpg" width="102" height="36">纽曼（Newman）						</a>
+					</li>
+					<li id="brand-16538" data-initial="S" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E7%B4%A2%E5%B0%BC%EF%BC%88SONY%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,24,71,'品牌::索尼（SONY）')" title="索尼（SONY）">
+							<i></i><img src="//img30.360buyimg.com/popshop/jfs/t1/175/26/11602/2671/5bce70a1Ecd95c076/4d7f4f80f80c5a1c.jpg" width="102" height="36">索尼（SONY）						</a>
+					</li>
+					<li id="brand-382193" data-initial="D" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E5%A4%9A%E4%BA%B2%EF%BC%88QIN%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,25,71,'品牌::多亲（QIN）')" title="多亲（QIN）">
+							<i></i>多亲（QIN）						</a>
+					</li>
+					<li id="brand-10640" data-initial="K" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E9%85%B7%E6%B4%BE%EF%BC%88Coolpad%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,26,71,'品牌::酷派（Coolpad）')" title="酷派（Coolpad）">
+							<i></i><img src="//img20.360buyimg.com/popshop/jfs/t2521/347/883897149/3732/91c917ec/5670cf96Ncffa2ae6.jpg" width="102" height="36">酷派（Coolpad）						</a>
+					</li>
+					<li id="brand-491243" data-initial="J" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E5%9D%9A%E6%9E%9C%EF%BC%88smartisan%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,27,71,'品牌::坚果（smartisan）')" title="坚果（smartisan）">
+							<i></i><img src="//img20.360buyimg.com/popshop/jfs/t1/73853/17/9179/5487/5d6f6cebE265bcfa3/7198021246585798.jpg" width="102" height="36">坚果（smartisan）						</a>
+					</li>
+					<li id="brand-233984" data-initial="B" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_8848%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,28,71,'品牌::8848')" title="8848">
+							<i></i><img src="//img20.360buyimg.com/popshop/jfs/t1/17462/1/6098/2529/5c46f52cEcf07df42/3f6e36540af3b563.jpg" width="102" height="36">8848						</a>
+					</li>
+					<li id="brand-536885" data-initial="I" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_iQOO%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,29,71,'品牌::iQOO')" title="iQOO">
+							<i></i><img src="//img30.360buyimg.com/popshop/jfs/t1/85225/8/14158/5207/5e605ee5E9efd9c75/76e7e84ece7ea070.jpg" width="102" height="36">iQOO						</a>
+					</li>
+					<li id="brand-9420" data-initial="J" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E9%87%91%E7%AB%8B%EF%BC%88Gionee%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,30,71,'品牌::金立（Gionee）')" title="金立（Gionee）">
+							<i></i><img src="//img30.360buyimg.com/popshop/jfs/t2413/204/2928322939/11997/1a757fce/56fc94e0Nc4581b2a.jpg" width="102" height="36">金立（Gionee）						</a>
+					</li>
+					<li id="brand-228280" data-initial="S" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E5%AE%88%E6%8A%A4%E5%AE%9D%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,31,71,'品牌::守护宝')" title="守护宝">
+							<i></i><img src="//img30.360buyimg.com/popshop/jfs/t4759/158/117484384/5124/74c314d7/58db2764N71d59f1b.png" width="102" height="36">守护宝						</a>
+					</li>
+					<li id="brand-27306" data-initial="S" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_360%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,32,71,'品牌::360')" title="360">
+							<i></i><img src="//img20.360buyimg.com/popshop/jfs/t1/5870/5/9962/7213/5bc93baeEee154554/3544a909fb55f1b1.png" width="102" height="36">360						</a>
+					</li>
+					<li id="brand-149070" data-initial="A" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_AGM%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,33,71,'品牌::AGM')" title="AGM">
+							<i></i><img src="//img30.360buyimg.com/popshop/jfs/t7672/5/613320372/3853/5bcb2027/59956bc5Na0e765cd.png" width="102" height="36">AGM						</a>
+					</li>
+					<li id="brand-253520" data-initial="V" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_VERTU%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,34,71,'品牌::VERTU')" title="VERTU">
+							<i></i><img src="//img20.360buyimg.com/popshop/jfs/t5836/31/951952716/2427/77f5df19/5922ce08N0ec247a1.png" width="102" height="36">VERTU						</a>
+					</li>
+					<li id="brand-95450" data-initial="S" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E7%B4%A2%E7%88%B1%EF%BC%88soaiy%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,35,71,'品牌::索爱（soaiy）')" title="索爱（soaiy）">
+							<i></i><img src="//img30.360buyimg.com/popshop/jfs/t2038/259/119166510/17973/32f59905/55efe697Naf90dce5.jpg" width="102" height="36">索爱（soaiy）						</a>
+					</li>
+					<li id="brand-54347" data-initial="N" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E5%B0%BC%E5%87%AF%E6%81%A9%EF%BC%88neken%EF%BC%89%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,36,71,'品牌::尼凯恩（neken）')" title="尼凯恩（neken）">
+							<i></i><img src="//img30.360buyimg.com/popshop/g13/M01/11/10/rBEhVFLTwJsIAAAAAACMa1M83DoAAH4hALKkNgAAIyD151.png" width="102" height="36">尼凯恩（neken）						</a>
+					</li>
+					<li id="brand-249404" data-initial="C" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_%E5%88%9B%E6%98%9F%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,37,71,'品牌::创星')" title="创星">
+							<i></i><img src="//img30.360buyimg.com/popshop/jfs/t22042/209/1053901270/2983/3a8a25b6/5b1f6474Nae7bf493.png" width="102" height="36">创星						</a>
+					</li>
+					<li id="brand-494937" data-initial="P" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_PALM%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,38,71,'品牌::PALM')" title="PALM">
+							<i></i>PALM						</a>
+					</li>
+					<li id="brand-219484" data-initial="C" style="display:block;">
+						<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exbrand_CONQUEST%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,39,71,'品牌::CONQUEST')" title="CONQUEST">
+							<i></i><img src="//img20.360buyimg.com/popshop/jfs/t1/76706/25/7872/4894/5d5cb425Ec94d887c/784ee2f841450b03.jpg" width="102" height="36">CONQUEST						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="sl-b-selected J_brandSelected"><span class="sl-b-key">已选条件：</span><ul class="sl-v-list brand-selected"></ul></div>
+			<div class="sl-btns">
+				<a class="btn btn-primary J_btnsConfirm disabled" href="javascript:;">确定</a>
+				<a class="btn btn-default J_btnsCancel" href="javascript:;">取消</a>
+			</div>
+		</div>
+		<div class="sl-ext">
+			<a class="sl-e-more J_extMore" href="javascript:;" data-url="brand.php?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1">更多<i></i></a>
+			<a class="sl-e-multiple J_extMultiple" href="javascript:;">多选<i></i></a>
+		</div>
+	</div>
+</div>
+<div class="J_selectorLine s-category">
+	<div class="sl-wrap">
+		<div class="sl-key"><strong>分类：</strong></div>
+		<div class="sl-value">
+			<div class="sl-v-list">
+				<ul class="J_valueList">
+					<li>
+						<a title="手机" data-v="655" href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&cid3=655#J_searchWrap" onclick="searchlog(1,655,10000,51)"><i></i>手机</a>
+					</li>
+					<li>
+						<a title="二手手机" data-v="13768" href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&cid3=13768#J_searchWrap" onclick="searchlog(1,13768,10001,51)"><i></i>二手手机</a>
+					</li>
+				</ul>
+			</div>
+			<div class="sl-btns">
+				<a class="btn btn-primary J_btnsConfirm disabled" href="javascript:;">确定</a>
+				<a class="btn btn-default J_btnsCancel" href="javascript:;">取消</a>
+			</div>
+		</div>
+		<div class="sl-ext">
+			<a class="sl-e-more J_extMore" href="javascript:;" style="visibility: hidden;">更多<i></i></a>
+			<a class="sl-e-multiple J_extMultiple" href="javascript:;" style="visibility: hidden;">多选<i></i></a>
+		</div>
+	</div>
+</div>
+<div class="J_selectorLine s-line"><div class="sl-wrap"><div class="sl-key"><span>操作系统：</span></div><div class="sl-value"><div class="sl-v-list"><ul class="J_valueList"><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=957_122037%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,20000,71,'操作系统::Android(安卓)')"><i></i>Android(安卓)</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=957_122042%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,20001,71,'操作系统::iOS(Apple)')"><i></i>iOS(Apple)</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=957_94165%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,20002,71,'操作系统::功能机')"><i></i>功能机</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=957_122041%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,20003,71,'操作系统::其它OS')"><i></i>其它OS</a></li></ul></div>
+						<div class="sl-btns">
+							<a class="btn btn-primary J_btnsConfirm disabled" href="javascript:;">确定</a>
+							<a class="btn btn-default J_btnsCancel" href="javascript:;">取消</a>
+						</div>
+					</div>
+						<div class="sl-ext">
+							<a class="sl-e-more J_extMore" href="javascript:;">更多<i></i></a>
+							<a class="sl-e-multiple J_extMultiple" href="javascript:;">多选<i></i></a>
+						</div>
+					</div>
+				</div><div class="J_selectorLine s-line"><div class="sl-wrap"><div class="sl-key"><span>屏幕尺寸：</span></div><div class="sl-value"><div class="sl-v-list"><ul class="J_valueList"><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=244_30815%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,30000,71,'屏幕尺寸::4.5-3.1英寸')"><i></i>4.5-3.1英寸</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=244_124095%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,30001,71,'屏幕尺寸::5.0英寸以下')"><i></i>5.0英寸以下</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=244_30988%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,30002,71,'屏幕尺寸::5.0-4.6英寸')"><i></i>5.0-4.6英寸</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=244_124094%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,30003,71,'屏幕尺寸::5.0～5.49英寸')"><i></i>5.0～5.49英寸</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=244_30816%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,30004,71,'屏幕尺寸::5.5-5.1英寸')"><i></i>5.5-5.1英寸</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=244_124093%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,30005,71,'屏幕尺寸::5.5～5.99英寸')"><i></i>5.5～5.99英寸</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=244_64693%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,30006,71,'屏幕尺寸::5.6英寸及以上')"><i></i>5.6英寸及以上</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=244_124092%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,30007,71,'屏幕尺寸::6.0～6.24英寸')"><i></i>6.0～6.24英寸</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=244_124091%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,30008,71,'屏幕尺寸::6.25-6.34英寸')"><i></i>6.25-6.34英寸</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=244_124098%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,30009,71,'屏幕尺寸::6.35-6.44英寸')"><i></i>6.35-6.44英寸</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=244_124090%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,30010,71,'屏幕尺寸::6.45-6.54英寸')"><i></i>6.45-6.54英寸</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=244_124089%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,30011,71,'屏幕尺寸::6.55-6.64英寸')"><i></i>6.55-6.64英寸</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=244_124088%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,30012,71,'屏幕尺寸::6.65-6.74英寸')"><i></i>6.65-6.74英寸</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=244_124087%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,30013,71,'屏幕尺寸::6.75-6.84英寸')"><i></i>6.75-6.84英寸</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=244_124097%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,30014,71,'屏幕尺寸::6.85-6.94英寸')"><i></i>6.85-6.94英寸</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=244_124085%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,30015,71,'屏幕尺寸::6.95英寸及以上')"><i></i>6.95英寸及以上</a></li></ul></div>
+						<div class="sl-btns">
+							<a class="btn btn-primary J_btnsConfirm disabled" href="javascript:;">确定</a>
+							<a class="btn btn-default J_btnsCancel" href="javascript:;">取消</a>
+						</div>
+					</div>
+						<div class="sl-ext">
+							<a class="sl-e-more J_extMore" href="javascript:;">更多<i></i></a>
+							<a class="sl-e-multiple J_extMultiple" href="javascript:;">多选<i></i></a>
+						</div>
+					</div>
+				</div><div id="J_selectorSenior" class="J_selectorLine s-line s-senior">
+	<div class="sl-wrap">
+		<div class="sl-key"><span>高级选项：</span></div>
+		<div class="sl-value">
+			<div class="sl-v-tab">
+				<div class="sl-tab-trigger clearfix">
+					<a class="trig-item" href="javascript:;"><span class="text">分辨率</span><i class="arrow"></i></a>
+					<a class="trig-item" href="javascript:;"><span class="text">CPU品牌</span><i class="arrow"></i></a>
+					<a class="trig-item" href="javascript:;"><span class="text">CPU型号</span><i class="arrow"></i></a>
+					<a class="trig-item" href="javascript:;"><span class="text">存储卡</span><i class="arrow"></i></a>
+					<a class="trig-item" href="javascript:;"><span class="text">机身存储</span><i class="arrow"></i></a>
+					<a class="trig-item" href="javascript:;"><span class="text">摄像头数量</span><i class="arrow"></i></a>
+					<a class="trig-item" href="javascript:;"><span class="text">电池容量</span><i class="arrow"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="sl-tab-cont">
+			<div class="sl-tab-cont-item" style="display: none;">
+				<div class="sl-v-list">
+					<ul class="J_valueList clearfix">
+<li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3613_122075%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,40000,71,'分辨率::其它分辨率')"><i></i>其它分辨率</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3613_122073%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,40001,71,'分辨率::全高清FHD+')"><i></i>全高清FHD+</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3613_122074%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,40002,71,'分辨率::高清HD+')"><i></i>高清HD+</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3613_103019%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,40003,71,'分辨率::标清SD')"><i></i>标清SD</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3613_122072%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,40004,71,'分辨率::QHD+及以上')"><i></i>QHD+及以上</a></li>					</ul>
+					<a class="btn-multiple J_tabMultiple" href="javascript:;">多选<i></i></a>
+				</div>
+				<div class="sl-btns">
+					<a class="btn btn-primary J_btnsConfirm disabled" href="javascript:;">确定</a>
+					<a class="btn btn-default J_tabCancel" href="javascript:;">取消</a>
+				</div>
+			</div>
+			<div class="sl-tab-cont-item" style="display: none;">
+				<div class="sl-v-list">
+					<ul class="J_valueList clearfix">
+<li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3606_86364%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,50000,71,'CPU品牌::以官网信息为准')"><i></i>以官网信息为准</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3606_116295%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,50001,71,'CPU品牌::海思(HiSilicon)')"><i></i>海思(HiSilicon)</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3606_122085%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,50002,71,'CPU品牌::高通(Qualcomm)')"><i></i>高通(Qualcomm)</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3606_116292%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,50003,71,'CPU品牌::联发科(Mtk)')"><i></i>联发科(Mtk)</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3606_75964%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,50004,71,'CPU品牌::展讯')"><i></i>展讯</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3606_122086%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,50005,71,'CPU品牌::三星(Exynos)')"><i></i>三星(Exynos)</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3606_101468%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,50006,71,'CPU品牌::Apple')"><i></i>Apple</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3606_75969%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,50007,71,'CPU品牌::博通')"><i></i>博通</a></li>					</ul>
+					<a class="btn-multiple J_tabMultiple" href="javascript:;">多选<i></i></a>
+				</div>
+				<div class="sl-btns">
+					<a class="btn btn-primary J_btnsConfirm disabled" href="javascript:;">确定</a>
+					<a class="btn btn-default J_tabCancel" href="javascript:;">取消</a>
+				</div>
+			</div>
+			<div class="sl-tab-cont-item" style="display: none;">
+				<div class="sl-v-list">
+					<ul class="J_valueList clearfix">
+<li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5_125377%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,60000,71,'CPU型号::Helio G90T')"><i></i>Helio G90T</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5_121554%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,60001,71,'CPU型号::骁龙439')"><i></i>骁龙439</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5_122872%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,60002,71,'CPU型号::骁龙660')"><i></i>骁龙660</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5_122439%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,60003,71,'CPU型号::骁龙665')"><i></i>骁龙665</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5_117928%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,60004,71,'CPU型号::骁龙675')"><i></i>骁龙675</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5_115329%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,60005,71,'CPU型号::骁龙710')"><i></i>骁龙710</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5_116568%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,60006,71,'CPU型号::骁龙712')"><i></i>骁龙712</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5_121553%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,60007,71,'CPU型号::骁龙730')"><i></i>骁龙730</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5_122671%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,60008,71,'CPU型号::骁龙730G')"><i></i>骁龙730G</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5_122589%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,60009,71,'CPU型号::麒麟810')"><i></i>麒麟810</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5_122869%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,60010,71,'CPU型号::骁龙845')"><i></i>骁龙845</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5_116566%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,60011,71,'CPU型号::骁龙855')"><i></i>骁龙855</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5_122548%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,60012,71,'CPU型号::骁龙855plus')"><i></i>骁龙855plus</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5_122873%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,60013,71,'CPU型号::麒麟970')"><i></i>麒麟970</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5_113236%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,60014,71,'CPU型号::麒麟980')"><i></i>麒麟980</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5_124168%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,60015,71,'CPU型号::麒麟990')"><i></i>麒麟990</a></li>					</ul>
+					<a class="btn-multiple J_tabMultiple" href="javascript:;">多选<i></i></a>
+				</div>
+				<div class="sl-btns">
+					<a class="btn btn-primary J_btnsConfirm disabled" href="javascript:;">确定</a>
+					<a class="btn btn-default J_tabCancel" href="javascript:;">取消</a>
+				</div>
+			</div>
+			<div class="sl-tab-cont-item" style="display: none;">
+				<div class="sl-v-list">
+					<ul class="J_valueList clearfix">
+<li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=806_122590%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,70000,71,'存储卡::支持MicroSD(TF)')"><i></i>支持MicroSD(TF)</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=806_122096%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,70001,71,'存储卡::其它存储卡')"><i></i>其它存储卡</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=806_122095%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,70002,71,'存储卡::不支持存储卡')"><i></i>不支持存储卡</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=806_118847%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,70003,71,'存储卡::NM存储卡')"><i></i>NM存储卡</a></li>					</ul>
+					<a class="btn-multiple J_tabMultiple" href="javascript:;">多选<i></i></a>
+				</div>
+				<div class="sl-btns">
+					<a class="btn btn-primary J_btnsConfirm disabled" href="javascript:;">确定</a>
+					<a class="btn btn-default J_tabCancel" href="javascript:;">取消</a>
+				</div>
+			</div>
+			<div class="sl-tab-cont-item" style="display: none;">
+				<div class="sl-v-list">
+					<ul class="J_valueList clearfix">
+<li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=13519_85088%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,80000,71,'机身存储::8GB以下')"><i></i>8GB以下</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=13519_76033%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,80001,71,'机身存储::8GB')"><i></i>8GB</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=13519_76034%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,80002,71,'机身存储::16GB')"><i></i>16GB</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=13519_76035%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,80003,71,'机身存储::32GB')"><i></i>32GB</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=13519_76036%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,80004,71,'机身存储::64GB')"><i></i>64GB</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=13519_73965%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,80005,71,'机身存储::128GB')"><i></i>128GB</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=13519_88228%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,80006,71,'机身存储::256GB')"><i></i>256GB</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=13519_90887%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,80007,71,'机身存储::512GB')"><i></i>512GB</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=13519_122044%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,80008,71,'机身存储::其它存储')"><i></i>其它存储</a></li>					</ul>
+					<a class="btn-multiple J_tabMultiple" href="javascript:;">多选<i></i></a>
+				</div>
+				<div class="sl-btns">
+					<a class="btn btn-primary J_btnsConfirm disabled" href="javascript:;">确定</a>
+					<a class="btn btn-default J_tabCancel" href="javascript:;">取消</a>
+				</div>
+			</div>
+			<div class="sl-tab-cont-item" style="display: none;">
+				<div class="sl-v-list">
+					<ul class="J_valueList clearfix">
+<li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5147_122302%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,90000,71,'摄像头数量::后置双摄')"><i></i>后置双摄</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5147_115495%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,90001,71,'摄像头数量::后置三摄')"><i></i>后置三摄</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5147_122301%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,90002,71,'摄像头数量::后置单摄')"><i></i>后置单摄</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5147_122305%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,90003,71,'摄像头数量::后置四摄')"><i></i>后置四摄</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5147_122303%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,90004,71,'摄像头数量::无后置摄像头')"><i></i>无后置摄像头</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=5147_122306%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,90005,71,'摄像头数量::后置五摄')"><i></i>后置五摄</a></li>					</ul>
+					<a class="btn-multiple J_tabMultiple" href="javascript:;">多选<i></i></a>
+				</div>
+				<div class="sl-btns">
+					<a class="btn btn-primary J_btnsConfirm disabled" href="javascript:;">确定</a>
+					<a class="btn btn-default J_tabCancel" href="javascript:;">取消</a>
+				</div>
+			</div>
+			<div class="sl-tab-cont-item" style="display: none;">
+				<div class="sl-v-list">
+					<ul class="J_valueList clearfix">
+<li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3803_90184%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,100000,71,'电池容量::1200mAh以下')"><i></i>1200mAh以下</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3803_90185%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,100001,71,'电池容量::1200mAh-1999mAh')"><i></i>1200mAh-1999mAh</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3803_90187%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,100002,71,'电池容量::2000mAh-2999mAh')"><i></i>2000mAh-2999mAh</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3803_122046%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,100003,71,'电池容量::3000mAh-3499mAh')"><i></i>3000mAh-3499mAh</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3803_122047%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,100004,71,'电池容量::3500mAh-3749mAh')"><i></i>3500mAh-3749mAh</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3803_122048%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,100005,71,'电池容量::3750mAh-3999mAh')"><i></i>3750mAh-3999mAh</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3803_122049%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,100006,71,'电池容量::4000mAh-4249mAh')"><i></i>4000mAh-4249mAh</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3803_122050%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,100007,71,'电池容量::4250mAh-4449mAh')"><i></i>4250mAh-4449mAh</a></li><li><a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=3803_122051%5E&uc=0#J_searchWrap" rel="nofollow" onclick="searchlog(1,0,100008,71,'电池容量::4500mAh-5000mAh')"><i></i>4500mAh-5000mAh</a></li>					</ul>
+					<a class="btn-multiple J_tabMultiple" href="javascript:;">多选<i></i></a>
+				</div>
+				<div class="sl-btns">
+					<a class="btn btn-primary J_btnsConfirm disabled" href="javascript:;">确定</a>
+					<a class="btn btn-default J_tabCancel" href="javascript:;">取消</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div id="J_main" class="g-main2">
+	<div class="m-list">
+		<div class="ml-wrap">			<div id="J_filter" class="filter">
+				<div class="f-line top">
+					<div class="f-sort">
+<a class="" href="javascript:;"><span class="fs-tit">综合</span><em class="fs-down"><i class="arrow"></i></em></a>
+						<a class="curr" href="javascript:;"><span class="fs-tit">销量</span><em class="fs-down"><i class="arrow"></i></em></a>
+						<a class="" href="javascript:;"><span class="fs-tit">评论数</span><em class="fs-down"><i class="arrow"></i></em></a>
+						<a class="" href="javascript:;"><span class="fs-tit">新品</span><em class="fs-down"><i class="arrow"></i></em></a>
+						<a class="" href="javascript:;"><span class="fs-tit">价格</span><em class="fs-up"><i class="arrow-top"></i><i class="arrow-bottom"></i></em></a>
+					</div>
+<div class="f-datagrid"><a href="javascript:;" class="fdg-item" data-range="0-349" data-tips="8%的用户喜欢的价位"><span class="def-bar" style="height:16%"></span></a><a href="javascript:;" class="fdg-item" data-range="349-1362" data-tips="29%的用户喜欢的价位"><span class="def-bar" style="height:57%"></span></a><a href="javascript:;" class="fdg-item" data-range="1362-3573" data-tips="43%的用户喜欢的价位"><span class="def-bar" style="height:85%"></span></a><a href="javascript:;" class="fdg-item" data-range="3573-8096" data-tips="15%的用户喜欢的价位"><span class="def-bar" style="height:30%"></span></a><a href="javascript:;" class="fdg-item" data-range="8096-¥" data-tips="5%的用户喜欢的价位"><span class="def-bar" style="height:10%"></span></a></div>					<div id="J_selectorPrice" class="f-price">
+						<div class="f-price-set">
+							<div class="fl"><input type="text" class="input-txt" autocomplete="off" style="color:#ccc" value="¥"></div>
+							<em>-</em>
+							<div class="fl"><input type="text" class="input-txt" autocomplete="off" style="color:#ccc" value="¥"></div>
+						</div>
+						<div class="f-price-edit">
+							<a href="javascript:;" class="item1 J-price-cancle">清空</a>
+							<a href="javascript:;" class="item2 J-price-confirm" data-url="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ev=exprice_%7Bmin%7D-%7Bmax%7D%5E&uc=0#J_searchWrap">确定</a>
+						</div>
+					</div>
+					<div id="J_topPage" class="f-pager">
+						<span class="fp-text">
+							<b>2</b><em>/</em><i>33</i>
+						</span>
+						<a class="fp-prev disabled" href="javascript:;">&lt;</a>
+						<a class="fp-next" href="javascript:;">&gt;</a>
+					</div>
+					<div class="f-result-sum">共<span id="J_resCount" class="num">1900+</span>件商品</div>
+					
+					<span class="clr"></span>
+				</div>
+				<div class="f-line">
+					<div class="f-store">
+						<div class="fs-cell delivery-location">配送至</div>
+						<div id="J_store_selector" class="ui-area-wrap" style="float:left;margin-right:10px">
+							<div class="ui-area-text-wrap">
+								<div class="ui-area-text">广东揭阳市</div>
+								<b></b>
+							</div>
+							<div class="ui-area-content-wrap">
+								<div class="ui-area-tab"></div>
+								<div class="ui-area-content"></div>
+							</div>
+						</div>
+					</div>
+					<div id="J_feature" class="f-feature">
+						<ul>
+							<li><a data-field="wtype" data-val="1" class="" href="javascript:;" onclick="searchlog(1,0,0,43)"><i></i>京东物流</a></li>
+							<li><a data-field="cod" data-val="1" class="" href="javascript:;" onclick="searchlog(1,0,0,34)"><i></i>货到付款</a></li>
+							<li><a data-field="stock" data-val="1" class="selected" href="javascript:;" onclick="searchlog(1,0,0,41)"><i></i>仅显示有货</a></li>
+							<li><a data-field="gp" data-val="1" class="" href="javascript:;" onclick="searchlog(1,0,0,39)"><i></i>京东国际</a></li>
+							<li><a data-field="gp" data-val="2" class="" href="javascript:;" onclick="searchlog(1,0,0,87)"><i></i>可配送全球</a></li>
+							<li><a data-field="zx" data-val="2" class="" href="javascript:;" onclick="searchlog(1,0,0,85)"><i></i>新品</a></li>
+							<li><a data-field="plus" data-val="1" class="" href="javascript:;" onclick=""><i></i>PLUS专享</a></li>
+							<li><a data-field="sh" data-val="1" class="" href="javascript:;" ><i></i>拍拍二手</a></li>
+						</ul>
+					</div>
+					<div class="f-search">
+						<input type="text" value="在结果中搜索" class="input-txt">
+						<a class="btn btn-default" href="javascript:;">确定</a>
+					</div>
+					<span class="clr"></span>
+				</div>
+			</div>
+<div id="J_goodsList" class="goods-list-v2 gl-type-3 J-goods-list"><div class="notice-filter-msg">为方便您找到满意的商品，我们已为您省略部分不相关的商品，<a href="search?keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1&ds=1" onclick="searchlog(1,0,0,35)">查看更多商品&nbsp;&gt;</a></div><ul class="gl-warp clearfix" data-tpl="3"><li class="gl-item" data-sku="100005929343" data-spu="100005929301" data-pid="100005929301">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="【3.5-3.8女神节狂欢，购机享24期免息+完美日记口红】7.7mm轻薄机身，视频双防抖【FindX2系列震撼上市，预定至高立减100元】" href="//item.jd.com/100005929343.html" onclick="searchlog(1,100005929343,0,2,'','flagsClk=1631589000')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img13.360buyimg.com/n7/jfs/t1/91468/11/13698/432399/5e5fb45dE26a37300/36e9bef74bcce862.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000004065" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="雾月白"><img  data-presale="" data-sku="100005929343" data-img="1" data-lazy-img="//img13.360buyimg.com/n9/jfs/t1/91468/11/13698/432399/5e5fb45dE26a37300/36e9bef74bcce862.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="日出印象"><img  data-presale="" data-sku="100010658548" data-img="1" width="25" height="25" data-lazy-img="//img13.360buyimg.com/n9/jfs/t1/86804/3/14055/492317/5e5fb431Eb293a5c0/9cdde55a40937e81.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="月夜黑"><img  data-presale="" data-sku="100005929335" data-img="1" width="25" height="25" data-lazy-img="//img10.360buyimg.com/n9/jfs/t1/86510/4/13918/440409/5e5fb4e8E39af8dcd/c2083a87014d00ae.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="蓝色星夜"><img  data-presale="" data-sku="100005929325" data-img="1" width="25" height="25" data-lazy-img="//img10.360buyimg.com/n9/jfs/t1/89583/1/13961/512301/5e5fb4b2E44abc643/1256a03046c54334.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="Pantone定制版"><img  data-presale="" data-sku="100010958456" data-img="1" width="25" height="25" data-lazy-img="//img11.360buyimg.com/n9/jfs/t1/109259/36/7704/421910/5e5fb487E7c1fc6b1/c554d76b4086c3a2.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100005929343" data-done="1"><em>￥</em><i>3999.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="【3.5-3.8女神节狂欢，购机享24期免息+完美日记口红】7.7mm轻薄机身，视频双防抖【FindX2系列震撼上市，预定至高立减100元】" href="//item.jd.com/100005929343.html" onclick="searchlog(1,100005929343,0,1,'','flagsClk=1631589000')">
+				<em>OPPO Reno3 Pro 双模5G 视频双防抖 90HZ高感曲面屏 7.7mm轻薄机身 8GB+128GB 雾月白全网通拍照游戏视频<font class="skcolor_ljg">手机</font></em>
+				<i class="promo-words" id="J_AD_100005929343">【3.5-3.8女神节狂欢，购机享24期免息+完美日记口红】7.7mm轻薄机身，视频双防抖【FindX2系列震撼上市，预定至高立减100元】</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<a target="_blank" href="//paipai.jd.com/pc/list.html?pid=100005929343" class="spu-link">二手有售</a>
+			<strong><a id="J_comment_100005929343" target="_blank" href="//item.jd.com/100005929343.html#comment" onclick="searchlog(1,100005929343,0,3,'','flagsClk=1631589000')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100005929343" href="javascript:;" title="点击关注" onclick="searchlog(1,100005929343,0,5,'','flagsClk=1631589000')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="96">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000004065,0,58)" href="//mall.jd.com/index-1000004065.html" title="OPPO京东自营官方旗舰店">OPPO京东自营官方旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100005929343" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+<i class="goods-icons4 J-picon-tips" data-tips="购买本商品送赠品">赠</i>		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100000400130" data-spu="100000400130" data-pid="100000400130">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="高通骁龙710处理器，屏下指纹支付，人脸解锁！魅族16T大屏娱乐旗舰，欢迎点击抢购~" href="//item.jd.com/100000400130.html" onclick="searchlog(1,100000400130,1,2,'','flagsClk=1631589000')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img10.360buyimg.com/n7/jfs/t27451/100/1417160314/232905/6c2284e9/5bc82835N4f37a40e.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000001952" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="砚墨黑"><img  data-presale="" data-sku="100000400130" data-img="1" data-lazy-img="//img10.360buyimg.com/n9/jfs/t27451/100/1417160314/232905/6c2284e9/5bc82835N4f37a40e.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="云山蓝"><img  data-presale="" data-sku="100000826831" data-img="1" width="25" height="25" data-lazy-img="//img11.360buyimg.com/n9/jfs/t1/5021/24/11990/351090/5bd1b346E84b1accc/bda8ef36609d5ef7.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="烟晶紫"><img  data-presale="" data-sku="100000991708" data-img="1" width="25" height="25" data-lazy-img="//img13.360buyimg.com/n9/jfs/t1/11181/13/1870/370645/5c0f3463Eb689e346/4c44938d7c9cba97.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100000400130" data-done="1"><em>￥</em><i>1099.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="高通骁龙710处理器，屏下指纹支付，人脸解锁！魅族16T大屏娱乐旗舰，欢迎点击抢购~" href="//item.jd.com/100000400130.html" onclick="searchlog(1,100000400130,1,1,'','flagsClk=1631589000')">
+				<em>魅族 16 X 全面屏游戏<font class="skcolor_ljg">手机</font> 6GB+64GB 砚墨黑 全网通移动联通电信4G<font class="skcolor_ljg">手机</font> 双卡双待</em>
+				<i class="promo-words" id="J_AD_100000400130">高通骁龙710处理器，屏下指纹支付，人脸解锁！魅族16T大屏娱乐旗舰，欢迎点击抢购~</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_100000400130" target="_blank" href="//item.jd.com/100000400130.html#comment" onclick="searchlog(1,100000400130,1,3,'','flagsClk=1631589000')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100000400130" href="javascript:;" title="点击关注" onclick="searchlog(1,100000400130,1,5,'','flagsClk=1631589000')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="97">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000001952,0,58)" href="//mall.jd.com/index-1000001952.html" title="魅族京东自营旗舰店">魅族京东自营旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100000400130" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+<i class="goods-icons4 J-picon-tips" data-tips="购买本商品送赠品">赠</i>		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100002355147" data-spu="100003475378" data-pid="100003475378">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="白条12期免息！限时直降700元！成交价4299元！三星新品S20系列预售中，参与互动享PLUS年卡" href="//item.jd.com/100002355147.html" onclick="searchlog(1,100002355147,2,2,'','flagsClk=1631589000')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img12.360buyimg.com/n7/jfs/t1/102000/30/14188/235927/5e6235b2Ea1154c6c/63e04369fd122a21.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000003443" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="白"><img  data-presale="" data-sku="100002355147" data-img="1" data-lazy-img="//img12.360buyimg.com/n9/jfs/t1/102000/30/14188/235927/5e6235b2Ea1154c6c/63e04369fd122a21.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="黑"><img  data-presale="" data-sku="100003475378" data-img="1" width="25" height="25" data-lazy-img="//img13.360buyimg.com/n9/jfs/t1/91455/33/14219/243418/5e62357fEbd07a562/4c5993686a7015a0.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="绿"><img  data-presale="" data-sku="100003525724" data-img="1" width="25" height="25" data-lazy-img="//img14.360buyimg.com/n9/jfs/t1/108008/29/7954/262444/5e6235dcE0b28a2af/a3f5378eb68647fc.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="蓝"><img  data-presale="" data-sku="100006319920" data-img="1" width="25" height="25" data-lazy-img="//img10.360buyimg.com/n9/jfs/t1/103114/2/14266/273193/5e623603E3c4b990c/993cd883114f456e.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100002355147" data-done="1"><em>￥</em><i>4259.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="白条12期免息！限时直降700元！成交价4299元！三星新品S20系列预售中，参与互动享PLUS年卡" href="//item.jd.com/100002355147.html" onclick="searchlog(1,100002355147,2,1,'','flagsClk=1631589000')">
+				<em><span class="p-tag" style="background-color:#c81623">京品手机</span>三星 Galaxy S10 骁龙855 4G<font class="skcolor_ljg">手机</font> 8GB+128GB 皓玉白 全网通 双卡双待 游戏<font class="skcolor_ljg">手机</font></em>
+				<i class="promo-words" id="J_AD_100002355147">白条12期免息！限时直降700元！成交价4299元！三星新品S20系列预售中，参与互动享PLUS年卡</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<a target="_blank" href="//paipai.jd.com/pc/list.html?pid=100002355147" class="spu-link">二手有售</a>
+			<strong><a id="J_comment_100002355147" target="_blank" href="//item.jd.com/100002355147.html#comment" onclick="searchlog(1,100002355147,2,3,'','flagsClk=1631589000')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100002355147" href="javascript:;" title="点击关注" onclick="searchlog(1,100002355147,2,5,'','flagsClk=1631589000')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="95">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000003443,0,58)" href="//mall.jd.com/index-1000003443.html" title="三星手机京东自营官方旗舰店">三星手机京东自营官方旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100002355147" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+    		<i class="goods-icons4 J-picon-tips" style="border-color:#4d88ff;color:#4d88ff;" data-idx="1" data-tips="品质服务，放心购物" >放心购</i>
+			<i class="goods-icons4 J-picon-tips J-picon-fix" data-tips="天天低价，正品保证">秒杀</i>
+		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100006808184" data-spu="100006808184" data-pid="100006808184">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="定制侧握操作优化，双肩键解放四指操作，专属120Hz电竞屏，送心悦会员5W成长值更多点击" href="//item.jd.com/100006808184.html" onclick="searchlog(1,100006808184,3,2,'','flagsClk=1614811784')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img14.360buyimg.com/n7/jfs/t1/105994/18/10686/165962/5e21e4c2E529fbe5c/d50ae16246c2c9cf.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000107961" data-presale="1" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="黑色"><img  data-presale="1" data-sku="100006808184" data-img="1" data-lazy-img="//img14.360buyimg.com/n9/jfs/t1/105994/18/10686/165962/5e21e4c2E529fbe5c/d50ae16246c2c9cf.jpg" class="err-product" width="25" height="25" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100006808184" data-done="1" data-price="3499.00"><em>￥</em><i></i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="定制侧握操作优化，双肩键解放四指操作，专属120Hz电竞屏，送心悦会员5W成长值更多点击" href="//item.jd.com/100006808184.html" onclick="searchlog(1,100006808184,3,1,'','flagsClk=1614811784')">
+				<em>ROG游戏<font class="skcolor_ljg">手机</font>2精英版 腾讯游戏深度定制 8GB+128GB 黑色 骁龙855Plus芯片 120Hz电竞屏 全网通双4G<font class="skcolor_ljg">手机</font></em>
+				<i class="promo-words" id="J_AD_100006808184">定制侧握操作优化，双肩键解放四指操作，专属120Hz电竞屏，送心悦会员5W成长值更多点击</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_100006808184" target="_blank" href="//item.jd.com/100006808184.html#comment" onclick="searchlog(1,100006808184,3,3,'','flagsClk=1614811784')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100006808184" href="javascript:;" title="点击关注" onclick="searchlog(1,100006808184,3,5,'','flagsClk=1614811784')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="91">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000107961,0,58)" href="//mall.jd.com/index-1000107961.html" title="ROG京东自营官方旗舰店">ROG京东自营官方旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100006808184" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+<i class="goods-icons4 J-picon-tips" data-tips="购买本商品送赠品">赠</i>		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100000203562" data-spu="8735304" data-pid="8735304">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="限时优惠1098！2000万AI双摄，人脸+指纹双识别！荣耀爆品特惠，选品质，购荣耀~" href="//item.jd.com/100000203562.html" onclick="searchlog(1,100000203562,4,2,'','flagsClk=1631589000')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img12.360buyimg.com/n7/jfs/t1/32571/35/346/180334/5c3ad991Ea4727e0a/de37c13f67b584cc.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000000904" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="幻夜黑"><img  data-presale="" data-sku="100000203562" data-img="1" data-lazy-img="//img12.360buyimg.com/n9/jfs/t1/32571/35/346/180334/5c3ad991Ea4727e0a/de37c13f67b584cc.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="幻影蓝"><img  data-presale="" data-sku="100001270059" data-img="1" width="25" height="25" data-lazy-img="//img14.360buyimg.com/n9/jfs/t1/9091/13/4074/252558/5bd9bea3E4d3c6a2b/bc86ef6a11a8678c.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="魅海蓝"><img  data-presale="" data-sku="100003467435" data-img="1" width="25" height="25" data-lazy-img="//img10.360buyimg.com/n9/jfs/t1/82025/2/908/358122/5cf1e757Efd2d9c02/15bdf86b1da6a5ed.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100000203562" data-done="1"><em>￥</em><i>1088.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="限时优惠1098！2000万AI双摄，人脸+指纹双识别！荣耀爆品特惠，选品质，购荣耀~" href="//item.jd.com/100000203562.html" onclick="searchlog(1,100000203562,4,1,'','flagsClk=1631589000')">
+				<em><span class="p-tag" style="background-color:#c81623">京品手机</span>荣耀8X 千元屏霸 91%屏占比 2000万AI双摄 6GB+64GB 幻夜黑 移动联通电信4G全面屏<font class="skcolor_ljg">手机</font> 双卡双待</em>
+				<i class="promo-words" id="J_AD_100000203562">限时优惠1098！2000万AI双摄，人脸+指纹双识别！荣耀爆品特惠，选品质，购荣耀~</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<a target="_blank" href="//paipai.jd.com/pc/list.html?pid=100000203562" class="spu-link">二手有售</a>
+			<strong><a id="J_comment_100000203562" target="_blank" href="//item.jd.com/100000203562.html#comment" onclick="searchlog(1,100000203562,4,3,'','flagsClk=1631589000')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100000203562" href="javascript:;" title="点击关注" onclick="searchlog(1,100000203562,4,5,'','flagsClk=1631589000')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="99">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000000904,0,58)" href="//mall.jd.com/index-1000000904.html" title="荣耀京东自营旗舰店">荣耀京东自营旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100000203562" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+    		<i class="goods-icons4 J-picon-tips" style="border-color:#4d88ff;color:#4d88ff;" data-idx="1" data-tips="品质服务，放心购物" >放心购</i>
+			<i class="goods-icons4 J-picon-tips J-picon-fix" data-tips="天天低价，正品保证">秒杀</i>
+		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100006828852" data-spu="100006828852" data-pid="100006828852">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="白条24期免息！麒麟810,4800万夜拍三摄，升降式全面屏！荣耀爆品特惠，选品质，购荣耀~" href="//item.jd.com/100006828852.html" onclick="searchlog(1,100006828852,5,2,'','flagsClk=557847176')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img12.360buyimg.com/n7/jfs/t1/88944/38/13808/157050/5e5e1b7cE5b06d57e/0fce761e616eec97.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000000904" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="幻影紫"><img  data-presale="" data-sku="100006828852" data-img="1" data-lazy-img="//img12.360buyimg.com/n9/jfs/t1/88944/38/13808/157050/5e5e1b7cE5b06d57e/0fce761e616eec97.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="幻夜黑"><img  data-presale="" data-sku="100006946970" data-img="1" width="25" height="25" data-lazy-img="//img10.360buyimg.com/n9/jfs/t1/91113/15/13886/149255/5e5e1b32Eac9988ca/6ff1fc073c5b3657.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="冰岛白"><img  data-presale="" data-sku="100008623164" data-img="1" width="25" height="25" data-lazy-img="//img14.360buyimg.com/n9/jfs/t1/67340/27/11300/240939/5d89c87aE10e193e8/1514f528b5917990.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100006828852" data-done="1"><em>￥</em><i>1989.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="白条24期免息！麒麟810,4800万夜拍三摄，升降式全面屏！荣耀爆品特惠，选品质，购荣耀~" href="//item.jd.com/100006828852.html" onclick="searchlog(1,100006828852,5,1,'','flagsClk=557847176')">
+				<em>荣耀9X PRO 麒麟810液冷散热 4000mAh超强续航 4800万超广角夜拍三摄 6.59英寸全网通8GB+128GB 幻影紫</em>
+				<i class="promo-words" id="J_AD_100006828852">白条24期免息！麒麟810,4800万夜拍三摄，升降式全面屏！荣耀爆品特惠，选品质，购荣耀~</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_100006828852" target="_blank" href="//item.jd.com/100006828852.html#comment" onclick="searchlog(1,100006828852,5,3,'','flagsClk=557847176')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100006828852" href="javascript:;" title="点击关注" onclick="searchlog(1,100006828852,5,5,'','flagsClk=557847176')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="96">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000000904,0,58)" href="//mall.jd.com/index-1000000904.html" title="荣耀京东自营旗舰店">荣耀京东自营旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100006828852" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+    		<i class="goods-icons4 J-picon-tips" style="border-color:#4d88ff;color:#4d88ff;" data-idx="1" data-tips="品质服务，放心购物" >放心购</i>
+			<i class="goods-icons4 J-picon-tips J-picon-fix" data-tips="天天低价，正品保证">秒杀</i>
+		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100007988988" data-spu="100007988988" data-pid="100007988988">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="【正常发货！享24期白条免息！赠W7蓝牙耳机】5G全网通，6400万超高像素！更多推荐，详情点击!" href="//item.jd.com/100007988988.html" onclick="searchlog(1,100007988988,6,2,'','flagsClk=1631589000')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img13.360buyimg.com/n7/jfs/t1/99828/38/13899/125417/5e5dc9e2E3c3bd6bd/1ccb0ec4c10e2aca.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000085868" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="深空流光"><img  data-presale="" data-sku="100007988988" data-img="1" data-lazy-img="//img13.360buyimg.com/n9/jfs/t1/99828/38/13899/125417/5e5dc9e2E3c3bd6bd/1ccb0ec4c10e2aca.jpg" class="err-product" width="25" height="25" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100007988988" data-done="1"><em>￥</em><i>4998.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="【正常发货！享24期白条免息！赠W7蓝牙耳机】5G全网通，6400万超高像素！更多推荐，详情点击!" href="//item.jd.com/100007988988.html" onclick="searchlog(1,100007988988,6,1,'','flagsClk=1631589000')">
+				<em>vivo NEX 3 5G 深空流光 8GB+256GB 无界瀑布屏 高通骁龙855Plus 6400万三摄 5G智慧旗舰新品<font class="skcolor_ljg">手机</font> 全网通<font class="skcolor_ljg">手机</font></em>
+				<i class="promo-words" id="J_AD_100007988988">【正常发货！享24期白条免息！赠W7蓝牙耳机】5G全网通，6400万超高像素！更多推荐，详情点击!</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<a target="_blank" href="//paipai.jd.com/pc/list.html?pid=100007988988" class="spu-link">二手有售</a>
+			<strong><a id="J_comment_100007988988" target="_blank" href="//item.jd.com/100007988988.html#comment" onclick="searchlog(1,100007988988,6,3,'','flagsClk=1631589000')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100007988988" href="javascript:;" title="点击关注" onclick="searchlog(1,100007988988,6,5,'','flagsClk=1631589000')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="95">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000085868,0,58)" href="//mall.jd.com/index-1000085868.html" title="vivo京东自营官方旗舰店">vivo京东自营官方旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100007988988" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+<i class="goods-icons4 J-picon-tips" data-tips="购买本商品送赠品">赠</i>		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100006013580" data-spu="100006013580" data-pid="100006013580">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="【15天超长价保】超广角AI三摄；高清珍珠屏；nova5z爆款1499起》" href="//item.jd.com/100006013580.html" onclick="searchlog(1,100006013580,7,2,'','flagsClk=1631589000')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img10.360buyimg.com/n7/jfs/t1/45025/29/1105/271162/5cee30d5Eab1a589d/9c23b79226461912.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000004259" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="宝石蓝"><img  data-presale="" data-sku="100006013580" data-img="1" data-lazy-img="//img10.360buyimg.com/n9/jfs/t1/45025/29/1105/271162/5cee30d5Eab1a589d/9c23b79226461912.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="幻夜黑"><img  data-presale="" data-sku="100003599639" data-img="1" width="25" height="25" data-lazy-img="//img14.360buyimg.com/n9/jfs/t1/41065/9/5364/252918/5cee30b8E22c3ea99/5d652e51051b7bdf.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100006013580" data-done="1"><em>￥</em><i>1499.00</i></strong><span class="price-plus-1" title="PLUS会员专享价"><em>￥1369.00</em><i></i></span>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="【15天超长价保】超广角AI三摄；高清珍珠屏；nova5z爆款1499起》" href="//item.jd.com/100006013580.html" onclick="searchlog(1,100006013580,7,1,'','flagsClk=1631589000')">
+				<em><img class="p-tag3" src="//img14.360buyimg.com/uba/jfs/t6919/268/501386350/1257/92e5fb39/5976fcf9Nd915775f.png" />华为 HUAWEI 麦芒 8 超广角AI三摄 高清珍珠屏 大存储 6GB+128GB 宝石蓝 全网通双4G<font class="skcolor_ljg">手机</font></em>
+				<i class="promo-words" id="J_AD_100006013580">【15天超长价保】超广角AI三摄；高清珍珠屏；nova5z爆款1499起》</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_100006013580" target="_blank" href="//item.jd.com/100006013580.html#comment" onclick="searchlog(1,100006013580,7,3,'','flagsClk=1631589000')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100006013580" href="javascript:;" title="点击关注" onclick="searchlog(1,100006013580,7,5,'','flagsClk=1631589000')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="96">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000004259,0,58)" href="//mall.jd.com/index-1000004259.html" title="华为京东自营官方旗舰店">华为京东自营官方旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100006013580" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+    		<i class="goods-icons4 J-picon-tips" style="border-color:#4d88ff;color:#4d88ff;" data-idx="1" data-tips="品质服务，放心购物" >放心购</i>
+		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100009177412" data-spu="100009177430" data-pid="100009177430">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="【15天超长价保！优惠250，到手价1349】4800万超广角，AI三摄4000mAh大电池；nova5z爆款1499起》" href="//item.jd.com/100009177412.html" onclick="searchlog(1,100009177412,8,2,'','flagsClk=1631589000')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img12.360buyimg.com/n7/jfs/t1/81851/39/13616/80329/5dad8637E40975eb0/f908d450ad8ca347.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000004259" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="天空之境"><img  data-presale="" data-sku="100009177412" data-img="1" data-lazy-img="//img12.360buyimg.com/n9/jfs/t1/81851/39/13616/80329/5dad8637E40975eb0/f908d450ad8ca347.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="翡冷翠"><img  data-presale="" data-sku="100009177432" data-img="1" width="25" height="25" data-lazy-img="//img12.360buyimg.com/n9/jfs/t1/67455/11/13496/84263/5dad86c5E7f4f85bc/1da5d0653c928f54.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="幻夜黑"><img  data-presale="" data-sku="100009177430" data-img="1" width="25" height="25" data-lazy-img="//img10.360buyimg.com/n9/jfs/t1/51202/17/14173/76465/5dad8324Ead7985e8/d153f97229c27c8d.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100009177412" data-done="1"><em>￥</em><i>1349.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="【15天超长价保！优惠250，到手价1349】4800万超广角，AI三摄4000mAh大电池；nova5z爆款1499起》" href="//item.jd.com/100009177412.html" onclick="searchlog(1,100009177412,8,1,'','flagsClk=1631589000')">
+				<em>华为 HUAWEI 畅享 10S 炫彩OLED屏幕指纹4800万超广角AI三摄4000mAh大电池6GB+64GB天空之境全网通双4G<font class="skcolor_ljg">手机</font></em>
+				<i class="promo-words" id="J_AD_100009177412">【15天超长价保！优惠250，到手价1349】4800万超广角，AI三摄4000mAh大电池；nova5z爆款1499起》</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_100009177412" target="_blank" href="//item.jd.com/100009177412.html#comment" onclick="searchlog(1,100009177412,8,3,'','flagsClk=1631589000')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100009177412" href="javascript:;" title="点击关注" onclick="searchlog(1,100009177412,8,5,'','flagsClk=1631589000')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="96">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000004259,0,58)" href="//mall.jd.com/index-1000004259.html" title="华为京东自营官方旗舰店">华为京东自营官方旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100009177412" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+    		<i class="goods-icons4 J-picon-tips" style="border-color:#4d88ff;color:#4d88ff;" data-idx="1" data-tips="品质服务，放心购物" >放心购</i>
+		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100009122716" data-spu="100008499652" data-pid="100008499652">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="【购机享3期免息】4800万四摄，5000mAh大电池【点击查看更多适合你的产品！】" href="//item.jd.com/100009122716.html" onclick="searchlog(1,100009122716,9,2,'','flagsClk=1631589000')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img11.360buyimg.com/n7/jfs/t1/71752/39/14211/247443/5db978aeEb806f1cb/7ad19ffa431edfc7.jpg" />
+</a><div id="belt" class="p-act-sign J_belt_box sign-2017083101" style="background-image: url('https://img20.360buyimg.com/ling/jfs/t1/60762/9/12304/20879/5d9beae4E79c2f932/559ee9e0b0e08f15.png');">
+                			<div class="sign-title ac">3期免息
+                				<span class="sign-date">(3.3-3.15)</span>
+                			</div>
+                		</div>			<div data-lease="" data-catid="655" data-venid="1000004065" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="香草薄荷"><img  data-presale="" data-sku="100009122716" data-img="1" data-lazy-img="//img11.360buyimg.com/n9/jfs/t1/71752/39/14211/247443/5db978aeEb806f1cb/7ad19ffa431edfc7.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="湖光绿"><img  data-presale="" data-sku="100008499652" data-img="1" width="25" height="25" data-lazy-img="//img12.360buyimg.com/n9/jfs/t1/83174/32/10692/200714/5d82e18eE4fd9bbcf/1616292a8ff7f8d8.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="暮辰紫"><img  data-presale="" data-sku="100004845601" data-img="1" width="25" height="25" data-lazy-img="//img11.360buyimg.com/n9/jfs/t1/72148/10/10903/190655/5d82e136Ea2a77438/a7a636aeb0712ba9.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100009122716" data-done="1"><em>￥</em><i>1799.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="【购机享3期免息】4800万四摄，5000mAh大电池【点击查看更多适合你的产品！】" href="//item.jd.com/100009122716.html" onclick="searchlog(1,100009122716,9,1,'','flagsClk=1631589000')">
+				<em>OPPO A11x 4800万四摄 5000mAh大电池 8GB+128GB 香草薄荷 全网通4G 全面屏拍照游戏智能<font class="skcolor_ljg">手机</font></em>
+				<i class="promo-words" id="J_AD_100009122716">【购机享3期免息】4800万四摄，5000mAh大电池【点击查看更多适合你的产品！】</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_100009122716" target="_blank" href="//item.jd.com/100009122716.html#comment" onclick="searchlog(1,100009122716,9,3,'','flagsClk=1631589000')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100009122716" href="javascript:;" title="点击关注" onclick="searchlog(1,100009122716,9,5,'','flagsClk=1631589000')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="96">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000004065,0,58)" href="//mall.jd.com/index-1000004065.html" title="OPPO京东自营官方旗舰店">OPPO京东自营官方旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100009122716" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+<i class="goods-icons4 J-picon-tips" data-tips="购买本商品送赠品">赠</i>		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100005979684" data-spu="7652093" data-pid="7652093">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="【品质好物】4000mAh大电量,骁龙8核处理器。【小米10火爆预约抢购中】" href="//item.jd.com/100005979684.html" onclick="searchlog(1,100005979684,10,2,'','flagsClk=1631589000')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img14.360buyimg.com/n7/jfs/t1/55866/5/1032/344966/5cebc636Ecd6d4f7a/d4793fc2c49d6f38.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000004123" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="晨曦蓝"><img  data-presale="" data-sku="100005979684" data-img="1" data-lazy-img="//img14.360buyimg.com/n9/jfs/t1/55866/5/1032/344966/5cebc636Ecd6d4f7a/d4793fc2c49d6f38.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="磨砂黑"><img  data-presale="" data-sku="100003582687" data-img="1" width="25" height="25" data-lazy-img="//img12.360buyimg.com/n9/jfs/t1/83202/24/524/298511/5cebc5cdE5f4759ac/4567583f90977277.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="雾光金"><img  data-presale="" data-sku="100007469236" data-img="1" width="25" height="25" data-lazy-img="//img11.360buyimg.com/n9/jfs/t1/62893/30/7036/180981/5d523514E42a80875/feffcba602dff036.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100005979684" data-done="1"><em>￥</em><i>549.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="【品质好物】4000mAh大电量,骁龙8核处理器。【小米10火爆预约抢购中】" href="//item.jd.com/100005979684.html" onclick="searchlog(1,100005979684,10,1,'','flagsClk=1631589000')">
+				<em>Redmi 7A 4000mAh超长续航 AI人脸解锁 骁龙8核  标配10W充电器 整机防泼溅 3GB+32GB 晨曦蓝 游戏智能<font class="skcolor_ljg">手机</font> 小米 红米</em>
+				<i class="promo-words" id="J_AD_100005979684">【品质好物】4000mAh大电量,骁龙8核处理器。【小米10火爆预约抢购中】</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_100005979684" target="_blank" href="//item.jd.com/100005979684.html#comment" onclick="searchlog(1,100005979684,10,3,'','flagsClk=1631589000')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100005979684" href="javascript:;" title="点击关注" onclick="searchlog(1,100005979684,10,5,'','flagsClk=1631589000')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="97">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000004123,0,58)" href="//mall.jd.com/index-1000004123.html" title="小米京东自营旗舰店">小米京东自营旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100005979684" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+    		<i class="goods-icons4 J-picon-tips" style="border-color:#4d88ff;color:#4d88ff;" data-idx="1" data-tips="品质服务，放心购物" >放心购</i>
+<i class="goods-icons4 J-picon-tips" data-tips="购买本商品送赠品">赠</i>		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100005332318" data-spu="100005150846" data-pid="100005150846">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="【火爆销售中】骁龙855/内置离心风扇散热/5000mAh大电池/更多优惠请点击！" href="//item.jd.com/100005332318.html" onclick="searchlog(1,100005332318,11,2,'','flagsClk=1631589000')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img13.360buyimg.com/n7/jfs/t1/89808/5/2011/361709/5dca00bdEca3c7f49/5cd297f7ea0f1bd4.jpg" />
+</a><div id="belt" class="p-act-sign J_belt_box sign-2017083101" style="background-image: url('https://img20.360buyimg.com/ling/jfs/t1/60762/9/12304/20879/5d9beae4E79c2f932/559ee9e0b0e08f15.png');">
+                			<div class="sign-title ac">离心风扇散热
+                				<span class="sign-date">(3.1-3.30)</span>
+                			</div>
+                		</div>			<div data-lease="" data-catid="655" data-venid="1000001961" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="战地迷彩"><img  data-presale="" data-sku="100005332318" data-img="1" data-lazy-img="//img13.360buyimg.com/n9/jfs/t1/89808/5/2011/361709/5dca00bdEca3c7f49/5cd297f7ea0f1bd4.jpg" class="err-product" width="25" height="25" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100005332318" data-done="1"><em>￥</em><i>3199.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="【火爆销售中】骁龙855/内置离心风扇散热/5000mAh大电池/更多优惠请点击！" href="//item.jd.com/100005332318.html" onclick="searchlog(1,100005332318,11,1,'','flagsClk=1631589000')">
+				<em>努比亚 nubia 红魔3游戏<font class="skcolor_ljg">手机</font> 12GB+256GB 战地迷彩 骁龙855 内置风扇 5000mAh大电池 90Hz全面屏拍照电竞<font class="skcolor_ljg">手机</font></em>
+				<i class="promo-words" id="J_AD_100005332318">【火爆销售中】骁龙855/内置离心风扇散热/5000mAh大电池/更多优惠请点击！</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_100005332318" target="_blank" href="//item.jd.com/100005332318.html#comment" onclick="searchlog(1,100005332318,11,3,'','flagsClk=1631589000')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100005332318" href="javascript:;" title="点击关注" onclick="searchlog(1,100005332318,11,5,'','flagsClk=1631589000')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="92">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000001961,0,58)" href="//mall.jd.com/index-1000001961.html" title="努比亚京东自营旗舰店">努比亚京东自营旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100005332318" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+<i class="goods-icons4 J-picon-tips" data-tips="购买本商品送赠品">赠</i>		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100010763726" data-spu="100010763726" data-pid="100010763726">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="【购机享购机享3期免息】6.5英寸水滴屏，4230mAh大电池。【A91新年新升级，立即查看！】" href="//item.jd.com/100010763726.html" onclick="searchlog(1,100010763726,12,2,'','flagsClk=1631589000')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img11.360buyimg.com/n7/jfs/t1/96862/37/7119/165502/5df8c34fEf13b16f8/1dab894c917b87b1.jpg" />
+</a><div id="belt" class="p-act-sign J_belt_box sign-2017083101" style="background-image: url('https://img20.360buyimg.com/ling/jfs/t1/60762/9/12304/20879/5d9beae4E79c2f932/559ee9e0b0e08f15.png');">
+                			<div class="sign-title ac">3期免息
+                				<span class="sign-date">(3.3-3.15)</span>
+                			</div>
+                		</div>			<div data-lease="" data-catid="655" data-venid="1000004065" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="秘夜黑"><img  data-presale="" data-sku="100010763726" data-img="1" data-lazy-img="//img11.360buyimg.com/n9/jfs/t1/96862/37/7119/165502/5df8c34fEf13b16f8/1dab894c917b87b1.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="天青色"><img  data-presale="" data-sku="100010763718" data-img="1" width="25" height="25" data-lazy-img="//img13.360buyimg.com/n9/jfs/t1/105066/27/7065/178286/5df8c3c8E3ef6efc1/14694167153ec713.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100010763726" data-done="1"><em>￥</em><i>1199.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="【购机享购机享3期免息】6.5英寸水滴屏，4230mAh大电池。【A91新年新升级，立即查看！】" href="//item.jd.com/100010763726.html" onclick="searchlog(1,100010763726,12,1,'','flagsClk=1631589000')">
+				<em>OPPO A8 4GB+128GB 秘夜黑 6.5英寸水滴屏 4230mAh大电池 后置AI三摄 全网通4G 全面屏拍照游戏智能<font class="skcolor_ljg">手机</font></em>
+				<i class="promo-words" id="J_AD_100010763726">【购机享购机享3期免息】6.5英寸水滴屏，4230mAh大电池。【A91新年新升级，立即查看！】</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_100010763726" target="_blank" href="//item.jd.com/100010763726.html#comment" onclick="searchlog(1,100010763726,12,3,'','flagsClk=1631589000')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100010763726" href="javascript:;" title="点击关注" onclick="searchlog(1,100010763726,12,5,'','flagsClk=1631589000')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="96">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000004065,0,58)" href="//mall.jd.com/index-1000004065.html" title="OPPO京东自营官方旗舰店">OPPO京东自营官方旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100010763726" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+<i class="goods-icons4 J-picon-tips" data-tips="购买本商品送赠品">赠</i>		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="7635559" data-spu="7635559" data-pid="7635559">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="华为 HUAWEI 畅享8e青春 2GB+32GB全面屏 黑色 全网通版 移动联通电信4G手机 双卡双待" href="//item.jd.com/7635559.html" onclick="searchlog(1,7635559,13,2,'','flagsClk=1631589000')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img14.360buyimg.com/n7/jfs/t19822/21/667428507/40291/1aba7a/5b05180aN7bcc1127.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000004259" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="黑色"><img  data-presale="" data-sku="7635559" data-img="1" data-lazy-img="//img14.360buyimg.com/n9/jfs/t19822/21/667428507/40291/1aba7a/5b05180aN7bcc1127.jpg" class="err-product" width="25" height="25" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_7635559" data-done="1"><em>￥</em><i>448.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="华为 HUAWEI 畅享8e青春 2GB+32GB全面屏 黑色 全网通版 移动联通电信4G手机 双卡双待" href="//item.jd.com/7635559.html" onclick="searchlog(1,7635559,13,1,'','flagsClk=1631589000')">
+				<em>华为 HUAWEI 畅享8e青春 2GB+32GB全面屏 黑色 全网通版 移动联通电信4G<font class="skcolor_ljg">手机</font> 双卡双待</em>
+				<i class="promo-words" id="J_AD_7635559"></i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_7635559" target="_blank" href="//item.jd.com/7635559.html#comment" onclick="searchlog(1,7635559,13,3,'','flagsClk=1631589000')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="7635559" href="javascript:;" title="点击关注" onclick="searchlog(1,7635559,13,5,'','flagsClk=1631589000')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="98">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000004259,0,58)" href="//mall.jd.com/index-1000004259.html" title="华为京东自营官方旗舰店">华为京东自营官方旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_7635559" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+			<i class="goods-icons4 J-picon-tips J-picon-fix" data-tips="天天低价，正品保证">秒杀</i>
+		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="63149263977" data-spu="14017924152" data-pid="63149263973">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="【钜惠不断！12+128G直降100到手价2598！8+128G到手价2298（冰岛极光、电光薄荷5-7天发货）】iQOO3享24期免息" href="//item.jd.com/63149263977.html" onclick="searchlog(1,63149263977,14,2,'','flagsClk=1631584392')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img12.360buyimg.com/n7/jfs/t1/89226/34/14010/142276/5e627223E2a35ec82/389d9f22913d435d.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="774276" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="冰岛极光"><img  data-presale="" data-sku="63149263977" data-img="1" data-lazy-img="//img12.360buyimg.com/n9/jfs/t1/89226/34/14010/142276/5e627223E2a35ec82/389d9f22913d435d.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="电光薄荷"><img  data-presale="" data-sku="63149263975" data-img="1" width="25" height="25" data-lazy-img="//img10.360buyimg.com/n9/jfs/t1/89469/3/14146/147374/5e627217E27bc87f0/d2d441825bd97368.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_63149263977" data-done="1"><em>￥</em><i>2298.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="【钜惠不断！12+128G直降100到手价2598！8+128G到手价2298（冰岛极光、电光薄荷5-7天发货）】iQOO3享24期免息" href="//item.jd.com/63149263977.html" onclick="searchlog(1,63149263977,14,1,'','flagsClk=1631584392')">
+				<em>【至高优惠100】vivo iQOO Neo 855竞速版骁龙855Plus 电竞游戏智能<font class="skcolor_ljg">手机</font> 冰岛极光 8GB 128GB</em>
+				<i class="promo-words" id="J_AD_63149263977">【钜惠不断！12+128G直降100到手价2598！8+128G到手价2298（冰岛极光、电光薄荷5-7天发货）】iQOO3享24期免息</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_63149263977" target="_blank" href="//item.jd.com/63149263977.html#comment" onclick="searchlog(1,63149263977,14,3,'','flagsClk=1631584392')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="63149263977" href="javascript:;" title="点击关注" onclick="searchlog(1,63149263977,14,5,'','flagsClk=1631584392')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="0" data-score="5" data-reputation="95">
+<img src="//img12.360buyimg.com/schoolbt/jfs/t1/80828/19/2993/908/5d14277aEbb134d76/889d5265315e11ed.png" class="shop-tag" width="73" height="16"><span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,770171,0,58)" href="//mall.jd.com/index-770171.html" title="vivo官方旗舰店">vivo官方旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_63149263977" data-done="1">
+		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100000761027" data-spu="100000766433" data-pid="100000766433">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="【15天超长价保！优惠400，到手价1399！】6.5英寸超清全面屏；nova5z爆款1499起》" href="//item.jd.com/100000761027.html" onclick="searchlog(1,100000761027,15,2,'','flagsClk=1631589000')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img12.360buyimg.com/n7/jfs/t24601/251/1757078602/208490/a3be6016/5bbc12e0Nb7ea42ed.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000004259" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="极光紫"><img  data-presale="" data-sku="100000761027" data-img="1" data-lazy-img="//img12.360buyimg.com/n9/jfs/t24601/251/1757078602/208490/a3be6016/5bbc12e0Nb7ea42ed.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="幻夜黑"><img  data-presale="" data-sku="100000892804" data-img="1" width="25" height="25" data-lazy-img="//img14.360buyimg.com/n9/jfs/t25933/297/1797840629/176935/5976cd0b/5bbc1325Ndf6aa67e.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="樱语粉"><img  data-presale="" data-sku="100000900794" data-img="1" width="25" height="25" data-lazy-img="//img14.360buyimg.com/n9/jfs/t27193/34/888934083/191156/772350ba/5bbc49e1Nc34af8df.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100000761027" data-done="1"><em>￥</em><i>1399.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="【15天超长价保！优惠400，到手价1399！】6.5英寸超清全面屏；nova5z爆款1499起》" href="//item.jd.com/100000761027.html" onclick="searchlog(1,100000761027,15,1,'','flagsClk=1631589000')">
+				<em><span class="p-tag" style="background-color:#c81623">京品手机</span>华为 HUAWEI 畅享9 Plus 6GB+128GB 极光紫 全网通 四摄超清全面屏大电池 移动联通电信4G<font class="skcolor_ljg">手机</font> 双卡双待</em>
+				<i class="promo-words" id="J_AD_100000761027">【15天超长价保！优惠400，到手价1399！】6.5英寸超清全面屏；nova5z爆款1499起》</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_100000761027" target="_blank" href="//item.jd.com/100000761027.html#comment" onclick="searchlog(1,100000761027,15,3,'','flagsClk=1631589000')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100000761027" href="javascript:;" title="点击关注" onclick="searchlog(1,100000761027,15,5,'','flagsClk=1631589000')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="98">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000004259,0,58)" href="//mall.jd.com/index-1000004259.html" title="华为京东自营官方旗舰店">华为京东自营官方旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100000761027" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100009289550" data-spu="100009289550" data-pid="100009289550">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="【3.5-3.8女神节狂欢，购机享24期免息】4800万夜拍四摄，VOOC闪充。【Reno2特惠，视频防抖，活力全开限量抢购！】" href="//item.jd.com/100009289550.html" onclick="searchlog(1,100009289550,16,2,'','flagsClk=1631589000')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img10.360buyimg.com/n7/jfs/t1/100940/6/13808/412214/5e5cbf25Ee098dffa/896c893f85936cc8.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000004065" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="极夜星云"><img  data-presale="" data-sku="100009289550" data-img="1" data-lazy-img="//img10.360buyimg.com/n9/jfs/t1/100940/6/13808/412214/5e5cbf25Ee098dffa/896c893f85936cc8.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="晨雾白"><img  data-presale="" data-sku="100005242625" data-img="1" width="25" height="25" data-lazy-img="//img10.360buyimg.com/n9/jfs/t1/109257/12/7510/160727/5e5cbf15E67ebeae7/cdf1230434918f72.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100009289550" data-done="1"><em>￥</em><i>2299.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="【3.5-3.8女神节狂欢，购机享24期免息】4800万夜拍四摄，VOOC闪充。【Reno2特惠，视频防抖，活力全开限量抢购！】" href="//item.jd.com/100009289550.html" onclick="searchlog(1,100009289550,16,1,'','flagsClk=1631589000')">
+				<em>OPPO Reno2 Z 8G+128G 极夜星云 4800万夜拍四摄 VOOC闪充 炫彩升降 全网通4G 全面屏拍照游戏智能<font class="skcolor_ljg">手机</font></em>
+				<i class="promo-words" id="J_AD_100009289550">【3.5-3.8女神节狂欢，购机享24期免息】4800万夜拍四摄，VOOC闪充。【Reno2特惠，视频防抖，活力全开限量抢购！】</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<a target="_blank" href="//paipai.jd.com/pc/list.html?pid=100009289550" class="spu-link">二手有售</a>
+			<strong><a id="J_comment_100009289550" target="_blank" href="//item.jd.com/100009289550.html#comment" onclick="searchlog(1,100009289550,16,3,'','flagsClk=1631589000')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100009289550" href="javascript:;" title="点击关注" onclick="searchlog(1,100009289550,16,5,'','flagsClk=1631589000')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="96">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000004065,0,58)" href="//mall.jd.com/index-1000004065.html" title="OPPO京东自营官方旗舰店">OPPO京东自营官方旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100009289550" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+<i class="goods-icons4 J-picon-tips" data-tips="购买本商品送赠品">赠</i>		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100008339420" data-spu="100004050001" data-pid="100004050001">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="华为 HUAWEI Mate20 X (5G) 7nm工艺5G旗舰芯片全面屏超大广角徕卡三摄8GB+256GB宝石蓝5G双模全网通手机" href="//item.jd.com/100008339420.html" onclick="searchlog(1,100008339420,17,2,'','flagsClk=1631589000')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img10.360buyimg.com/n7/jfs/t1/62445/29/14877/311565/5dc577aeE2c7e89e3/d40b253c2d5dd31c.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000004259" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="宝石蓝"><img  data-presale="" data-sku="100008339420" data-img="1" data-lazy-img="//img10.360buyimg.com/n9/jfs/t1/62445/29/14877/311565/5dc577aeE2c7e89e3/d40b253c2d5dd31c.jpg" class="err-product" width="25" height="25" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100008339420" data-done="1"><em>￥</em><i>4498.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="华为 HUAWEI Mate20 X (5G) 7nm工艺5G旗舰芯片全面屏超大广角徕卡三摄8GB+256GB宝石蓝5G双模全网通手机" href="//item.jd.com/100008339420.html" onclick="searchlog(1,100008339420,17,1,'','flagsClk=1631589000')">
+				<em>华为 HUAWEI Mate20 X (5G) 7nm工艺5G旗舰芯片全面屏超大广角徕卡三摄8GB+256GB宝石蓝5G双模全网通<font class="skcolor_ljg">手机</font></em>
+				<i class="promo-words" id="J_AD_100008339420"></i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<a target="_blank" href="//paipai.jd.com/pc/list.html?pid=100008339420" class="spu-link">二手有售</a>
+			<strong><a id="J_comment_100008339420" target="_blank" href="//item.jd.com/100008339420.html#comment" onclick="searchlog(1,100008339420,17,3,'','flagsClk=1631589000')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100008339420" href="javascript:;" title="点击关注" onclick="searchlog(1,100008339420,17,5,'','flagsClk=1631589000')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="97">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000004259,0,58)" href="//mall.jd.com/index-1000004259.html" title="华为京东自营官方旗舰店">华为京东自营官方旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100008339420" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+    		<i class="goods-icons4 J-picon-tips" style="border-color:#4d88ff;color:#4d88ff;" data-idx="1" data-tips="品质服务，放心购物" >放心购</i>
+			<i class="goods-icons4 J-picon-tips J-picon-fix" data-tips="天天低价，正品保证">秒杀</i>
+		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100009177388" data-spu="100009177390" data-pid="100009177390">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="【15天超长价保！】优惠300，到手价1099！畅享9S优惠300》" href="//item.jd.com/100009177388.html" onclick="searchlog(1,100009177388,18,2,'','flagsClk=1631590024')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img13.360buyimg.com/n7/jfs/t1/81621/11/13285/468711/5da8527aEbd07c77a/62f32db5b6606ee2.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000004259" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="极光蓝"><img  data-presale="" data-sku="100009177388" data-img="1" data-lazy-img="//img13.360buyimg.com/n9/jfs/t1/81621/11/13285/468711/5da8527aEbd07c77a/62f32db5b6606ee2.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="天空之境"><img  data-presale="" data-sku="100009177390" data-img="1" width="25" height="25" data-lazy-img="//img10.360buyimg.com/n9/jfs/t1/83488/25/13225/465565/5da8515bEf61ff53e/d340d3b8bd32684a.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="幻夜黑"><img  data-presale="" data-sku="100009177386" data-img="1" width="25" height="25" data-lazy-img="//img11.360buyimg.com/n9/jfs/t1/60311/6/13253/416545/5da841ddEbd42492b/a64bdb1ff656c1ea.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="相思红"><img  data-presale="" data-sku="100005185587" data-img="1" width="25" height="25" data-lazy-img="//img12.360buyimg.com/n9/jfs/t1/88299/18/171/484809/5da84c9dE5d8db85e/bad534a65af6a0ea.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100009177388" data-done="1"><em>￥</em><i>1099.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="【15天超长价保！】优惠300，到手价1099！畅享9S优惠300》" href="//item.jd.com/100009177388.html" onclick="searchlog(1,100009177388,18,1,'','flagsClk=1631590024')">
+				<em>华为 HUAWEI 畅享10 极点全面屏4800万超清夜景4000mAh大电池 6GB+64GB极光蓝全网通双4G<font class="skcolor_ljg">手机</font></em>
+				<i class="promo-words" id="J_AD_100009177388">【15天超长价保！】优惠300，到手价1099！畅享9S优惠300》</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_100009177388" target="_blank" href="//item.jd.com/100009177388.html#comment" onclick="searchlog(1,100009177388,18,3,'','flagsClk=1631590024')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100009177388" href="javascript:;" title="点击关注" onclick="searchlog(1,100009177388,18,5,'','flagsClk=1631590024')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="97">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000004259,0,58)" href="//mall.jd.com/index-1000004259.html" title="华为京东自营官方旗舰店">华为京东自营官方旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100009177388" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+    		<i class="goods-icons4 J-picon-tips" style="border-color:#4d88ff;color:#4d88ff;" data-idx="1" data-tips="品质服务，放心购物" >放心购</i>
+		</div>
+		<div class="p-stock">广东预订</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100007001632" data-spu="100004049987" data-pid="100004049987">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="【15天超长价保！优惠200，到手价1999！】4800万AI四摄，麒麟810芯片；nova5pro优惠300元享12期免息》" href="//item.jd.com/100007001632.html" onclick="searchlog(1,100007001632,19,2,'','flagsClk=1614811784')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img12.360buyimg.com/n7/jfs/t1/71409/39/5439/273823/5d3907cdE896c8baa/80bcd24618d31ccb.jpg" />
+</a>			<div data-lease="" data-catid="655" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="幻夜黑"><img  data-presale="" data-sku="100007001632" data-img="1" data-lazy-img="//img12.360buyimg.com/n9/jfs/t1/71409/39/5439/273823/5d3907cdE896c8baa/80bcd24618d31ccb.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="翡冷翠"><img  data-presale="" data-sku="100007001634" data-img="1" width="25" height="25" data-lazy-img="//img14.360buyimg.com/n9/jfs/t1/65196/40/5376/534057/5d3907f5E6b186c8e/228edebdff013500.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="极光色"><img  data-presale="" data-sku="100007000242" data-img="1" width="25" height="25" data-lazy-img="//img12.360buyimg.com/n9/jfs/t1/71403/18/5513/421844/5d3906ffE594c4549/143bc9d9219c3300.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100007001632" data-done="1"><em>￥</em><i>1999.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="【15天超长价保！优惠200，到手价1999！】4800万AI四摄，麒麟810芯片；nova5pro优惠300元享12期免息》" href="//item.jd.com/100007001632.html" onclick="searchlog(1,100007001632,19,1,'','flagsClk=1614811784')">
+				<em>华为 HUAWEI nova 5i Pro 前置3200万人像超级夜景4800万AI四摄极点全面屏8GB+128GB幻夜黑全网通双4G<font class="skcolor_ljg">手机</font></em>
+				<i class="promo-words" id="J_AD_100007001632">【15天超长价保！优惠200，到手价1999！】4800万AI四摄，麒麟810芯片；nova5pro优惠300元享12期免息》</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<a target="_blank" href="//paipai.jd.com/pc/list.html?pid=100007001632" class="spu-link">二手有售</a>
+			<strong><a id="J_comment_100007001632" target="_blank" href="//item.jd.com/100007001632.html#comment" onclick="searchlog(1,100007001632,19,3,'','flagsClk=1614811784')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100007001632" href="javascript:;" title="点击关注" onclick="searchlog(1,100007001632,19,5,'','flagsClk=1614811784')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="97">
+		</div>	
+		
+		<div class="p-icons" id="J_pro_100007001632" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+    		<i class="goods-icons4 J-picon-tips" style="border-color:#4d88ff;color:#4d88ff;" data-idx="1" data-tips="品质服务，放心购物" >放心购</i>
+		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100001693805" data-spu="100002293114" data-pid="100002293114">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="【15天超长价保！到手价899！】高清珍珠屏，AI双摄长续航；畅享9S优惠300》" href="//item.jd.com/100001693805.html" onclick="searchlog(1,100001693805,20,2,'','flagsClk=1631589000')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img10.360buyimg.com/n7/jfs/t28822/194/897534616/151785/6edd523f/5c00df9bN52171b33.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000004259" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="幻夜黑"><img  data-presale="" data-sku="100001693805" data-img="1" data-lazy-img="//img10.360buyimg.com/n9/jfs/t28822/194/897534616/151785/6edd523f/5c00df9bN52171b33.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="极光蓝"><img  data-presale="" data-sku="100002287516" data-img="1" width="25" height="25" data-lazy-img="//img11.360buyimg.com/n9/jfs/t30073/218/864057261/182405/ae2b478e/5c00e1c5N7afbd318.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="珊瑚红"><img  data-presale="" data-sku="100001693779" data-img="1" width="25" height="25" data-lazy-img="//img14.360buyimg.com/n9/jfs/t30544/350/866902601/160432/ec1c879c/5c00e195N21bd58b9.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100001693805" data-done="1"><em>￥</em><i>899.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="【15天超长价保！到手价899！】高清珍珠屏，AI双摄长续航；畅享9S优惠300》" href="//item.jd.com/100001693805.html" onclick="searchlog(1,100001693805,20,1,'','flagsClk=1631589000')">
+				<em>华为 HUAWEI 畅享9  4GB+64GB 幻夜黑 高清珍珠屏 AI长续航 全网通高配版 移动联通电信4G<font class="skcolor_ljg">手机</font></em>
+				<i class="promo-words" id="J_AD_100001693805">【15天超长价保！到手价899！】高清珍珠屏，AI双摄长续航；畅享9S优惠300》</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_100001693805" target="_blank" href="//item.jd.com/100001693805.html#comment" onclick="searchlog(1,100001693805,20,3,'','flagsClk=1631589000')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100001693805" href="javascript:;" title="点击关注" onclick="searchlog(1,100001693805,20,5,'','flagsClk=1631589000')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="98">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000004259,0,58)" href="//mall.jd.com/index-1000004259.html" title="华为京东自营官方旗舰店">华为京东自营官方旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100001693805" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+    		<i class="goods-icons4 J-picon-tips" style="border-color:#4d88ff;color:#4d88ff;" data-idx="1" data-tips="品质服务，放心购物" >放心购</i>
+		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="63688292919" data-spu="13946434273" data-pid="62049397357">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="【全系现货当天发，华为官方直供】白条12期免息！
+【下单送】双耳真无线蓝牙耳机+移动电源+电动牙刷+三合一数据线+钢化膜【华为nova6】" href="//item.jd.com/63688292919.html" onclick="searchlog(1,63688292919,21,2,'','flagsClk=1631584904')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img14.360buyimg.com/n7/jfs/t1/85331/38/5883/76157/5df05a1fE9e9dce1a/fc0e189c68ce9d39.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="653506" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="樱雪晴空"><img  data-presale="" data-sku="63688292919" data-img="1" data-lazy-img="//img14.360buyimg.com/n9/jfs/t1/85331/38/5883/76157/5df05a1fE9e9dce1a/fc0e189c68ce9d39.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="幻夜黑"><img  data-presale="" data-sku="62049397357" data-img="1" width="25" height="25" data-lazy-img="//img12.360buyimg.com/n9/jfs/t1/103659/1/5953/83620/5df05a04E21bc3e4f/009ee09bfdf43e22.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="绮境森林"><img  data-presale="" data-sku="63688292920" data-img="1" width="25" height="25" data-lazy-img="//img10.360buyimg.com/n9/jfs/t1/99155/35/5842/89386/5df05a49Ec24f72a7/aa27e635f01e4986.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_63688292919" data-done="1"><em>￥</em><i>2199.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="【全系现货当天发，华为官方直供】白条12期免息！
+【下单送】双耳真无线蓝牙耳机+移动电源+电动牙刷+三合一数据线+钢化膜【华为nova6】" href="//item.jd.com/63688292919.html" onclick="searchlog(1,63688292919,21,1,'','flagsClk=1631584904')">
+				<em>华为 nova6se <font class="skcolor_ljg">手机</font> 樱雪晴空 全网通(8G+128G)</em>
+				<i class="promo-words" id="J_AD_63688292919">【全系现货当天发，华为官方直供】白条12期免息！
+【下单送】双耳真无线蓝牙耳机+移动电源+电动牙刷+三合一数据线+钢化膜【华为nova6】</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_63688292919" target="_blank" href="//item.jd.com/63688292919.html#comment" onclick="searchlog(1,63688292919,21,3,'','flagsClk=1631584904')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="63688292919" href="javascript:;" title="点击关注" onclick="searchlog(1,63688292919,21,5,'','flagsClk=1631584904')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="0" data-score="5" data-reputation="96">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,649114,0,58)" href="//mall.jd.com/index-649114.html" title="掌视界数码旗舰店">掌视界数码旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_63688292919" data-done="1">
+    		<i class="goods-icons4 J-picon-tips" style="border-color:#4d88ff;color:#4d88ff;" data-idx="1" data-tips="品质服务，放心购物" >放心购</i>
+			<i class="goods-icons4 J-picon-tips" data-tips="当前收货地址，本商品免邮费">免邮</i>
+<i class="goods-icons4 J-picon-tips" data-tips="购买本商品送赠品">赠</i>		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100009165106" data-spu="100009165102" data-pid="100009165102">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="【正常发货！特惠50，到手价1049！】6.53英寸高清大屏，高通骁龙675！Z5特惠火力全开！" href="//item.jd.com/100009165106.html" onclick="searchlog(1,100009165106,22,2,'','flagsClk=1631589000')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img11.360buyimg.com/n7/jfs/t1/93987/1/13901/116053/5e5f1df2E5f4258ba/f6d4ade3f0bbfe27.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000085868" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="晶石蓝"><img  data-presale="" data-sku="100009165106" data-img="1" data-lazy-img="//img11.360buyimg.com/n9/jfs/t1/93987/1/13901/116053/5e5f1df2E5f4258ba/f6d4ade3f0bbfe27.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="玛瑙黑"><img  data-presale="" data-sku="100009165104" data-img="1" width="25" height="25" data-lazy-img="//img14.360buyimg.com/n9/jfs/t1/87132/12/13822/106785/5e5f1de2E8b15c99c/570c8d0c541dce49.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="玉瓷青"><img  data-presale="" data-sku="100005179191" data-img="1" width="25" height="25" data-lazy-img="//img11.360buyimg.com/n9/jfs/t1/109360/8/7695/109600/5e5f1dd0Eb879e5c0/8a95a352e4ee757b.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100009165106" data-done="1"><em>￥</em><i>1049.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="【正常发货！特惠50，到手价1049！】6.53英寸高清大屏，高通骁龙675！Z5特惠火力全开！" href="//item.jd.com/100009165106.html" onclick="searchlog(1,100009165106,22,1,'','flagsClk=1631589000')">
+				<em>vivo U3 6GB+64GB 晶石蓝 5000mAh大电池 18W双引擎闪充 骁龙675处理器 全网通4G<font class="skcolor_ljg">手机</font></em>
+				<i class="promo-words" id="J_AD_100009165106">【正常发货！特惠50，到手价1049！】6.53英寸高清大屏，高通骁龙675！Z5特惠火力全开！</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_100009165106" target="_blank" href="//item.jd.com/100009165106.html#comment" onclick="searchlog(1,100009165106,22,3,'','flagsClk=1631589000')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100009165106" href="javascript:;" title="点击关注" onclick="searchlog(1,100009165106,22,5,'','flagsClk=1631589000')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="97">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000085868,0,58)" href="//mall.jd.com/index-1000085868.html" title="vivo京东自营官方旗舰店">vivo京东自营官方旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100009165106" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+    		<i class="goods-icons4 J-picon-tips" style="border-color:#4d88ff;color:#4d88ff;" data-idx="1" data-tips="品质服务，放心购物" >放心购</i>
+		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100010209872" data-spu="100010209872" data-pid="100010209872">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="黑科技内折叠屏幕，骁龙855+处理器，优雅奢华设计，5G新形态！三星5G手机火热优惠中，详情猛戳" href="//item.jd.com/100010209872.html" onclick="searchlog(1,100010209872,23,2,'','flagsClk=1631589000')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img12.360buyimg.com/n7/jfs/t1/69789/31/15803/50939/5dd4f4b8Eec7f892b/062197cfde8eaa79.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000003443" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="皓月白"><img  data-presale="" data-sku="100010209872" data-img="1" data-lazy-img="//img12.360buyimg.com/n9/jfs/t1/69789/31/15803/50939/5dd4f4b8Eec7f892b/062197cfde8eaa79.jpg" class="err-product" width="25" height="25" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100010209872" data-done="1"><em>￥</em><i>19999.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="黑科技内折叠屏幕，骁龙855+处理器，优雅奢华设计，5G新形态！三星5G手机火热优惠中，详情猛戳" href="//item.jd.com/100010209872.html" onclick="searchlog(1,100010209872,23,1,'','flagsClk=1631589000')">
+				<em><img class="p-tag3" src="//img14.360buyimg.com/uba/jfs/t6919/268/501386350/1257/92e5fb39/5976fcf9Nd915775f.png" />三星 SAMSUNG 心系天下 W20 5G<font class="skcolor_ljg">手机</font>（SM-W2020）折叠屏 皓月白 12GB+512GB</em>
+				<i class="promo-words" id="J_AD_100010209872">黑科技内折叠屏幕，骁龙855+处理器，优雅奢华设计，5G新形态！三星5G手机火热优惠中，详情猛戳</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<a target="_blank" href="//paipai.jd.com/pc/list.html?pid=100010209872" class="spu-link">二手有售</a>
+			<strong><a id="J_comment_100010209872" target="_blank" href="//item.jd.com/100010209872.html#comment" onclick="searchlog(1,100010209872,23,3,'','flagsClk=1631589000')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100010209872" href="javascript:;" title="点击关注" onclick="searchlog(1,100010209872,23,5,'','flagsClk=1631589000')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="95">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000003443,0,58)" href="//mall.jd.com/index-1000003443.html" title="三星手机京东自营官方旗舰店">三星手机京东自营官方旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100010209872" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+    		<i class="goods-icons4 J-picon-tips" style="border-color:#4d88ff;color:#4d88ff;" data-idx="1" data-tips="品质服务，放心购物" >放心购</i>
+		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="52280024497" data-spu="13336953744" data-pid="52280024497">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="【绿色秒杀1929元！】6.39英寸丨后置四摄，官网价直降700元~！全国联保，现货速发~！性能升级版nova5pro戳》" href="//item.jd.com/52280024497.html" onclick="searchlog(1,52280024497,24,2,'','flagsClk=1631584396')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img12.360buyimg.com/n7/jfs/t1/85558/2/12747/102579/5e4e4cdaE4a692705/07c1d1e640222362.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="644697" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="绮境森林"><img  data-presale="" data-sku="52280024497" data-img="1" data-lazy-img="//img12.360buyimg.com/n9/jfs/t1/85558/2/12747/102579/5e4e4cdaE4a692705/07c1d1e640222362.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="亮黑色"><img  data-presale="" data-sku="52385246432" data-img="1" width="25" height="25" data-lazy-img="//img12.360buyimg.com/n9/jfs/t1/84858/40/12782/127923/5e4e4cd1E1e031f11/4789b38d134fba36.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="仲夏紫"><img  data-presale="" data-sku="52385246431" data-img="1" width="25" height="25" data-lazy-img="//img11.360buyimg.com/n9/jfs/t1/91531/18/12758/118964/5e4e4ce0Ee1ae9149/ca9c22491fc72849.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_52280024497" data-done="1"><em>￥</em><i>1929.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="【绿色秒杀1929元！】6.39英寸丨后置四摄，官网价直降700元~！全国联保，现货速发~！性能升级版nova5pro戳》" href="//item.jd.com/52280024497.html" onclick="searchlog(1,52280024497,24,1,'','flagsClk=1631584396')">
+				<em>华为nova5 <font class="skcolor_ljg">手机</font> 绮境森林 全网通（8G+128G)</em>
+				<i class="promo-words" id="J_AD_52280024497">【绿色秒杀1929元！】6.39英寸丨后置四摄，官网价直降700元~！全国联保，现货速发~！性能升级版nova5pro戳》</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_52280024497" target="_blank" href="//item.jd.com/52280024497.html#comment" onclick="searchlog(1,52280024497,24,3,'','flagsClk=1631584396')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="52280024497" href="javascript:;" title="点击关注" onclick="searchlog(1,52280024497,24,5,'','flagsClk=1631584396')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="0" data-score="5" data-reputation="95">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,640582,0,58)" href="//mall.jd.com/index-640582.html" title="聚捷联盛手机旗舰店">聚捷联盛手机旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_52280024497" data-done="1">
+			<i class="goods-icons4 J-picon-tips J-picon-fix"data-idx="1" data-tips="京东物流仓配，商家提供售后服务" >京东物流</i>
+    		<i class="goods-icons4 J-picon-tips" style="border-color:#4d88ff;color:#4d88ff;" data-idx="1" data-tips="品质服务，放心购物" >放心购</i>
+			<i class="goods-icons4 J-picon-tips J-picon-fix" data-tips="品牌限时特卖">闪购</i>
+			<i class="goods-icons4 J-picon-tips" data-tips="当前收货地址，本商品免邮费">免邮</i>
+		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100003490442" data-spu="100003490442" data-pid="100003490442">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="白条12期免息！限时直降900元！成交价5099元！三星新品S20系列预售中，参与互动享PLUS年卡" href="//item.jd.com/100003490442.html" onclick="searchlog(1,100003490442,25,2,'','flagsClk=1631589000')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img12.360buyimg.com/n7/jfs/t1/86727/12/14160/257547/5e62412dE5a383ece/c6333f82f691e772.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000003443" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="黑"><img  data-presale="" data-sku="100003490442" data-img="1" data-lazy-img="//img12.360buyimg.com/n9/jfs/t1/86727/12/14160/257547/5e62412dE5a383ece/c6333f82f691e772.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="白"><img  data-presale="" data-sku="100003525722" data-img="1" width="25" height="25" data-lazy-img="//img12.360buyimg.com/n9/jfs/t1/106091/11/14006/270244/5e62414dE41e1dcd2/eb7da6684ae2a925.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="绿"><img  data-presale="" data-sku="100003525706" data-img="1" width="25" height="25" data-lazy-img="//img11.360buyimg.com/n9/jfs/t1/103887/34/14217/275081/5e62416eE0912dfec/ce590f91a565ddeb.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="蓝"><img  data-presale="" data-sku="100003753035" data-img="1" width="25" height="25" data-lazy-img="//img10.360buyimg.com/n9/jfs/t1/101914/32/14214/282253/5e624192E9767c63e/22980847c7e1d241.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100003490442" data-done="1"><em>￥</em><i>5099.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="白条12期免息！限时直降900元！成交价5099元！三星新品S20系列预售中，参与互动享PLUS年卡" href="//item.jd.com/100003490442.html" onclick="searchlog(1,100003490442,25,1,'','flagsClk=1631589000')">
+				<em>三星 Galaxy S10+ 骁龙855 4G<font class="skcolor_ljg">手机</font> 8GB+128GB 炭晶黑 全网通 双卡双待 游戏<font class="skcolor_ljg">手机</font></em>
+				<i class="promo-words" id="J_AD_100003490442">白条12期免息！限时直降900元！成交价5099元！三星新品S20系列预售中，参与互动享PLUS年卡</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<a target="_blank" href="//paipai.jd.com/pc/list.html?pid=100003490442" class="spu-link">二手有售</a>
+			<strong><a id="J_comment_100003490442" target="_blank" href="//item.jd.com/100003490442.html#comment" onclick="searchlog(1,100003490442,25,3,'','flagsClk=1631589000')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100003490442" href="javascript:;" title="点击关注" onclick="searchlog(1,100003490442,25,5,'','flagsClk=1631589000')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="95">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000003443,0,58)" href="//mall.jd.com/index-1000003443.html" title="三星手机京东自营官方旗舰店">三星手机京东自营官方旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100003490442" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+    		<i class="goods-icons4 J-picon-tips" style="border-color:#4d88ff;color:#4d88ff;" data-idx="1" data-tips="品质服务，放心购物" >放心购</i>
+		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="56648702660" data-spu="13614300604" data-pid="56648702660">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="【购物车加价购碎屏险1年仅售79元】赠【防摔保护壳】【防摔保护膜】苹果11promax" href="//item.jd.com/56648702660.html" onclick="searchlog(1,56648702660,26,2,'','flagsClk=1631584392')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img10.360buyimg.com/n7/jfs/t1/86476/10/14406/138043/5e63502aEbe50a432/2441cd318fdfff36.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="647331" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="黑色"><img  data-presale="" data-sku="56648702660" data-img="1" data-lazy-img="//img10.360buyimg.com/n9/jfs/t1/86476/10/14406/138043/5e63502aEbe50a432/2441cd318fdfff36.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="白色"><img  data-presale="" data-sku="56756553891" data-img="1" width="25" height="25" data-lazy-img="//img11.360buyimg.com/n9/jfs/t1/108635/17/8233/130889/5e634e8fE21753689/0bb7888a2ad76717.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="紫色"><img  data-presale="" data-sku="56756553898" data-img="1" width="25" height="25" data-lazy-img="//img13.360buyimg.com/n9/jfs/t1/103337/28/14272/139168/5e634f32Ee8090916/057e56fdcab8e44d.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="绿色"><img  data-presale="" data-sku="56648702663" data-img="1" width="25" height="25" data-lazy-img="//img13.360buyimg.com/n9/jfs/t1/96606/11/14251/136766/5e634ec0E7310aa88/da393c7af3a916b1.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="红色"><img  data-presale="" data-sku="56756553894" data-img="1" width="25" height="25" data-lazy-img="//img14.360buyimg.com/n9/jfs/t1/104315/20/14230/143499/5e634edcE98147501/ba174aba597bad6d.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="黄色"><img  data-presale="" data-sku="56756554001" data-img="1" width="25" height="25" data-lazy-img="//img11.360buyimg.com/n9/jfs/t1/90180/3/14230/136232/5e63501aE6b9402ca/64752219116881b7.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_56648702660" data-done="1"><em>￥</em><i>5138.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="【购物车加价购碎屏险1年仅售79元】赠【防摔保护壳】【防摔保护膜】苹果11promax" href="//item.jd.com/56648702660.html" onclick="searchlog(1,56648702660,26,1,'','flagsClk=1631584392')">
+				<em>现货速发【现货国行-5048元起-可分期】Apple 苹果 iPhone 11 <font class="skcolor_ljg">手机</font> 黑色 全网通 64GB</em>
+				<i class="promo-words" id="J_AD_56648702660">【购物车加价购碎屏险1年仅售79元】赠【防摔保护壳】【防摔保护膜】苹果11promax</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_56648702660" target="_blank" href="//item.jd.com/56648702660.html#comment" onclick="searchlog(1,56648702660,26,3,'','flagsClk=1631584392')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="56648702660" href="javascript:;" title="点击关注" onclick="searchlog(1,56648702660,26,5,'','flagsClk=1631584392')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="0" data-score="5" data-reputation="95">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,643810,0,58)" href="//mall.jd.com/index-643810.html" title="明日数码旗舰店">明日数码旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_56648702660" data-done="1">
+			<i class="goods-icons4 J-picon-tips" data-tips="当前收货地址，本商品免邮费">免邮</i>
+<i class="goods-icons4 J-picon-tips" data-tips="购买本商品送赠品">赠</i>		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="55370143413" data-spu="13536629394" data-pid="55370143413">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="【部分规格京东物流就近发货】【现货速发】加129元购买碎屏险套装+运费险AirPods直降100" href="//item.jd.com/55370143413.html" onclick="searchlog(1,55370143413,27,2,'','flagsClk=1631584392')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img13.360buyimg.com/n7/jfs/t1/107863/14/7857/348879/5e61bbcbEf5b6401b/c23e0b7496a0a7b1.png" />
+</a>			<div data-lease="" data-catid="655" data-venid="622824" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="黑色"><img  data-presale="" data-sku="55370143413" data-img="1" data-lazy-img="//img13.360buyimg.com/n9/jfs/t1/107863/14/7857/348879/5e61bbcbEf5b6401b/c23e0b7496a0a7b1.png" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="紫色"><img  data-presale="" data-sku="56644855030" data-img="1" width="25" height="25" data-lazy-img="//img10.360buyimg.com/n9/jfs/t1/105492/9/14099/378362/5e61bbcaE521500ef/cf8317df147b5706.png" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="绿色"><img  data-presale="" data-sku="56644855039" data-img="1" width="25" height="25" data-lazy-img="//img14.360buyimg.com/n9/jfs/t1/89994/1/14019/383430/5e61bbc8E6da086c8/c8d724d70ea9f974.png" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="白色"><img  data-presale="" data-sku="56644855027" data-img="1" width="25" height="25" data-lazy-img="//img12.360buyimg.com/n9/jfs/t1/96680/26/13929/354645/5e61bbc7E7c91c516/3d4b7206831a313d.png" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="红色"><img  data-presale="" data-sku="56644855033" data-img="1" width="25" height="25" data-lazy-img="//img13.360buyimg.com/n9/jfs/t1/100879/29/14167/390481/5e61bbc9Eb15f3664/124b046996965b8d.png" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="黄色"><img  data-presale="" data-sku="56644855036" data-img="1" width="25" height="25" data-lazy-img="//img11.360buyimg.com/n9/jfs/t1/98742/30/14201/384631/5e61bbcbE9a13bccc/4644497343179ebc.png" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_55370143413" data-done="1"><em>￥</em><i>5669.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="【部分规格京东物流就近发货】【现货速发】加129元购买碎屏险套装+运费险AirPods直降100" href="//item.jd.com/55370143413.html" onclick="searchlog(1,55370143413,27,1,'','flagsClk=1631584392')">
+				<em>【国行正品】Apple 苹果 iphone 11 <font class="skcolor_ljg">手机</font> 黑色 全网通128GB</em>
+				<i class="promo-words" id="J_AD_55370143413">【部分规格京东物流就近发货】【现货速发】加129元购买碎屏险套装+运费险AirPods直降100</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_55370143413" target="_blank" href="//item.jd.com/55370143413.html#comment" onclick="searchlog(1,55370143413,27,3,'','flagsClk=1631584392')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="55370143413" href="javascript:;" title="点击关注" onclick="searchlog(1,55370143413,27,5,'','flagsClk=1631584392')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="0" data-score="5" data-reputation="98">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,624094,0,58)" href="//mall.jd.com/index-624094.html" title="疆界互联旗舰店">疆界互联旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_55370143413" data-done="1">
+			<i class="goods-icons4 J-picon-tips J-picon-fix"data-idx="1" data-tips="京东物流仓配，商家提供售后服务" >京东物流</i>
+		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100000827597" data-spu="100000827661" data-pid="100000827661">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="高通骁龙710处理器，2000万AI智能美颜相机！魅族16T大屏娱乐旗舰，欢迎点击抢购~" href="//item.jd.com/100000827597.html" onclick="searchlog(1,100000827597,28,2,'','flagsClk=1631589000')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img12.360buyimg.com/n7/jfs/t1/87492/14/2094/204466/5dca26beE8873b9a5/cbc28bb3ce0fde6d.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000001952" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="亮黑"><img  data-presale="" data-sku="100000827597" data-img="1" data-lazy-img="//img12.360buyimg.com/n9/jfs/t1/87492/14/2094/204466/5dca26beE8873b9a5/cbc28bb3ce0fde6d.jpg" class="err-product" width="25" height="25" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100000827597" data-done="1"><em>￥</em><i>999.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="高通骁龙710处理器，2000万AI智能美颜相机！魅族16T大屏娱乐旗舰，欢迎点击抢购~" href="//item.jd.com/100000827597.html" onclick="searchlog(1,100000827597,28,1,'','flagsClk=1631589000')">
+				<em>魅族 X8 准旗舰游戏拍照<font class="skcolor_ljg">手机</font> 6GB+64GB 亮黑 全网通移动联通电信4G<font class="skcolor_ljg">手机</font> 双卡双待</em>
+				<i class="promo-words" id="J_AD_100000827597">高通骁龙710处理器，2000万AI智能美颜相机！魅族16T大屏娱乐旗舰，欢迎点击抢购~</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_100000827597" target="_blank" href="//item.jd.com/100000827597.html#comment" onclick="searchlog(1,100000827597,28,3,'','flagsClk=1631589000')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100000827597" href="javascript:;" title="点击关注" onclick="searchlog(1,100000827597,28,5,'','flagsClk=1631589000')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="96">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000001952,0,58)" href="//mall.jd.com/index-1000001952.html" title="魅族京东自营旗舰店">魅族京东自营旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100000827597" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+<i class="goods-icons4 J-picon-tips" data-tips="购买本商品送赠品">赠</i>		</div>
+	</div>
+</li>
+<li class="gl-item" data-sku="100009575752" data-spu="7425622" data-pid="7425622">
+	<div class="gl-i-wrap">
+		<div class="p-img">
+			<a target="_blank" title="限时优惠499！全面屏，小身材，大视界！荣耀爆品特惠，选品质，购荣耀~" href="//item.jd.com/100009575752.html" onclick="searchlog(1,100009575752,29,2,'','flagsClk=1614811784')">
+				<img width="220" height="220" class="err-product" data-img="1" source-data-lazy-img="//img12.360buyimg.com/n7/jfs/t1/79484/29/13847/241443/5db2aa78Eec419888/69520a6d975eea6a.jpg" />
+</a>			<div data-lease="" data-catid="655" data-venid="1000000904" data-presale="" class="picon" style="background:url(//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png) no-repeat 0 0;_background-image:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//img30.360buyimg.com/jgsq-productsoa/jfs/t1/89418/2/12610/2512/5e4b47baE7b141f34/7ba085951747804a.png',sizingMethod='noscale');"></div>
+		</div>
+		<div class="p-scroll">
+			<span class="ps-prev">&lt;</span>
+			<span class="ps-next">&gt;</span>
+			<div class="ps-wrap">
+				<ul class="ps-main">
+					<li class="ps-item"><a href="javascript:;" class="curr" title="黑色"><img  data-presale="" data-sku="100009575752" data-img="1" data-lazy-img="//img12.360buyimg.com/n9/jfs/t1/79484/29/13847/241443/5db2aa78Eec419888/69520a6d975eea6a.jpg" class="err-product" width="25" height="25" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="蓝色"><img  data-presale="" data-sku="100009575780" data-img="1" width="25" height="25" data-lazy-img="//img10.360buyimg.com/n9/jfs/t1/101599/40/717/276755/5db2a962E370516ea/c4eed1f01f2d9f48.jpg" class="err-product" /></a></li>
+										<li class="ps-item"><a href="javascript:;" title="金色"><img  data-presale="" data-sku="100005385385" data-img="1" width="25" height="25" data-lazy-img="//img10.360buyimg.com/n9/jfs/t1/79189/28/14393/209789/5dbbb34fE3bbb9b87/db6f21fd3ca2833d.jpg" class="err-product" /></a></li>
+									</ul>
+			</div>
+		</div>
+		<div class="p-price">
+<strong class="J_100009575752" data-done="1"><em>￥</em><i>489.00</i></strong>		</div>
+		<div class="p-name p-name-type-2">
+			<a target="_blank" title="限时优惠499！全面屏，小身材，大视界！荣耀爆品特惠，选品质，购荣耀~" href="//item.jd.com/100009575752.html" onclick="searchlog(1,100009575752,29,1,'','flagsClk=1614811784')">
+				<em>荣耀 畅玩7 2GB+32GB 黑色 全网通4G<font class="skcolor_ljg">手机</font> 智能老人<font class="skcolor_ljg">手机</font> 双卡双待</em>
+				<i class="promo-words" id="J_AD_100009575752">限时优惠499！全面屏，小身材，大视界！荣耀爆品特惠，选品质，购荣耀~</i>
+			</a>
+		</div>
+		<div class="p-commit">
+			<strong><a id="J_comment_100009575752" target="_blank" href="//item.jd.com/100009575752.html#comment" onclick="searchlog(1,100009575752,29,3,'','flagsClk=1614811784')"></a></strong>
+		</div>
+		<div class="p-focus"><a class="J_focus" data-sku="100009575752" href="javascript:;" title="点击关注" onclick="searchlog(1,100009575752,29,5,'','flagsClk=1614811784')"><i></i>关注</a></div>
+		<div class="p-shop" data-dongdong="" data-selfware="1" data-score="5" data-reputation="99">
+<span class="J_im_icon"><a target="_blank" class="curr-shop hd-shopname" onclick="searchlog(1,1000000904,0,58)" href="//mall.jd.com/index-1000000904.html" title="荣耀京东自营旗舰店">荣耀京东自营旗舰店</a></span>		</div>	
+		
+		<div class="p-icons" id="J_pro_100009575752" data-done="1">
+			<i class="goods-icons J-picon-tips J-picon-fix" data-idx="1" data-tips="京东自营，品质保障">自营</i>
+		</div>
+	</div>
+</li>
+</ul><span class="clr"></span></div><div class="page clearfix"><div id="J_bottomPage" class="p-wrap"></div></div>		</div>
+	</div>
+	<div class="m-aside">
+				<div class="aside-bar">
+			<div id="J_promGoodsWrap_291" class="ab-goods u-ad-wrap">
+				<span class="u-ad"></span>
+				<div class="mt"><h3>商品精选</h3></div>
+				<div class="mc">
+				<ul class="clearfix" data-x="ab">
+				</ul>
+				</div>
+			</div>
+        	<div id="J_recommendGoods" class="ab-goods"><div class="mt"><h3>精品推荐</h3></div><div class="mc"></div></div>
+			
+			<div class="promo-pic-adbox u-ad-wrap" style="display:none;"><span class="u-ad"></span><h5 class="hd">商家精选</h5><div class="bd"><div id="J_promWrap_576"><div class="mc"></div></div></div></div>
+			<div id="miaozhen8148" class="ab-pic"></div>
+		</div>
+	</div>
+	<span class="clr"></span>
+</div>
+<script>
+LogParm = {
+	result_count:'1945',
+	ab:'0012',
+	front_cost:'101',
+	back_cost:'25',
+	ip:'157.127',
+	cid:0,
+	psort:3,
+	page:'3',
+	ekey:'',
+	ev:'0',
+	rec_type:'0',
+	rel_cat2:'653,13767,6880',
+	rel_cat3:'655,13768,6881',
+	log_id:'1583578143.19649',
+	expand:'double=1$stock=1',
+	mtest:'pc_a3_base_ht,pc_a3_base,~',
+	word:'',
+	sig:'IlAqKq4MYl8y+Yh0wsFPvkDIBLZGDZ4dlTYAq0eS8+7XbvFbCnYbAOY5yzn0BNH6N0KypTCH/Lx3m21DDBXQHvjz8FF/hWXU+euoDquU7GB6EZyd7pOcD7rUGqLjl1IXOxQEQqqdi9aN5iapyiXgmW1+/wvwkZ0hm6uYFZ1iovQ='
+};
+SEARCH.item_count=60;
+SEARCH.click=0;
+SEARCH.adv_param={page:"2",page_count:"33",psort:3,cid1:0,cid2:0,cid3:0,lazyload:1};
+SEARCH.base_url='keyword=%E6%89%8B%E6%9C%BA&enc=utf-8&qrst=1&rt=1&stop=1&vt=2&psort=3&stock=1';
+setTimeout(function(){var b={};b.i="1583578143.19649";b.h="653,13767,6880";b.k="手机";b.c="";b.m="6556f64f5599fbf9982d9f1277aa82f0";var a=[];$("#J_crumbsBar").find("a.crumb-select-item").each(function(){a.push($(this).find("b").html().replace("：","::")+$(this).attr("title").replace(/、/g,"||"))});b.s=a.join(";;")+(a.length?";;":"");var c=[];$("#J_selector").find(".J_selectorLine").each(function(){var f=$(this),e=f.find(".sl-key").text().replace("：","::"),d=[];if(e=="高级选项::"){f.find("a.trig-item").each(function(g){e=$(this).text()+"::";d=[];f.find(".J_valueList").eq(g).find("a").each(function(){d.push(e=="颜色::"?$(this).attr("title"):e=="其他分类::"?$(this).attr("data-v"):$(this).text())});c.push(e+d.join(",,"))})}else{if(e=="品牌::"){f.find(".J_valueList li").each(function(){d.push(this.id.replace("brand-",""))})}else{if(e=="颜色::"){f.find(".J_valueList a").each(function(){d.push($(this).attr("title"))})}else{if(f.hasClass("s-category")){f.find(".J_valueList a").each(function(){d.push($(this).attr("data-v"))})}else{f.find(".J_valueList a").each(function(){d.push($(this).text())})}}}c.push(e+d.join(",,"))}});b.u=c.join(";;")+(c.length?";;":"");$.post("attrlog.php",b,function(){})},500);
+</script>
+<script>$.get("im.php?r=1640813560&t=1583578143.3774&cs=4bfe3472997d9b80711814b0b96f8592");</script></div>
+</div>
+<div class="w">
+	<div class="m-box-s1 rec-goods-chosen u-ad-wrap hide" id="J_promGoodsWrap_292">
+		<span class="u-ad"></span>
+		<div class="mt"><strong class="mt-title">商品精选</strong></div>
+		<div class="mc"></div>
+	</div>
+</div>
+<div class="w">
+	<div class="bottom-search">
+		<div class="form-group">
+			<div class="fg-line search-ext">
+				<div class="fg-line-key"><span>您是不是要找：</span></div>
+				<div class="fg-line-value" clstag="search|keycount|search|qpsearch"></div>
+			</div>
+			<div class="fg-line re-search">
+				<div class="fg-line-key"><b>重新搜索：</b></div>
+				<div class="fg-line-value">
+					<input id="key-re-search" class="input-txt input-XL" type="text" placeholder="搜索" value="手机" onkeydown="javascript:if(event.keyCode==13){searchlog(1,0,0,60);search('key-re-search');}">
+					<a class="btn btn-primary btn-XL" href="javascript:search('key-re-search')" onclick="searchlog(1,0,0,60)">搜索</a>
+					<a class="link" href="javascript:surveyShow()">说说我使用搜索的感受</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="w">
+	<div id="footmark" class="footmark" data-lazyload-fn="done"></div>
+</div>
+<!--service start-->
+<div id="service-2017">
+	<div class="w">
+		<ol class="slogen">
+			<li class="item fore1">
+				<i>多</i>品类齐全，轻松购物
+			</li>
+			<li class="item fore2">
+				<i>快</i>多仓直发，极速配送
+			</li>
+			<li class="item fore3">
+				<i>好</i>正品行货，精致服务
+			</li>
+			<li class="item fore4">
+				<i>省</i>天天低价，畅选无忧
+			</li>
+		</ol>
+	</div>
+	<div class="jd-help">
+		<div class="w">
+			<div class="wrap">
+				<dl class="fore1">
+					<dt>购物指南</dt>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-29.html">购物流程</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-151.html">会员介绍</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-297.html">生活旅行/团购</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue.html">常见问题</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-136.html">大家电</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/custom.html">联系客服</a>
+					</dd>
+				</dl>
+				<dl class="fore2">
+					<dt>配送方式</dt>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-81-100.html">上门自提</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-81.html">211限时达</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/103-983.html">配送服务查询</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/109-188.html">配送费收取标准</a>
+					</dd>
+					<dd>
+						<a target="_blank" href="//help.joybuy.com/help/question-list-201.html">海外配送</a>
+					</dd>
+				</dl>
+				<dl class="fore3">
+					<dt>支付方式</dt>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-172.html">货到付款</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-173.html">在线支付</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-176.html">分期付款</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-175.html">公司转账</a>
+					</dd>
+				</dl>
+				<dl class="fore4">
+					<dt>售后服务</dt>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/321-981.html">售后政策</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-132.html">价格保护</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/130-978.html">退款说明</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//myjd.jd.com/repair/repairs.action">返修/退换货</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//help.jd.com/user/issue/list-50.html">取消订单</a>
+					</dd>
+				</dl>
+				<dl class="fore5">
+					<dt>特色服务</dt>
+					<dd>
+						<a target="_blank" href="//1paipai.jd.com">夺宝岛</a>
+					</dd>
+					<dd>
+						<a target="_blank" href="//help.jd.com/user/issue/list-134.html">DIY装机</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//fuwu.jd.com/">延保服务</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//o.jd.com/market/index.action">京东E卡</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//mobile.jd.com/">京东通信</a>
+					</dd>
+					<dd>
+						<a rel="nofollow" target="_blank" href="//smart.jd.com/">京鱼座智能</a>
+					</dd>
+				</dl>
+				<span class="clr"></span>
+			</div>
+		</div>
+	</div>
+</div>
+<!--service end--><!--footer start-->
+<div id="footer-2017" Includefile_Footer_id="1002">
+	<div class="w">
+		<div class="copyright_links">
+			<p>
+				<a href="//about.jd.com" target="_blank">关于我们</a><span class="copyright_split">|</span>
+				<a href="//about.jd.com/contact/" target="_blank">联系我们</a><span class="copyright_split">|</span>
+				<a href="//help.jd.com/user/custom.html" target="_blank">联系客服</a><span class="copyright_split">|</span>
+				<a href="//lai.jd.com" target="_blank">合作招商</a><span class="copyright_split">|</span>
+				<a href="//helpcenter.jd.com/venderportal/index.html" target="_blank">商家帮助</a><span class="copyright_split">|</span>
+				<a href="//jzt.jd.com" target="_blank">营销中心</a><span class="copyright_split">|</span>
+				<a href="//app.jd.com/" target="_blank">手机京东</a><span class="copyright_split">|</span>
+				<a href="//club.jd.com/links.aspx" target="_blank">友情链接</a><span class="copyright_split">|</span>
+				<a href="//media.jd.com/" target="_blank">销售联盟</a><span class="copyright_split">|</span>
+				<a href="//pro.jd.com/mall/active/3WA2zN8wkwc9fL9TxAJXHh5Nj79u/index.html" target="_blank">京东社区</a><span class="copyright_split">|</span>
+				<a href="//pro.jd.com/mall/active/3TF25tMdrnURET8Ez1cW9hzfg3Jt/index.html" target="_blank">风险监测</a><span class="copyright_split">|</span>
+				<a href="//about.jd.com/privacy/" target="_blank">隐私政策</a><span class="copyright_split">|</span>
+				<a href="//gongyi.jd.com" target="_blank">京东公益</a><span class="copyright_split">|</span>
+				<a href="//www.joybuy.com/" target="_blank">English Site</a><span class="copyright_split">|</span>
+				<a href="//corporate.jd.com/" target="_blank">Media & IR</a>
+			</p>
+		</div>
+		<div class="copyright_info">
+			<p>
+				<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000088" target="_blank">京公网安备 11000002000088号</a><span class="copyright_split">|</span><span>京ICP证070359号</span><span class="copyright_split">|</span>
+				<a href="//img30.360buyimg.com/poprx/jfs/t1/45702/1/7206/3652062/5d4d3f4fE7ea82da4/207332da28ae8230.png" target="_blank">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a><span class="copyright_split">|</span><span>新出发京零 字第大120007号</span></p>
+			<p><span>互联网出版许可证编号新出网证(京)字150号</span><span class="copyright_split">|</span>
+				<a href="//pro.jd.com/mall/active/3bVDLXHdwVmdQksGF8TtS7ocq1NY/index.html" target="_blank">出版物经营许可证</a><span class="copyright_split">|</span>
+				<a href="//misc.360buyimg.com/wz/wlwhjyxkz.jpg" target="_blank">网络文化经营许可证京网文[2014]2148-348号</a><span class="copyright_split">|</span><span>违法和不良信息举报电话：4006561155</span></p>
+			<p><span class="copyright_text">Copyright &copy; 2004 - <em id="copyright_year">2019</em>  京东JD.com 版权所有</span><span class="copyright_split">|</span><span>消费者维权热线：4006067733</span>
+				<a href="//pro.jd.com/mall/active/38PitHBfR7ZopNHRSHnuuWR5AMDL/index.html" target="_blank" class="copyright_license">经营证照</a>
+				<span class="copyright_split">|</span>
+				<span>(京)网械平台备字(2018)第00003号</span>
+				<span class="copyright_split">|</span>
+				<a href="//storage.jd.com/imgtools/cbdaa22553-dccaf290-d1af-11e8-a840-89f99f5f0056.jpeg" target="_blank" class="mod_business_license">营业执照</a>
+			</p>
+			<p class="mod_copyright_inter">
+				<a class="mod_copyright_inter_lk" href="//www.joybuy.com/?source=1&visitor_from=3" target="_blank" clstag="h|keycount|btm|btmnavi_null0501"><i class="mod_copyright_inter_ico mod_copyright_inter_ico_global"></i><span class="languagefont">&#xe901;</span></a>
+				<span class="copyright_split">|</span>
+				<a class="mod_copyright_inter_lk" href="//www.jd.ru/?source=1&visitor_from=3" target="_blank" clstag="h|keycount|btm|btmnavi_null0502"><i class="mod_copyright_inter_ico mod_copyright_inter_ico_rissia"></i><span class="languagefont">&#xe904;</span></a>
+				<span class="copyright_split">|</span>
+				<a class="mod_copyright_inter_lk" href="//www.jd.id/?source=1&visitor_from=3" target="_blank" clstag="h|keycount|btm|btmnavi_null0503"><i class="mod_copyright_inter_ico mod_copyright_inter_ico_indonesia"></i><span class="languagefont">&#xe902;</span></a>
+				<span class="copyright_split">|</span>
+				<a class="mod_copyright_inter_lk" href="//www.joybuy.es/?source=1&visitor_from=3" target="_blank" clstag="h|keycount|btm|btmnavi_null0504"><i class="mod_copyright_inter_ico mod_copyright_inter_ico_spain"></i><span class="languagefont">&#xe903;</span></a>
+				<span class="copyright_split">|</span>
+				<a class="mod_copyright_inter_lk" href="//www.jd.co.th/?source=1&visitor_from=3" target="_blank" clstag="h|keycount|btm|btmnavi_null0505"><i class="mod_copyright_inter_ico mod_copyright_inter_ico_thailand"></i><span class="languagefont">&#xe900;</span></a>
+			</p>
+			<p><span>京东旗下网站：</span>
+				<a href="https://www.jdpay.com/" target="_blank">京东钱包</a><span class="copyright_split">|</span>
+				<a href="https://www.jdcloud.com" target="_blank">京东智联云</a>
+			</p>
+		</div>
+		<p class="copyright_auth">
+			<script type="text/JavaScript">function CNNIC_change(eleId){var str= document.getElementById(eleId).href;var str1 =str.substring(0,(str.length-6));str1+=CNNIC_RndNum(6);
+				document.getElementById(eleId).href=str1;}function CNNIC_RndNum(k){var rnd=""; for (var i=0;i
+				< k;i++) rnd+=Math.floor(Math.random()*10); return rnd;};(function(){var d=new Date;document.getElementById(
+				 "copyright_year").innerHTML=d.getFullYear()})();</script>
+					<a id="urlknet" class="copyright_auth_ico copyright_auth_ico_2" onclick="CNNIC_change('urlknet')" oncontextmenu="return false;"
+					 name="CNNIC_seal" href="https://ss.knet.cn/verifyseal.dll?sn=2008070300100000031&ct=df&pa=294005" target="_blank">可信网站信用评估</a>
+					<a class="copyright_auth_ico copyright_auth_ico_3" href="http://www.cyberpolice.cn/" target="_blank">网络警察提醒你</a>
+					<a class="copyright_auth_ico copyright_auth_ico_4" href="https://search.szfw.org/cert/l/CX20120111001803001836" target="_blank">诚信网站</a>
+					<a class="copyright_auth_ico copyright_auth_ico_5" href="http://www.12377.cn" target="_blank">中国互联网举报中心</a>
+					<a class="copyright_auth_ico copyright_auth_ico_6" href="http://www.12377.cn/node_548446.htm" target="_blank">网络举报APP下载</a>
+		</p>
+	</div>
+</div>
+<!--footer end--><script>
+seajs.use('product/search/1.0.7/js/main.js').use('//h5.360buyimg.com/ws_js/jdwebm.js?v=pcSearch').config({alias:{'search_new':'./script/search_new.init.js?2019122015.js'}}).use('search_new', function(s){
+	s.init(3,65,"1900+","3",1,0,91,61,0,0);
+});
+</script>
+<script type="text/javascript">
+(function(){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=("https:"==document.location.protocol?"https://wlssl":"//wl")+".jd.com/wl.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();
+window.surveyShow=function(){window.open('//surveys.jd.com/index.php?r=survey/index/sid/393283/lang/zh-Hans/search_version/'+(readCookie((readCookie('mx')||'').indexOf('_M')>-1?'mtest':'xtest')||''))};
+</script>
+<div id="J-global-toolbar"></div>
+<style>
+	 .selector.selector .sl-v-logos li a{overflow:unset;}
+	 .selector.selector .sl-v-logos li{overflow:hidden;width:114px;}
+</style>
+<script>
+(function(win) {
+    seajs.use('//static.360buyimg.com/devfe/toolbar/1.0.0/js/main', function(Toolbar) {
+var adConfig = {};
+var actName = null;
+if (window.pageConfig && window.pageConfig.actName) {
+    actName = window.pageConfig.actName;
+}
+
+if (actName == '618') {
+    adConfig = {
+        enabled: true,
+        id: "0_0_7860",
+        startTime: +new Date(2017, 4, 24, 0, 0, 0) / 1000,
+        endTime: +new Date(2017, 5, 21, 23, 59, 59) / 1000
+    };
+}
+
+        pageConfig.toolbar = new Toolbar({
+            pType: 'search',
+            bars: {
+                jimi: {
+                    enabled: false
+                },
+                cart: {
+                    enabled: true
+                },
+                history: {
+                    enabled: false
+                }
+            },
+            links: {
+            	qrcode: {
+            		index: 0,
+            		anchor: "javascript:void(0)"
+            	},
+                feedback: {
+                	index: 2,
+                    anchor: 'javascript:surveyShow();'
+                },
+                top:{
+                	index: 1,
+                  anchor:"javascript:window.scrollTo(0,0);"
+                }
+            },
+            ad: adConfig
+        });
+    });
+
+})(window);
+</script></body>
+</html>

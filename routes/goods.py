@@ -32,7 +32,7 @@ def g_directory():
         size = 10
     try :
         # 取出本页数据
-        res = db.query("select id,q_url,is_success,update_time from goods_query_log "
+        res = db.query("select id,q_url,is_success,update_time,q_name from goods_query_log "
                        "where user_id={0} and is_success=1 order by update_time desc limit {1},{2};".format(user_id,(page-1)*size,size))
         if res == ():
             q_data = "None"
@@ -83,7 +83,7 @@ def getNewAnalys():
 
         # #生成爬虫
             spider = crow_goods(url,2,q_id)
-            spider.coroutines()
+            goods_name = spider.coroutines()
 
             # 分析并将图片路径存入数据库
             goods_analysis(q_id)
@@ -96,7 +96,7 @@ def getNewAnalys():
             db.commit(sql)
 
             # 把记录变成成功
-            sql = "update goods_query_log set is_success=1 where id={}".format(q_id)
+            sql = "update goods_query_log set is_success=1,q_name='{}' where id={}".format(goods_name,q_id)
             db.commit(sql)
 
             username = session["username"]
@@ -139,6 +139,7 @@ def getGoodsResult():
             "status": "500"
         }
         return jsonify(data)
+    return ""
 
 
 # 检验登录

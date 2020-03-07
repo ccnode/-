@@ -31,7 +31,7 @@ async def scatter(data):
 # 柱状图
 async def histogram(data):
     plt.rcParams['font.sans-serif'] = 'SimHei'  # 设置中文显示
-    fig, ax = plt.subplots(figsize=(11, 8))
+    fig, ax = plt.subplots(figsize=(13, 8))
 
     x = data["x"]
     y = data["y"]

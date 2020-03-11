@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <title>Visual Admin Dashboard - Home</title>
+    <meta name="description" content="">
+    <meta name="author" content="templatemo">
+    
+   
+    <link href="/static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/templatemo-style.css" rel="stylesheet">
+  
+
+  </head>
+  <body>  
+    <!-- Left column -->
+    <div class="templatemo-flex-row">
+      <div class="templatemo-sidebar">
+        <header class="templatemo-site-header">
+          <div class="square"></div>
+          <h1>后台管理</h1>
+        </header>
+        <div class="profile-photo-container">
+          <img src="/static/imgs/profile-photo.jpg" alt="Profile Photo" class="img-responsive">
+          <div class="profile-photo-overlay"></div>
+        </div>      
+        <!-- Search box -->
+          <div class="templatemo-search-form"></div>
+{#        <form class="templatemo-search-form" role="search">#}
+{#          <div class="input-group">#}
+{#              <button type="submit" class="fa fa-search"></button>#}
+{#              <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">           #}
+{#          </div>#}
+{#        </form>#}
+        <div class="mobile-menu-icon">
+            <i class="fa fa-bars"></i>
+        </div>
+        <nav class="templatemo-left-nav">          
+          <ul style="font-size: 15px">
+            <li><a href="/edit_rewards"><i class="fa fa-bar-chart fa-fw"></i>公告编辑</a></li>
+            
+            <li><a href="/user_manage" class="active"><i class="fa fa-users fa-fw"></i>用户管理</a></li>
+            
+{#            <li><a href="login.html"><i class="fa fa-eject fa-fw"></i>退出登录</a></li>#}
+          </ul>  
+        </nav>
+      </div>
+      <!-- Main content --> 
+      <div class="templatemo-content col-1 light-gray-bg">
+        <div class="templatemo-top-nav-container">
+          <div class="row">
+            <nav class="templatemo-top-nav col-lg-12 col-md-12">
+              <ul class="text-uppercase">
+                <li><a href="" class="active">欢迎你：{{ username }}</a></li>
+                 <li><a href="" >用户列表</a></li>
+                
+              </ul>  
+            </nav> 
+          </div>
+        </div>
+        <div class="templatemo-content-container">
+
+
+          <div class="templatemo-content-widget no-padding">
+            <div class="panel panel-default table-responsive">
+              <table class="table table-striped table-bordered templatemo-user-table">
+                <thead>
+                  <tr style="text-align: center;">
+                    <td><a href="" class="white-text templatemo-sort-by">编号 <span class="caret"></span></a></td>
+                    <td><a href="" class="white-text templatemo-sort-by">姓名 <span class="caret"></span></a></td>
+                    <td><a href="" class="white-text templatemo-sort-by">状态 <span class="caret"></span></a></td>
+                    <td><a href="" class="white-text templatemo-sort-by">身份 <span class="caret"></span></a></td>
+                    <td><a href="" class="white-text templatemo-sort-by">操作 <span class="caret"></span></a></td>
+                   
+                    
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr style="text-align: center;">
+                    <td>111211</td>
+                    <td>小王子</td>
+                    <td>正常</td>
+                     <td>普通用户</td>
+                  
+                  
+                    <td><button type="submit" class="templatemo-blue-button">冻结</button>
+                      <button type="submit" class="templatemo-blue-button" style="background: #D7425C">删除</button>
+
+                    </td>
+                    
+                  </tr>
+                  <tr style="text-align: center;">
+                    <td>111211</td>
+                    <td>小王子</td>
+                    <td>正常</td>
+                     <td>普通用户</td>
+                  
+                  
+                    <td><button type="submit" class="templatemo-blue-button">冻结</button>
+                      <button type="submit" class="templatemo-blue-button" style="background: #D7425C">删除</button>
+
+                    </td>
+                    
+                  </tr>
+                  <tr style="text-align: center;">
+                    <td>111211</td>
+                    <td>小王子</td>
+                    <td>正常</td>
+                     <td>普通用户</td>
+                  
+                  
+                    <td><button type="submit" class="templatemo-blue-button">冻结</button>
+                      <button type="submit" class="templatemo-blue-button" style="background: #D7425C">删除</button>
+
+                    </td>
+                    
+                  </tr>
+                     
+                </tbody>
+                </table> 
+              <div style=" margin-right: 4%; margin-top: 15px; margin-bottom: 15px;float: right;">
+
+                分页区
+
+
+            
+
+            </div>  
+            </div>                          
+          </div>   
+
+
+
+
+
+
+        </div>  
+
+
+   
+        </div>
+      </div>
+    </div>
+    
+    <!-- JS -->
+    <script src="/static/js/jquery-1.11.2.min.js"></script>      <!-- jQuery -->
+    <script src="/static/js/jquery-migrate-1.2.1.min.js"></script> <!--  jQuery Migrate Plugin -->
+    
+    <script type="text/javascript" src="/static/js/templatemo-script.js"></script>      <!-- Templatemo Script -->
+
+  </body>
+</html>

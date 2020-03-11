@@ -22,7 +22,7 @@ function k_directory(page){
                 $("#pageNum").empty()
                 con +="<li><p style='font-size: 20px'>（点击记录可查看分析结果，关键词可跳转至爬取的页面）</p></li>"
                 $.each(data.data, function(index, item){
-                    console.log(toString.call(item[3]));
+
 
                     con += "<li><a style='font-size:14px;' href='/k_history/"+item[0]+"'>" +
                         "<strong>"+"商品分析记录id:"+item[0]+"&nbsp;["+item[3]+"]"+"</strong>" +
@@ -32,7 +32,7 @@ function k_directory(page){
                      });
                      $("#directory").append(con);
                 //调用页码方法
-                g_pageNum(data,page);
+                k_pageNum(data,page);
             },
             error:function(){
                 alert("error")

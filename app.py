@@ -3,6 +3,7 @@ import os
 from routes.goods import goods
 from routes.user import user
 from routes.keyword import keyword
+from routes.admin import admin
 import re
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.urandom(24)
@@ -11,6 +12,7 @@ app.config['SECRET_KEY'] = os.urandom(24)
 app.register_blueprint(goods)
 app.register_blueprint(user)
 app.register_blueprint(keyword)
+app.register_blueprint(admin)
 
 def check_login():
     try:
@@ -52,5 +54,5 @@ if __name__ == "__main__":
     # debug=True
      app.run(
       host='127.0.0.1',
-      port=5082,
+      port=5004,
       debug=True)

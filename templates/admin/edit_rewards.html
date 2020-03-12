@@ -12,7 +12,8 @@
     <link href="/static/css/font-awesome.min.css" rel="stylesheet">
     <link href="/static/css/bootstrap.min.css" rel="stylesheet">
     <link href="/static/css/templatemo-style.css" rel="stylesheet">
-    
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/xyn/edit_rewards.js"></script>
   
 
   </head>
@@ -67,22 +68,22 @@
           <div class="panel panel-default margin-10">
                 <div class="panel-heading"><h2 class="text-uppercase">公告编辑</h2></div>
                 <div class="panel-body">
-                  <form  class="templatemo-login-form" method="post">
+                  <form  class="templatemo-login-form"   method="post" onsubmit="return checkForm()">
                     <div class="form-group">
                       <label for="inputEmail">标题</label>
-                      <input type="text" class="form-control" placeholder="请输入标题">    
+                      <input type="text" class="form-control" placeholder="请输入标题" name="title" id="title" value="{{ title }}">
                     </div>
                     
                     <div class="form-group">                      
                       <label for="inputEmail">描述</label>
-                      <textarea class="form-control" id="inputNote" rows="3" placeholder="请输入标题"></textarea>
+                      <textarea class="form-control" id="describe" rows="3" placeholder="请输入描述" name="describe" >{{ describe }}</textarea>
                     </div>   
 
                     <div class="form-group">                      
                       <label for="inputEmail">内容</label>
                         {#编辑器#}
                         <script src="/static/ckeditor/ckeditor.js"></script>
-                        <textarea name="myEdit" id="myEdit" class="form-control" rows="10" cols="80"> Hellow CKEditor </textarea>
+                        <textarea name="myEdit" id="myEdit" class="form-control" rows="10" cols="80">{{ content }} </textarea>
                             <script>
                                 <!-- Replace the <textarea id="myEdit"> with a CKEditor -->
                                  CKEDITOR.replace( 'myEdit' );
@@ -92,6 +93,7 @@
                    
                     <div class="form-group">
                       <button type="submit" class="templatemo-blue-button">提交</button>
+                        <p id="nint" style="color: red"></p>
                     </div>
                   </form>
                 </div>                

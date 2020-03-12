@@ -8,6 +8,8 @@ class DB():
         self.password = password
         self.dbname = dbname
         self.port = port
+        new_loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(new_loop)
         self.loop = asyncio.get_event_loop()
     # 查询
     def query(self,sql):

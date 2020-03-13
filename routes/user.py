@@ -31,7 +31,8 @@ def login():
             return redirect(url_for("user.login_page"))
         # 验证数据库
         res = db.query("select * from user_info "
-                       "where login_name='" + str(username) + "' and user_pwd='" + str(password) + "'")
+                       "where login_name='{}' and user_pwd='{}'"
+                       "and is_freeze=0 and is_del=0".format(str(username),str(password)))
         if res:
             session["username"] = username
             session['user_id'] = res[0][0]

@@ -8,16 +8,22 @@ import threading
 admin = Blueprint('admin',__name__)
 db = DB("mitucat")
 
-@admin.route("/rewards")
-def rewards():
-    return render_template("admin/rewards.html")
+
 
 # 管理页面
 @admin.route("/admin_page")
 def admin_page():
     if check_login()!=True:
         return redirect(url_for("user.login_page"))
-    return render_template("admin/admin.html")
+    try:
+        is_admin = session["is_admin"]
+        if is_admin==1:
+            return render_template("admin/admin.html")
+    except Exception as e:
+        print("错误：{}".format(e))
+    return render_template("admin/adminError.html")
+
+
 # 加载公告编辑
 @admin.route("/edit_rewards")
 def edit_rewards():
@@ -57,7 +63,6 @@ def user_manage():
 
 
 # 加载用户列表
-# 历史记录列表
 @admin.route("/user_directory",methods=["GET"])
 def user_directory():
     if check_login() != True:
@@ -68,16 +73,17 @@ def user_directory():
         page = 1
     if size == None:
         size = 10
+
     try :
         # 取出本页数据
-        res = db.query("select id,login_name,is_freeze,is_admin from user_info ".format((page-1)*size,size))
+        res = db.query("select id,login_name,is_freeze,is_admin from user_info where is_del=0 order by id desc limit {},{};".format((page-1)*size,size))
         if res == ():
             res = "None"
             totalPage = 0
         else:
 
             # 算出一共分几页
-            totaldata = db.query("select count(*) from user_info ")
+            totaldata = db.query("select count(*) from user_info where is_del=0")
             totalPage = (totaldata[0][0]+size-1)/size
             totalPage = int(totalPage)
 
@@ -96,6 +102,46 @@ def user_directory():
 
     }
     return jsonify(data)
+
+
+# 用户冻结
+@admin.route("/user_freeze",methods=["GET"])
+def user_freeze():
+    if check_login() != True:
+        return redirect(url_for("user.login_page"))
+    try:
+        uid = int(request.args.get('uid'))
+        sql = "update user_info set is_freeze=1 where id={}".format(uid)
+        db.commit(sql)
+    except Exception as e:
+        print("错误：{}".format(e))
+    return ""
+
+# 用户解冻
+@admin.route("/user_unfreeze",methods=["GET"])
+def user_unfreeze():
+    if check_login() != True:
+        return redirect(url_for("user.login_page"))
+    try:
+        uid = int(request.args.get('uid'))
+        sql = "update user_info set is_freeze=0 where id={}".format(uid)
+        db.commit(sql)
+    except Exception as e:
+        print("错误：{}".format(e))
+    return ""
+
+#用户删除
+@admin.route("/user_del",methods=["GET"])
+def user_del():
+    if check_login() != True:
+        return redirect(url_for("user.login_page"))
+    try:
+        uid = int(request.args.get('uid'))
+        sql = "update user_info set is_del=1 where id={}".format(uid)
+        db.commit(sql)
+    except Exception as e:
+        print("错误：{}".format(e))
+    return ""
 
 
 

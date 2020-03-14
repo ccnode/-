@@ -101,7 +101,7 @@ class goods_analysis():
                 medium +=1
 
 
-        results["score"] = round(sum/num,3)*100
+        results["score"] = round((sum/num)*100,3)
         results["positive"] = round(positive/num,3)
         results["medium"] = round(medium/num,3)
         results["negative"] = round(1-results["positive"]-results["medium"],3)

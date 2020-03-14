@@ -41,21 +41,9 @@
         }
     </style>
     
-    <!--<script type="text/javascript">
-      if (document.images) {
-        var avatar = new Image();
-        avatar.src = './imgs/avatar.jpg'
-        var previews = 'preview1.jpg,preview2.jpg,preview3.jpg,preview4.jpg'.split(',')
-        var previewsPreLoad = []
-        for(var i = 0; i < length; i++) {
-          previewsPreLoad.push(new Image())
-          previewsPreLoad[previewsPreLoad.length - 1].src = '/imgs/preview' + previews[i]
-        }
-      }
-    </script>-->
-<!-- <meta name="generator" content="Hexo 4.2.0"></head> -->
+
 <body>
-    <!-- 背景轮播图功能 -->
+{#    <!-- 背景轮播图功能 -->#}
     <section class="hidden-xs">
     <ul class="cb-slideshow">
         <li><span>天</span></li>
@@ -66,7 +54,7 @@
         <li><span>续</span></li>
     </ul>
 </section>
-    <!-- 欧尼酱功能, 谁用谁知道 -->
+
     
     <header class="navbar navbar-inverse" id="gal-header">
     <div class="container">
@@ -88,7 +76,7 @@
                         text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #228DFF,0 0 35px #228DFF,0 0 40px #228DFF,0 0 50px #228DFF,0 0 75px #228DFF;
                     }
                 </style>
-                <!-- 这里使用文字(navbar_text or config.title) -->
+
                 <div class="navbar-brand">MituCat</div>
                 
             </a>
@@ -149,7 +137,7 @@
             <div class="row">
                 <div class="col-md-8 gal-right" id="mainstay">
                     
-<!-- 原本公告地方 -->
+{#<!-- 原本公告地方 -->#}
 
 <article class="article well article-body" id="article-categories">
     <div class="breadcrumb">
@@ -160,7 +148,7 @@
     </div>
 
     <div style="text-align:center">
-                            <!--消息闪现-->
+{#                            <!--消息闪现-->#}
                             {% for v in get_flashed_messages(category_filter=['err']) %}
                                     <p style="color:red;">{{ v }}</p>
                                     {% endfor %}
@@ -169,7 +157,7 @@
                                     {% endfor %}
                             </div>
 
-    <!-- 大型设备详细文章 -->
+{#    <!-- 大型设备详细文章 -->#}
     <div class="hidden-xs">
         <div class="title-article">
             <h1>
@@ -180,7 +168,7 @@
 
         </div>
     </div>
-    <!-- 小型设备详细文章 -->
+{#    <!-- 小型设备详细文章 -->#}
     <div class="visible-xs">
         <center>
             <div class="title-article">
@@ -204,42 +192,39 @@
 {#      </script>#}
             <form style='text-align:center;display:none' id="getNewGoods" method='post' onsubmit="return checkUser();" >
                 <input  type='text' name='keyword' class='form-control' id='keyword_query_text' placeholder='请输入需爬取的搜索词(如衣服，电脑。。)~' autocomplete='off'>
+                <input type="number"  value="3" name="num" min="1" max="5" /><span>(将分析的商品页数，一页30件商品,会有部分无效数据)</span>
                 <input style='margin-top:5px;'  id='goods_query' class='btn btn-danger btn-gal' value='分析'  type='submit' >
                 <span style="margin-left: 5px;color: red" id="hint"></span>
             </form>
         <ul id="directory">
             <p>未有记录，请新建分析~</p>
-            <!-- 列表插入地方 -->
+{#            <!-- 列表插入地方 -->#}
         </ul>
         </div>
     </div>
 </article>
 
 
-<!-- 前方最多7个 < 1 2 3 4 5 6 -->
-<!-- 前方超过第7页则分为 < 1 ... (n - 3) (n - 2) (n - 1) n, 此时前面为固定的6个 -->
 
-<!-- 后方最多8个 (n + 1) 到 (n + 7) > -->
-<!-- 如果末页和当前页相差超过7, 此时后面为固定的6个, (n + 1) (n + 2) (n + 3) ... total > -->
 <div id="gal-pagination" class="clearfix">
     <ul id="pageNum" class="pagination pagination-gal pull-right">
         
-        <!--此处写入页码  -->
+{#        <!--此处写入页码  -->#}
   
     </ul>
 </div>
 
-<!-- 加上这段代码原因： gitment在首页加载时, 如果找不到对应的控件会报错，此处加上，同时设置为none，防止报错 -->   
+
 
                 </div>
                 <aside class="col-md-4 gal-left" id="sidebar">
-    <!-- 此为sidebar的搜索框, 非搜索结果页面 -->
+{#    <!-- 此为sidebar的搜索框, 非搜索结果页面 -->#}
 <aside id="sidebar-search">
     <div class="search hidden-xs" data-aos="fade-up" data-aos-duration="2000">
         <form class="form-inline clearfix" id="search-form" method="get"
               action="/search/index.html">
-            <input type="text" name="s" class="form-control" id="searchInput" placeholder="搜索文章~" autocomplete="off">
-            <button class="btn btn-danger btn-gal" type="submit">
+            <input type="text" name="s" class="form-control" id="searchInput" placeholder="搜索功能未启用~" autocomplete="off">
+            <button class="btn btn-danger btn-gal" type="button">
                 <i class="fa fa-search"></i>
             </button>
         </form>
@@ -260,28 +245,7 @@
     </div>
 </aside>
     
-    <!-- 要配置好leancloud才能开启此小工具 -->
-    
-    
-{#    <aside id="sidebar-recent_posts">#}
-{#    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">#}
-{#        <div class="panel-heading">#}
-{#            <i class="fa fa-refresh"></i>#}
-{#            近期文章#}
-{#            <i class="fa fa-times-circle panel-remove"></i>#}
-{#            <i class="fa fa-chevron-circle-up panel-toggle"></i>#}
-{#        </div>#}
-{#        <ul class="list-group list-group-flush">#}
-{#            #}
-{#            <li class="list-group-item">#}
-{#                <span class="post-title">#}
-{#                    <a href="/static/2020/01/21/hello-world/">Hello World</a>#}
-{#                </span>#}
-{#            </li>#}
-{#            #}
-{#        </ul>#}
-{#    </div>#}
-{#</aside>#}
+
     
     
     
@@ -335,7 +299,7 @@
     </div>
 </footer>
 
-<!-- 回到顶端 -->
+{#<!-- 回到顶端 -->#}
 <div id="gal-gotop">
     <i class="fa fa-angle-up"></i>
 </div>

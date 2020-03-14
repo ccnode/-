@@ -105,42 +105,49 @@ def user_directory():
 
 
 # 用户冻结
-@admin.route("/user_freeze",methods=["GET"])
+@admin.route("/user_freeze",methods=["POST"])
 def user_freeze():
-    if check_login() != True:
-        return redirect(url_for("user.login_page"))
-    try:
-        uid = int(request.args.get('uid'))
-        sql = "update user_info set is_freeze=1 where id={}".format(uid)
-        db.commit(sql)
-    except Exception as e:
-        print("错误：{}".format(e))
+    if request.method == 'POST':
+
+        if check_login() != True:
+            return redirect(url_for("user.login_page"))
+        try:
+            uid = int(request.args.get('uid'))
+            sql = "update user_info set is_freeze=1 where id={}".format(uid)
+            db.commit(sql)
+        except Exception as e:
+            print("错误：{}".format(e))
     return ""
 
 # 用户解冻
-@admin.route("/user_unfreeze",methods=["GET"])
+@admin.route("/user_unfreeze",methods=["POST"])
 def user_unfreeze():
-    if check_login() != True:
-        return redirect(url_for("user.login_page"))
-    try:
-        uid = int(request.args.get('uid'))
-        sql = "update user_info set is_freeze=0 where id={}".format(uid)
-        db.commit(sql)
-    except Exception as e:
-        print("错误：{}".format(e))
+    if request.method=='POST':
+
+        if check_login() != True:
+            return redirect(url_for("user.login_page"))
+
+        try:
+            uid = int(request.args.get('uid'))
+            sql = "update user_info set is_freeze=0 where id={}".format(uid)
+            db.commit(sql)
+        except Exception as e:
+            print("错误：{}".format(e))
     return ""
 
 #用户删除
-@admin.route("/user_del",methods=["GET"])
+@admin.route("/user_del",methods=["POST"])
 def user_del():
-    if check_login() != True:
-        return redirect(url_for("user.login_page"))
-    try:
-        uid = int(request.args.get('uid'))
-        sql = "update user_info set is_del=1 where id={}".format(uid)
-        db.commit(sql)
-    except Exception as e:
-        print("错误：{}".format(e))
+    if request.method=='POST':
+        if check_login() != True:
+            return redirect(url_for("user.login_page"))
+        try:
+            uid = int(request.args.get('uid'))
+            sql = "update user_info set is_del=1 where id={}".format(uid)
+            db.commit(sql)
+        except Exception as e:
+            print("错误：{}".format(e))
+
     return ""
 
 

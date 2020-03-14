@@ -129,7 +129,7 @@ function freeze(obj) {
     var uid = $(obj).parent().parent().attr("uid");
     $.ajax(
         {
-            type: "get",
+            type: "post",
             dataType: "json",
             url: "/user_freeze?uid="+uid,
             success: function (data) {
@@ -150,7 +150,7 @@ function unfreeze(obj) {
     var uid = $(obj).parent().parent().attr("uid");
     $.ajax(
         {
-            type: "get",
+            type: "post",
             dataType: "json",
             url: "/user_unfreeze?uid="+uid,
             success: function (data) {
@@ -171,7 +171,7 @@ function del(obj) {
     var uid = $(obj).parent().parent().attr("uid");
     $.ajax(
         {
-            type: "get",
+            type: "post",
             dataType: "json",
             url: "/user_del?uid="+uid,
             success: function (data) {

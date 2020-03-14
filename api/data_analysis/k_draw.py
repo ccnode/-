@@ -31,13 +31,13 @@ async def scatter(data):
 # 柱状图
 async def histogram(data):
     plt.rcParams['font.sans-serif'] = 'SimHei'  # 设置中文显示
-    fig, ax = plt.subplots(figsize=(13, 8))
+    fig, ax = plt.subplots(figsize=(15, 11))
 
     x = data["x"]
     y = data["y"]
     ax.barh(x, y, color="blue")
 
-    ax.set(ylabel="店铺名",xlabel="商品数", title="top10商品排名")
+    ax.set(xlabel="商品数", title="top10商品排名")
 
 
     # 保存生成的图片
@@ -47,4 +47,3 @@ async def histogram(data):
     plt.savefig(path + '/shop_ranking.png')
     # plt.show()
     print("店铺排名图绘制完毕！")
-    plt.show()

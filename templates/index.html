@@ -40,21 +40,9 @@
         }
     </style>
     
-    <!-- <script type="text/javascript">
-      if (document.images) {
-        var avatar = new Image();
-        avatar.src = '/static/imgs/avatar.jpg'
-        var previews = 'preview1.jpg,preview2.jpg,preview3.jpg,preview4.jpg'.split(',')
-        var previewsPreLoad = []
-        for(var i = 0; i < length; i++) {
-          previewsPreLoad.push(new Image())
-          previewsPreLoad[previewsPreLoad.length - 1].src = '/static/imgs/preview' + previews[i]
-        }
-      }
-    </script> -->
-<!-- <meta name="generator" content="Hexo 4.2.0"></head> -->
+
 <body>
-    <!-- 背景轮播图功能 -->
+{#    <!-- 背景轮播图功能 -->#}
     <section class="hidden-xs">
     <ul class="cb-slideshow">
         <li><span>天</span></li>
@@ -65,7 +53,7 @@
         <li><span>续</span></li>
     </ul>
 </section>
-    <!-- 欧尼酱功能, 谁用谁知道 -->
+
     
     <header class="navbar navbar-inverse" id="gal-header">
     <div class="container">
@@ -87,7 +75,7 @@
                         text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #228DFF,0 0 35px #228DFF,0 0 40px #228DFF,0 0 50px #228DFF,0 0 75px #228DFF;
                     }
                 </style>
-                <!-- 这里使用文字(navbar_text or config.title) -->
+
                 <div class="navbar-brand">MituCat</div>
                 
             </a>
@@ -149,15 +137,15 @@
                 <div class="col-md-8 gal-right" id="mainstay">
                     
 <div class="alert well fade in" id="gal-issue" role="alert">
-    <!-- TODO 添加关闭公告框功能 -->
+
     <button type="button" class="close" data-dismiss="alert">×</button>
-    <!-- 这里自行配置公告内容 -->
+{#    <!-- 这里自行配置公告内容 -->#}
     <h5><strong>欢迎来到迷途猫~(´• ᵕ •`)*✲ﾟ*</strong></h5>
     <br>
-    <strong>具体商品分析：</strong>对某个商品进行分析（目前支持京东）
+    <h5><strong>具体操作可查看最新公告 👇</strong></h5>
 	<br>
-	<strong>关键词分析：</strong>对某个关键词进行分析（目前支持京东）
-    <!-- 自行配置公告内容结束 -->
+
+{#    <!-- 自行配置公告内容结束 -->#}
 </div>
 
 <div id="article-list">
@@ -169,7 +157,7 @@
         <span class="month">{{ mouth }}</span>
         <span class="day">{{ day }}</span>
     </div>
-    <!-- 大型设备文章 -->
+{#    <!-- 大型设备文章 -->#}
     <section class="hidden-xs">
         <div class="title-article">
             <h1>
@@ -181,11 +169,8 @@
         <div class="tag-article">
             
             
-            <!-- TODO 添加评论统计 -->
-            <!--<span class="label label-gal">
-                <i class="fa fa-comments"></i>
-                <a href="/2020/01/21/hello-world/#comments">739</a>
-            </span>-->
+
+
         </div>
         <div class="alert alert-gal article-body content-article">
             <div class="item">
@@ -233,38 +218,17 @@
         
         <a class="btn btn-danger pull-right read-more btn-block" href="/getReward">
             阅读全文
-            <!--<span class="badge">739</span>-->
+{#            <!--<span class="badge">739</span>-->#}
         </a>
     </section>
 </div>
      
 </div>
-<!-- 前方最多7个 < 1 2 3 4 5 6 -->
-<!-- 前方超过第7页则分为 < 1 ... (n - 3) (n - 2) (n - 1) n, 此时前面为固定的6个 -->
 
-<!-- 后方最多8个 (n + 1) 到 (n + 7) > -->
-<!-- 如果末页和当前页相差超过7, 此时后面为固定的6个, (n + 1) (n + 2) (n + 3) ... total > -->
-
-
-
-
-
-<!-- 加上这段代码原因： gitment在首页加载时, 如果找不到对应的控件会报错，此处加上，同时设置为none，防止报错 -->   
 
                 </div>
                 <aside class="col-md-4 gal-left" id="sidebar">
-    <!-- 此为sidebar的搜索框, 非搜索结果页面 -->
-<aside id="sidebar-search">
-    <div class="search hidden-xs" data-aos="fade-up" data-aos-duration="2000">
-        <form class="form-inline clearfix" id="search-form" method="get"
-              action="/search/index.html">
-            <input type="text" name="s" class="form-control" id="searchInput" placeholder="搜索文章~" autocomplete="off">
-            <button class="btn btn-danger btn-gal" type="submit">
-                <i class="fa fa-search"></i>
-            </button>
-        </form>
-    </div>
-</aside>
+
     <aside id="sidebar-author">
     <div class="panel panel-gal" data-aos="flip-right" data-aos-duration="3000">
         <div class="panel-heading" style="text-align: center">
@@ -279,30 +243,6 @@
         </div>
     </div>
 </aside>
-    
-    <!-- 要配置好leancloud才能开启此小工具 -->
-    
-    
-{#    <aside id="sidebar-recent_posts">#}
-{#    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">#}
-{#        <div class="panel-heading">#}
-{#            <i class="fa fa-refresh"></i>#}
-{#            近期文章#}
-{#            <i class="fa fa-times-circle panel-remove"></i>#}
-{#            <i class="fa fa-chevron-circle-up panel-toggle"></i>#}
-{#        </div>#}
-{#        <ul class="list-group list-group-flush">#}
-{#            #}
-{#            <li class="list-group-item">#}
-{#                <span class="post-title">#}
-{#                    <a href="/static/2020/01/21/hello-world/">Hello World</a>#}
-{#                </span>#}
-{#            </li>#}
-{#            #}
-{#        </ul>#}
-{#    </div>#}
-{#</aside>#}
-    
     
     
     <aside id="gal-sets">
@@ -355,7 +295,7 @@
     </div>
 </footer>
 
-<!-- 回到顶端 -->
+{#<!-- 回到顶端 -->#}
 <div id="gal-gotop">
     <i class="fa fa-angle-up"></i>
 </div>

@@ -33,7 +33,7 @@ def g_directory():
     try :
         # 取出本页数据
         res = db.query("select id,q_url,is_success,update_time,q_name from goods_query_log "
-                       "where user_id={0} and is_success=1 order by update_time desc limit {1},{2};".format(user_id,(page-1)*size,size))
+                       "where user_id={0} and is_success=1 and is_del=0 order by update_time desc limit {1},{2};".format(user_id,(page-1)*size,size))
         if res == ():
             q_data = "None"
             totalPage = 0
@@ -46,7 +46,7 @@ def g_directory():
                     .format(y='年',m='月',d='日',h=':')
 
             # 算出一共分几页
-            totaldata = db.query("select count(*) from goods_query_log where user_id={} and is_success=1".format(user_id))
+            totaldata = db.query("select count(*) from goods_query_log where user_id={} and is_success=1 and is_del=0".format(user_id))
             totalPage = (totaldata[0][0]+size-1)/size
             totalPage = int(totalPage)
 
@@ -68,13 +68,14 @@ def g_directory():
 
 
 
+
 # 新建商品分析
 @goods.route("/goods",methods=["GET","POST"])
 def getNewAnalys():
     if request.method == 'POST':
-        url = request.form.get('url')
+        url = str(request.form.get('url'))
         user_id = session["user_id"]
-
+        num = int(request.form.get('num'))
         # 生成查询记录
         try:
             sql = "insert into goods_query_log(user_id,q_url) " \
@@ -82,7 +83,7 @@ def getNewAnalys():
             q_id = db.commits(sql)[0][0]
 
         # #生成爬虫
-            spider = crow_goods(url,2,q_id)
+            spider = crow_goods(url,num,q_id)
             goods_name = spider.coroutines()
 
             # 分析并将图片路径存入数据库

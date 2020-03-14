@@ -75,7 +75,7 @@ def getNewAnalys():
         try:
             keyword = request.form.get('keyword')
             user_id = session["user_id"]
-
+            num = int(request.form.get('num'))
         # 生成查询记录
 
             sql = "insert into keyword_query_log(user_id,q_keyword) " \
@@ -84,7 +84,7 @@ def getNewAnalys():
 
         # #生成爬虫
             print("分析关键词{}".format(keyword))
-            spider = crow_keyword(2,str(keyword),q_id)
+            spider = crow_keyword(num,str(keyword),q_id)
             spider.coroutines()
 
             # 分析并将图片路径存入数据库
@@ -119,7 +119,7 @@ def k_history(q_id):
     if check_login()!=True:
         return redirect(url_for("user.login_page"))
     username = session["username"]
-    print(q_id)
+
     return render_template("keyword/k_article.html", q_id=q_id, username=username)
 
 # 获取图片链接

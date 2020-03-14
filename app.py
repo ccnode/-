@@ -49,20 +49,11 @@ def k_analyze():
     if check_login() != True:
         return redirect(url_for("user.login_page"))
     return render_template("keyword/k_directory.html")
-# @app.route("/hai")
-# def hai():
-#     res = db.query("select * from user_info")
-#     data = {
-#         "data": res,
-#         "msg" : "查询成功！",
-#         "status" : "200"
-#     }
-#     return jsonify(data)
 
 
 if __name__ == "__main__":
     # debug=True
      app.run(
       host='127.0.0.1',
-      port=5065,
+      port=5067,
       debug=True)

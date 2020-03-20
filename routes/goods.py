@@ -5,6 +5,8 @@ import time
 from api.jd_spiders.crow_goods import crow_goods
 import asyncio
 import threading
+import os
+import sys
 goods = Blueprint('goods',__name__)
 db = DB("mitucat")
 
@@ -76,8 +78,11 @@ def getNewAnalys():
         url = str(request.form.get('url'))
         user_id = session["user_id"]
         num = int(request.form.get('num'))
+        if num > 12 or num < 1:
+            return redirect(url_for('goods.g_analyze'))
         # 生成查询记录
         try:
+
             sql = "insert into goods_query_log(user_id,q_url) " \
                   "values({},'{}') ".format(user_id,url)
             q_id = db.commits(sql)[0][0]
@@ -85,7 +90,7 @@ def getNewAnalys():
         # #生成爬虫
             spider = crow_goods(url,num,q_id)
             goods_name = spider.coroutines()
-
+            print("开始分析",q_id)
             # 分析并将图片路径存入数据库
             goods_analysis(q_id)
             path = '/static/source/user/{}/goods/{}'.format(user_id, q_id)

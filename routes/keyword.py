@@ -76,6 +76,8 @@ def getNewAnalys():
             keyword = request.form.get('keyword')
             user_id = session["user_id"]
             num = int(request.form.get('num'))
+            if num > 5 or num < 1:
+                return redirect(url_for('keyword.k_analyze'))
         # 生成查询记录
 
             sql = "insert into keyword_query_log(user_id,q_keyword) " \
@@ -109,7 +111,7 @@ def getNewAnalys():
             print(e)
             flash("分析失败，链接格式不正确！","err")
             return redirect(url_for('keyword.k_analyze'))
-    return  redirect(url_for('keyword.k_analyze'))
+    return redirect(url_for('keyword.k_analyze'))
 
 
 

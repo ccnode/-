@@ -7,8 +7,8 @@ import jieba
 from PIL import Image
 import asyncio
 import sys
-import re
 
+font = sys.path[0]+'/static/fonts/simfang.ttf'
 # 饼状图
 async def pie_chart(data):
 
@@ -21,12 +21,13 @@ async def pie_chart(data):
     colors = ['yellowgreen', 'gold', 'lightcoral']  # 每一块的颜色
     explode = (0.01, 0.01, 0.01)  # 突出显示，这里仅仅突出红色
 
-    plt.pie(sizes, explode=explode, labels=labels, colors=colors, autopct='%1.1f%%',
+    p = plt.pie(sizes, explode=explode, labels=labels, colors=colors, autopct='%1.1f%%',
             startangle=70)
+
 
     plt.axis('equal')  # 显示为圆（避免比例压缩为椭圆）
     # 图片存储路径
-    path = sys.argv[0]+'/../static/source/user/{}/goods/{}'.format(data["user_id"], data["q_id"])
+    path = sys.path[0]+'/static/source/user/{}/goods/{}'.format(data["user_id"], data["q_id"])
     if (os.path.exists(path) == False):
         os.makedirs(path)
     plt.savefig(path + '/sentiment.png')
@@ -58,9 +59,8 @@ async def line_chart(data):
     # 旋转45
     for tick in ax.get_xticklabels():
         tick.set_rotation(30)
-
     # 保存生成的图片
-    path = sys.argv[0]+'/../static/source/user/{}/goods/{}'.format(data["user_id"], data["q_id"])
+    path = sys.path[0]+'/static/source/user/{}/goods/{}'.format(data["user_id"], data["q_id"])
     if (os.path.exists(path) == False):
         os.makedirs(path)
 
@@ -71,8 +71,9 @@ async def line_chart(data):
 # 词云
 async def word_cloud(data):
     # 图片模板和字体
-    image = np.array(Image.open(sys.argv[0]+'/../static/imgs/background.jpg'))
-    font = sys.argv[0]+'/../static/fonts/simfang.ttf'
+    image = np.array(Image.open(sys.path[0]+'/static/imgs/background.jpg'))
+    # plt.rcParams['font.sans-serif'] = 'SimHei'  # 设置中文显示
+    # font = sys.path[0]+'/static/fonts/simfang.ttf'
 
     # 分词
     wordlist_after_jieba = jieba.cut(data["text"])
@@ -90,7 +91,7 @@ async def word_cloud(data):
     plt.imshow(my_wordcloud)
     plt.axis("off")
     # 保存生成的图片
-    path = sys.argv[0]+'/../static/source/user/{}/goods/{}'.format(data["user_id"], data["q_id"])
+    path = sys.path[0]+'/static/source/user/{}/goods/{}'.format(data["user_id"], data["q_id"])
 
     if (os.path.exists(path) == False):
         os.makedirs(path)

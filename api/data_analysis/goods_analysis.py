@@ -21,7 +21,7 @@ class goods_analysis():
             "from goods_query_log q left join goods_info i on q.id=i.q_id "
             "left join comments_info c on i.id=c.goods_id "
             "where q.id=" + str(self.q_id) + " order by c.com_date asc ")
-
+        print("启动测试")
         # 赋值user_id
         self.user_id = self.q_data[0][1]
 

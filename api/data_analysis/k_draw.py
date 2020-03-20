@@ -1,12 +1,7 @@
-import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib.ticker as ticker
 import os
 import sys
-from wordcloud import WordCloud,STOPWORDS
-import jieba
-from PIL import Image
-import asyncio
+
 
 # 散点图
 async def scatter(data):
@@ -21,7 +16,7 @@ async def scatter(data):
     plt.title(data["title"],color='r',fontdict={'weight':'normal','size': 15})
     plt.grid(True)  # 显示网格线
     # 保存生成的图片
-    path = sys.argv[0]+'/../static/source/user/{}/keyword/{}'.format(data["user_id"], data["q_id"])
+    path = sys.path[0]+'/static/source/user/{}/keyword/{}'.format(data["user_id"], data["q_id"])
     if (os.path.exists(path) == False):
         os.makedirs(path)
     plt.savefig(path + '/price_distribution.png')
@@ -41,7 +36,7 @@ async def histogram(data):
 
 
     # 保存生成的图片
-    path = sys.argv[0]+'/../static/source/user/{}/keyword/{}'.format(data["user_id"], data["q_id"])
+    path = sys.path[0]+'/static/source/user/{}/keyword/{}'.format(data["user_id"], data["q_id"])
     if (os.path.exists(path) == False):
         os.makedirs(path)
     plt.savefig(path + '/shop_ranking.png')

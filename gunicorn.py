@@ -1,7 +1,7 @@
 import multiprocessing
 import sys
 # 监听端口
-bind = "127.0.0.1:8000"
+bind = "0.0.0.0:8000"
 # 并行工作进程数，默认 1
 # workers = multiprocessing.cpu_count() * 2 + 1
 workers = 1

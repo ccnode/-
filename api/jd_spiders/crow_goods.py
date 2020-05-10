@@ -21,6 +21,7 @@ class crow_goods():
         return goods_name
     #爬取商品信息
     async def start(self):
+        #创建请求头
         ua = UserAgent()
         head = {'authority': 'search.jd.com',
                             'method': 'GET',
@@ -33,21 +34,22 @@ class crow_goods():
                             }
         # 获取商品名，店铺名接口
         url = self.url
-
         # 创建代理
         p = proxies.createProxies()
         if p:
             r = requests.get(url, headers=head, proxies=p)
         else:
             r = requests.get(url, headers=head)
-
-
+        #提取数据
         html1 = etree.HTML(r.text)
         goods_name = html1.xpath("//title/text()")[0]
-        shop_name = html1.xpath("//div[@class='mt']/h3/a/text()")[0]
-        if shop_name == []:
-            shop_name = html1.xpath("//div[@class='name']/a/text()")[0]
-
+        # shop_name = html1.xpath("//div[@class='mt']/h3/a/text()")
+        # print(shop_name)
+        # if shop_name == []:
+        #     shop_name = html1.xpath("//div[@class='name']/a/text()")
+        # if shop_name == []:
+        #     shop_name=""
+        # print(shop_name)
         # 获取价格接口
         # 首先取出商品id拼接url
         href = html1.xpath("//link[@rel='canonical']/@href")
@@ -57,17 +59,14 @@ class crow_goods():
         list = json.loads(r.text)
         goods_price = list[0]["p"]
         # 整合商品数据
-        data = "({},'{}','{}',{});".format(self.q_id,goods_name,shop_name,goods_price)
-        sql = "insert into goods_info(q_id,goods_name,shop_name,goods_price) values" + data
-
-
+        data = "({},'{}',{});".format(self.q_id,goods_name,goods_price)
+        sql = "insert into goods_info(q_id,goods_name,goods_price) values" + data
+        print(sql)
         # 插入数据库获取goods_id
         db = DB2(self.loop)
         goods_id = await db.commits(sql)
-
         # 爬取评论信息
         comsql = await crow_comments.Commentsparser(goods_id[0][0], product_id[0], self.n,p)
-
         # 评论数据插入
         await db.commit(comsql)
         # 返回商品名称
@@ -75,5 +74,3 @@ class crow_goods():
 if __name__=='__main__':
     spider = crow_goods(url="https://item.jd.com/42808267238.html", n=2,q_id=11)
     spider.coroutines()
-
-    # https://p.3.cn/prices/mgets?skuIds=J_30037012435获取价格

@@ -19,6 +19,7 @@ def register_page():
 @user.route('/login_page', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
+        #获取用户名与密码
         username = request.form.get('username')
         password = request.form.get('password')
         if len(username)>8 or len(password)>8:
@@ -26,6 +27,9 @@ def login():
             return redirect(url_for("user.login_page"))
         # 创建md5字段
         password = md5.createMD5(password)
+        print("select * from user_info "
+                       "where login_name='{}' and user_pwd='{}'"
+                       "and is_freeze=0 and is_del=0".format(str(username),str(password)))
         # 验证数据库
         res = db.query("select * from user_info "
                        "where login_name='{}' and user_pwd='{}'"
@@ -38,6 +42,7 @@ def login():
             session.permanent = True
             # return render_template("index.html")
             flash("")
+            # 跳转至主页面
             return redirect(url_for("index"))
     flash("用户名或者密码错误~", "err")
     return redirect(url_for("user.login_page"))

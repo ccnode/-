@@ -42,7 +42,6 @@ async def line_chart(data):
     x = data["x"]
     y = data["y"]
     ax.plot(x, y)
-
     # 通过修改tick_spacing的值可以修改x轴的密度
     length = len(data["x"])
     tick_spacing = 1
@@ -92,7 +91,7 @@ async def word_cloud(data):
     plt.axis("off")
     # 保存生成的图片
     path = sys.path[0]+'/static/source/user/{}/goods/{}'.format(data["user_id"], data["q_id"])
-
+    # 判断文件夹是否存在
     if (os.path.exists(path) == False):
         os.makedirs(path)
     my_wordcloud.to_file(path + '/wordcloud.png')

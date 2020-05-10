@@ -46,7 +46,7 @@ def k_directory():
                     .format(y='年',m='月',d='日',h=':')
 
             # 算出一共分几页
-            totaldata = db.query("select count(*) from goods_query_log where user_id={} and is_success=1".format(user_id))
+            totaldata = db.query("select count(*) from keyword_query_log where user_id={} and is_success=1".format(user_id))
             totalPage = (totaldata[0][0]+size-1)/size
             totalPage = int(totalPage)
 
@@ -79,29 +79,23 @@ def getNewAnalys():
             if num > 5 or num < 1:
                 return redirect(url_for('keyword.k_analyze'))
         # 生成查询记录
-
             sql = "insert into keyword_query_log(user_id,q_keyword) " \
                   "values({},'{}') ".format(user_id,keyword)
             q_id = db.commits(sql)[0][0]
-
         # #生成爬虫
             print("分析关键词{}".format(keyword))
             spider = crow_keyword(num,str(keyword),q_id)
             spider.coroutines()
-
             # 分析并将图片路径存入数据库
             keyword_analysis(q_id)
             path = '/static/source/user/{}/keyword/{}'.format(user_id, q_id)
             price_distribution = path + '/price_distribution.png'
             shop_ranking = path + '/shop_ranking.png'
-
             sql = "insert into keyword_analysis(q_id,price_distribution,shop_ranking) " \
                   "values({},'{}','{}')".format(q_id,price_distribution,shop_ranking)
             db.commit(sql)
-
             # 把记录变成成功
             sql = "update keyword_query_log set is_success=1 where id={}".format(q_id)
-
             db.commit(sql)
             username = session["username"]
             print("成功")

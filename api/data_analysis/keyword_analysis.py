@@ -34,14 +34,14 @@ class keyword_analysis():
         price_list = []
         for i in self.q_data:
             price_list.append(i[3])
-
+        #新建商品号列表
         num_list = []
         num = len(price_list)
         for n in range(1,num+1):
             num_list.append(n)
-
         res = {"x": num_list, "y": price_list, "title": "top"+str(num)+"商品价格分布",
                 "user_id": self.user_id, "q_id": self.q_id}
+        #传入参数绘图
         await draw.scatter(res)
 
     # 店铺排名
@@ -52,11 +52,14 @@ class keyword_analysis():
             shop_list.append(i[2])
         topshop_list = []
         count_list = []
+        #计算每个店铺出现的数量
         list = Counter(shop_list).most_common(10)
         for i in range(len(list)-1,-1,-1):
             topshop_list.append(list[i][0])
             count_list.append(list[i][1])
-        res = {"x":topshop_list,"y":count_list,"user_id":self.user_id,"q_id":self.q_id}
+        res = {"x":topshop_list,"y":count_list,
+        "user_id":self.user_id,"q_id":self.q_id}
+        #传入参数绘图
         await draw.histogram(res)
 
 if __name__ == '__main__':

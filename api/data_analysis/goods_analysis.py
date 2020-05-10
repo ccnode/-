@@ -53,9 +53,9 @@ class goods_analysis():
                     break
         # 添加最后一个统计
         count_list.append(count)
-
         res = {"x": date_list, "y": count_list, "title": "每日评论数统计",
                "user_id":self.user_id,"q_id":self.q_id}
+        #绘制评论统计图
         await draw.line_chart(res)
 
     # 根据开始日期、结束日期返回这段时间里所有天的集合
@@ -84,7 +84,6 @@ class goods_analysis():
         res["q_id"]=self.q_id
         # print("绘制情感分析图..")
         await draw.pie_chart(res)
-
     # 计算情感平均分数，正向中等负向占比
     async def get_calculate(self,list):
         sum = 0
@@ -99,8 +98,6 @@ class goods_analysis():
                 positive +=1
             elif n<=0.3:
                 medium +=1
-
-
         results["score"] = round((sum/num)*100,3)
         results["positive"] = round(positive/num,3)
         results["medium"] = round(medium/num,3)
@@ -111,7 +108,6 @@ class goods_analysis():
     # 词频分析
     async def word_frequency(self):
         text = ""
-        # 计算每条评论的情感倾向指数
         for i in self.q_data:
             text +=i[2]+";"
         res={"text":text,"user_id":self.user_id,"q_id":self.q_id}

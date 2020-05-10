@@ -41,9 +41,9 @@ def update_rewards():
         title = request.form.get("title")
         describe = request.form.get("describe")
         content = request.form.get("myEdit")
-        # sql = "insert into reward(title,describe,content) values('"+title+"','"+describe+"','"+content+"');"
-        # print(sql)
-        db.commit("insert into reward(title,r_describe,content) values('"+title+"','"+describe+"','"+content+"');")
+        #提交sql
+        db.commit("insert into reward(title,r_describe,content) "
+                  "values('"+title+"','"+describe+"','"+content+"');")
     return redirect(url_for("admin.edit_rewards"))
 
 # 跳转公告页面
@@ -76,7 +76,8 @@ def user_directory():
 
     try :
         # 取出本页数据
-        res = db.query("select id,login_name,is_freeze,is_admin from user_info where is_del=0 order by id desc limit {},{};".format((page-1)*size,size))
+        res = db.query("select id,login_name,is_freeze,is_admin from user_info "
+                       "where is_del=0 order by id desc limit {},{};".format((page-1)*size,size))
         if res == ():
             res = "None"
             totalPage = 0
@@ -108,7 +109,7 @@ def user_directory():
 @admin.route("/user_freeze",methods=["POST"])
 def user_freeze():
     if request.method == 'POST':
-
+        #验证登录
         if check_login() != True:
             return redirect(url_for("user.login_page"))
         try:
@@ -138,16 +139,17 @@ def user_unfreeze():
 #用户删除
 @admin.route("/user_del",methods=["POST"])
 def user_del():
+    #验证登录
     if request.method=='POST':
         if check_login() != True:
             return redirect(url_for("user.login_page"))
         try:
             uid = int(request.args.get('uid'))
-            sql = "update user_info set is_del=1 where id={}".format(uid)
+            sql = "update user_info set is_del=1 " \
+                  "where id={}".format(uid)
             db.commit(sql)
         except Exception as e:
             print("错误：{}".format(e))
-
     return ""
 
 

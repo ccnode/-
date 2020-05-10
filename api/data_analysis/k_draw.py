@@ -7,7 +7,6 @@ import sys
 async def scatter(data):
     plt.rcParams['font.sans-serif'] = 'SimHei'  # 设置中文显示
     plt.figure(figsize=(11, 7))
-
     x = data["x"]
     y = data["y"]
     plt.scatter(x, y)

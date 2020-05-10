@@ -75,6 +75,7 @@ def g_directory():
 @goods.route("/goods",methods=["GET","POST"])
 def getNewAnalys():
     if request.method == 'POST':
+        #获取用户输入的url与评论页数
         url = str(request.form.get('url'))
         user_id = session["user_id"]
         num = int(request.form.get('num'))
@@ -82,12 +83,10 @@ def getNewAnalys():
             return redirect(url_for('goods.g_analyze'))
         # 生成查询记录
         try:
-
             sql = "insert into goods_query_log(user_id,q_url) " \
                   "values({},'{}') ".format(user_id,url)
             q_id = db.commits(sql)[0][0]
-
-        # #生成爬虫
+            #生成爬虫
             spider = crow_goods(url,num,q_id)
             goods_name = spider.coroutines()
             print("开始分析",q_id)
@@ -104,9 +103,7 @@ def getNewAnalys():
             # 把记录变成成功
             sql = "update goods_query_log set is_success=1,q_name='{}' where id={}".format(goods_name,q_id)
             db.commit(sql)
-
             username = session["username"]
-
             return render_template("goods/g_article.html", q_id=q_id, username=username)
         except Exception as e:
             print(e)
